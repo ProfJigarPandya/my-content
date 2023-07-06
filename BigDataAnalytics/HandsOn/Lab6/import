@@ -1,0 +1,1 @@
+mongoimport --db=mng --collection=udata --type=tsv --fieldFile="/Users/JigarPandya/Desktop/BDA_2019/mongoDBAggregateDemo/fields.txt" --file="/Users/JigarPandya/Desktop/BDA_2019/mongoDBAggregateDemo/u.data"

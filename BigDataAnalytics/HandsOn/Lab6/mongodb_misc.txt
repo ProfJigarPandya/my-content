@@ -1,0 +1,28 @@
+MongoDB
+
+https://docs.mongodb.com/guides/
+
+https://docs.mongodb.com/manual/
+
+https://info-mongodb-com.s3.us-east-1.amazonaws.com/MongoDB_Architecture_Guide.pdf
+
+Install iMongo Kernel for JuPyter
+
+https://github.com/gusutabopb/imongo
+
+Python-MongoDB integration
+
+https://api.mongodb.com/python/current/installation.html
+
+$ python3.6 -m pip install pymongo --user
+
+
+For jupyter fix not able to see yaml
+
+$ python3.6 -m pip install pyyaml --user 
+
+
+
+/sbin/service mongod status
+
+systemctl status mongod

@@ -1,0 +1,47 @@
+#Create location for storing files in HDFS
+hadoop fs -mkdir -p moviewrk/movie_avro
+
+#Put avro schema file from local file system to hdfs
+#You can also display schema using command: avro-tools getschema movie.avro
+hadoop fs -put movie.avro.avsc moviewrk
+
+#Put avro data file movie from local file system to hdfs folder
+hadoop fs -put movie.avro moviewrk/movie_avro
+
+
+Run hive CLI
+
+Below command creates a movie named hive external table reading schema and avro data assuming name of user being orcle
+
+create database moviewrk
+
+use database moviewrk
+
+ 
+CREATE EXTERNAL TABLE movie
+ ROW FORMAT
+ SERDE 'org.apache.hadoop.hive.serde2.avro.AvroSerDe'
+ WITH SERDEPROPERTIES
+('avro.schema.url'='hdfs://host:port/user/orcle/moviewrk/movie.avro.avsc')
+ STORED AS
+ INPUTFORMAT 'org.apache.hadoop.hive.ql.io.avro.AvroContainerInputFormat'
+ OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.avro.AvroContainerOutputFormat'
+ LOCATION '/user/orcle/moviewrk/movie_avro';
+
+
+
+select min(budget), avg(budget), max(budget),  from movie_avro;
+
+select max(year) from movie_avro;
+
+select title, year, budget, plot_summary from movie_avro where title like 'High%';
+
+select count(*) from movie_avro;
+
+
+
+Dataset Courtesy: https://app.compendium.com/api/post_attachments/2e41f757-23cb-4c6b-aae0-28412fef0ea7/view
+
+Logic Courtesy: https://www.oracle.com/technetwork/topics/bigdata/articles/hive-and-pig-hol-1937050.pdf
+
+https://github.com/oracle/big-data-lite/blob/master/movie/moviework/mapreduce/movieapp_3months.avro

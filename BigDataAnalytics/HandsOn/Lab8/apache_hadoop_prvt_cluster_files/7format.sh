@@ -1,0 +1,1 @@
+hdfs namenode -format
