@@ -1,0 +1,453 @@
+Script started on Sat Aug  1 10:26:07 2020
+[?1034hbash-3.2$ tree
+.
+├── hadoopMRwithMaven.txt
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── com
+    │   │       ├── WordCount.java
+    │   │       └── package-info.java
+    │   └── resources
+    ├── resources
+    │   └── META-INF
+    │       └── MANIFEST.MF
+    └── test
+        ├── java
+        └── resources
+
+10 directories, 5 files
+bash-3.2$ cat pom.xml 
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>MyFirstMavennGroupID</groupId>
+	<artifactId>MyFirstMavennArtifactID</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>MyFirstMavennName</name>
+	<description>MyFirstMavennDescription</description>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+	<build>
+                <sourceDirectory>src/main/java</sourceDirectory>
+                <outputDirectory>build/classes</outputDirectory>
+                <plugins>
+                        <plugin>
+                                <version>3.1.0</version>
+                                <groupId>org.apache.maven.plugins</groupId>
+                                <artifactId>maven-jar-plugin</artifactId>
+                                <configuration>
+                                        <archive>
+                                                <manifestFile>src/resources/META-INF/MANIFEST.MF</manifestFile>
+                                        </archive>
+                                </configuration>
+                        </plugin>
+                </plugins>
+        </build>
+        <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-common</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-client</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-hdfs</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-mapreduce-client-core</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core -->
+		<!-- <dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-core</artifactId>
+			<version>1.2.1</version>
+		</dependency> -->
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-annotations -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-annotations</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-minicluster -->
+		<!-- <dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-minicluster</artifactId>
+			<version>2.8.2</version>
+			<scope>test</scope>
+		</dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-auth -->
+		<!-- <dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-auth</artifactId>
+			<version>2.8.2</version>
+		</dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-api -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-api</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-common -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-common</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-jobclient -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-mapreduce-client-jobclient</artifactId>
+			<version>2.8.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-common -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-mapreduce-client-common</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-client -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-client</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aws -->
+		<!-- <dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-aws</artifactId>
+			<version>2.8.2</version>
+		</dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-app -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-mapreduce-client-app</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-hdfs-client -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-hdfs-client</artifactId>
+			<version>2.8.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-server-common -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-common</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-server-nodemanager -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-nodemanager</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-yarn-server-resourcemanager -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-yarn-server-resourcemanager</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-shuffle -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-mapreduce-client-shuffle</artifactId>
+			<version>2.8.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-tools -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-tools</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+	</dependencies>
+</project>
+bash-3.2$ cat re[K[Ksrc/resources/META-INF/MANIFEST.MF 
+Main-Class: com.WordCount
+bash-3.2$ cat src/
+main/      resources/ test/      
+bash-3.2$ cat src/resources/META-INF/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmvn install
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------< [0;36mMyFirstMavennGroupID:MyFirstMavennArtifactID[0;1m >------------[m
+[[1;34mINFO[m] [1mBuilding MyFirstMavennName 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;33mWARNING[m] The POM for org.apache.hadoop:hadoop-yarn-server-web-proxy:jar:2.8.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mMyFirstMavennArtifactID[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mMyFirstMavennArtifactID[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;33mWARNING[m] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[[1;34mINFO[m] Compiling 2 source files to /Users/JigarPandya/eclipse-workspacejun2020/MyFirstHadoopWC/build/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mMyFirstMavennArtifactID[0;1m ---[m
+[[1;33mWARNING[m] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mMyFirstMavennArtifactID[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.12.4:test[m [1m(default-test)[m @ [36mMyFirstMavennArtifactID[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.1.0:jar[m [1m(default-jar)[m @ [36mMyFirstMavennArtifactID[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/JigarPandya/eclipse-workspacejun2020/MyFirstHadoopWC/target/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mMyFirstMavennArtifactID[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/JigarPandya/eclipse-workspacejun2020/MyFirstHadoopWC/target/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar to /Users/JigarPandya/.m2/repository/MyFirstMavennGroupID/MyFirstMavennArtifactID/0.0.1-SNAPSHOT/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /Users/JigarPandya/eclipse-workspacejun2020/MyFirstHadoopWC/pom.xml to /Users/JigarPandya/.m2/repository/MyFirstMavennGroupID/MyFirstMavennArtifactID/0.0.1-SNAPSHOT/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.pom
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  13.672 s
+[[1;34mINFO[m] Finished at: 2020-08-01T10:27:05+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+bash-3.2$ mvn [K[K[K[Kmvn installcat src/resources/META-INF/MANIFEST.MF [C[C[C[C[C[C[C[C[C[C[C[C[C[Cpom.xml [K[C[C[C[C[C[C[C[C[C[C[8Ptreemvn cleanvi pom.xml ls[Kvi src/resources/META-INF/MANIFEST.MF [C[C[C[C[C[C[C[C[C[Cjava -cp `hadoop classpath` -jar target/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar WordCount /projects/wordcount/input /projects/wordcount/output[1@HelloWorld[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PWordCount[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvi src/resources/META-INF/MANIFEST.MF [K[C[C[C[C[C[C[C[C[C[Cls[K[K[Kjops[K[K[Kps
+13184 NodeManager
+12868 DataNode
+22312 Jps
+13097 ResourceManager
+12971 SecondaryNameNode
+12783 NameNode
+bash-3.2$ jpsmvn installcat src/resources/META-INF/MANIFEST.MF [C[C[C[C[C[C[C[C[C[C[C[C[C[Cpom.xml [K[C[C[C[C[C[C[C[C[C[C[8Ptreemvn cleanvi pom.xml ls[Kvi src/resources/META-INF/MANIFEST.MF [C[C[C[C[C[C[C[C[C[Cjava -cp `hadoop classpath` -jar target/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar WordCount /projects/wordcount/input /projects/wordcount/output[1@HelloWorld[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmvn install[K[2Pcleanjava -cp `hadoop classpath` -jar target/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar HelloWorld /projects/wordcount/input /projects/wordcount/output[C[C[C[C[C[C[C[C[C[Chdfs dfs -rm -r  /projects/wordcount/output[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pls /projects/wordcount/input[C[C[C[C[C[C[C[C[C[Cmvn install[Khdfs dfs -ls /projects/wordcount/input
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.security.authentication.util.KerberosUtil (file:/opt/hadoop-2.8.2/share/hadoop/common/lib/hadoop-auth-2.8.2.jar) to method sun.security.krb5.Config.getInstance()
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.security.authentication.util.KerberosUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/08/01 10:28:09 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Found 6 items
+-rw-r--r--   3 JigarPandya supergroup         22 2020-07-09 02:42 /projects/wordcount/input/file01.txt
+-rw-r--r--   3 JigarPandya supergroup         93 2020-07-09 02:42 /projects/wordcount/input/file02.txt
+-rw-r--r--   3 JigarPandya supergroup         37 2020-07-09 02:42 /projects/wordcount/input/file03.txt
+-rw-r--r--   3 JigarPandya supergroup         55 2020-07-09 02:42 /projects/wordcount/input/file04.txt
+-rw-r--r--   3 JigarPandya supergroup         72 2020-07-09 02:42 /projects/wordcount/input/file05.txt
+-rw-r--r--   3 JigarPandya supergroup         87 2020-07-09 02:42 /projects/wordcount/input/file06.txt
+bash-3.2$ hdfs dfs -ls /projects/wordcount/input[C[C[C[C[C[C[C[C[C[Cjps[Kmvn installcat src/resources/META-INF/MANIFEST.MF [C[C[C[C[C[C[C[C[C[C[C[C[C[Cpom.xml [K[C[C[C[C[C[C[C[C[C[C[8Ptreemvn cleanvi pom.xml ls[Kvi src/resources/META-INF/MANIFEST.MF [C[C[C[C[C[C[C[C[C[Cjava -cp `hadoop classpath` -jar target/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar WordCount /projects/wordcount/input /projects/wordcount/output[C[C[C[C[C[C[C[C[C[Cvi src/resources/META-INF/MANIFEST.MF [K[C[C[C[C[C[C[C[C[C[Cls[Kvi pom.xml [K[K[K[K[K[K[K[K[K[K[Ktree
+.
+├── build
+│   └── classes
+│       └── com
+│           ├── WordCount$IntSumReducer.class
+│           ├── WordCount$TokenizerMapper.class
+│           └── WordCount.class
+├── hadoopMRwithMaven.txt
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       ├── WordCount.java
+│   │   │       └── package-info.java
+│   │   └── resources
+│   ├── resources
+│   │   └── META-INF
+│   │       └── MANIFEST.MF
+│   └── test
+│       ├── java
+│       └── resources
+└── target
+    ├── MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar
+    ├── generated-sources
+    │   └── annotations
+    ├── maven-archiver
+    │   └── pom.properties
+    ├── maven-status
+    │   └── maven-compiler-plugin
+    │       ├── compile
+    │       │   └── default-compile
+    │       │       ├── createdFiles.lst
+    │       │       └── inputFiles.lst
+    │       └── testCompile
+    │           └── default-testCompile
+    │               └── inputFiles.lst
+    └── test-classes
+
+24 directories, 13 files
+bash-3.2$ treehdfs dfs -ls /projects/wordcount/input[C[C[C[C[C[C[C[C[C[Cjps[Kmvn installcat src/resources/META-INF/MANIFEST.MF [C[C[C[C[C[C[C[C[C[C[C[C[C[Cpom.xml [K[C[C[C[C[C[C[C[C[C[C[8Ptreemvn cleanvi pom.xml ls[Kvi src/resources/META-INF/MANIFEST.MF 
+bash-3.2$ hadoop jar target/MyFirstMavennArtifactID-0.0.1-SNAPSHOT.jar WordCount /projects/wordcount/input /projects/wordcount/output[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.security.authentication.util.KerberosUtil (file:/opt/hadoop-2.8.2/share/hadoop/common/lib/hadoop-auth-2.8.2.jar) to method sun.security.krb5.Config.getInstance()
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.security.authentication.util.KerberosUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/08/01 10:41:40 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Input path: /projects/wordcount/input
+Output Path: /projects/wordcount/output
+20/08/01 10:41:41 INFO client.RMProxy: Connecting to ResourceManager at localhost/127.0.0.1:8032
+20/08/01 10:41:45 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+20/08/01 10:41:48 INFO input.FileInputFormat: Total input files to process : 6
+20/08/01 10:41:50 INFO mapreduce.JobSubmitter: number of splits:6
+20/08/01 10:41:52 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1596195967635_0001
+20/08/01 10:41:56 INFO impl.YarnClientImpl: Submitted application application_1596195967635_0001
+20/08/01 10:41:57 INFO mapreduce.Job: The url to track the job: http://192.168.1.104:8088/proxy/application_1596195967635_0001/
+20/08/01 10:41:57 INFO mapreduce.Job: Running job: job_1596195967635_0001
+20/08/01 10:42:27 INFO mapreduce.Job: Job job_1596195967635_0001 running in uber mode : false
+20/08/01 10:42:27 INFO mapreduce.Job:  map 0% reduce 0%
+20/08/01 10:42:48 INFO mapreduce.Job:  map 17% reduce 0%
+20/08/01 10:42:49 INFO mapreduce.Job:  map 50% reduce 0%
+20/08/01 10:43:08 INFO mapreduce.Job:  map 83% reduce 0%
+20/08/01 10:43:18 INFO mapreduce.Job:  map 100% reduce 0%
+20/08/01 10:43:21 INFO mapreduce.Job:  map 100% reduce 100%
+20/08/01 10:43:25 INFO mapreduce.Job: Job job_1596195967635_0001 completed successfully
+20/08/01 10:43:25 INFO mapreduce.Job: Counters: 49
+	File System Counters
+		FILE: Number of bytes read=539
+		FILE: Number of bytes written=973955
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1098
+		HDFS: Number of bytes written=167
+		HDFS: Number of read operations=21
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=2
+	Job Counters 
+		Launched map tasks=6
+		Launched reduce tasks=1
+		Data-local map tasks=6
+		Total time spent by all maps in occupied slots (ms)=189140
+		Total time spent by all reduces in occupied slots (ms)=29330
+		Total time spent by all map tasks (ms)=94570
+		Total time spent by all reduce tasks (ms)=29330
+		Total vcore-milliseconds taken by all map tasks=94570
+		Total vcore-milliseconds taken by all reduce tasks=29330
+		Total megabyte-milliseconds taken by all map tasks=193679360
+		Total megabyte-milliseconds taken by all reduce tasks=30033920
+	Map-Reduce Framework
+		Map input records=7
+		Map output records=56
+		Map output bytes=589
+		Map output materialized bytes=569
+		Input split bytes=732
+		Combine input records=56
+		Combine output records=42
+		Reduce input groups=22
+		Reduce shuffle bytes=569
+		Reduce input records=42
+		Reduce output records=22
+		Spilled Records=84
+		Shuffled Maps =6
+		Failed Shuffles=0
+		Merged Map outputs=6
+		GC time elapsed (ms)=717
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1027604480
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=366
+	File Output Format Counters 
+		Bytes Written=167
+Job completedStatus 0bash-3.2$ hdfs dfs -get /projects/wordcount/output .
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.security.authentication.util.KerberosUtil (file:/opt/hadoop-2.8.2/share/hadoop/common/lib/hadoop-auth-2.8.2.jar) to method sun.security.krb5.Config.getInstance()
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.security.authentication.util.KerberosUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/08/01 10:54:11 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+bash-3.2$ t[Kcd output/
+bash-3.2$ ls
+_SUCCESS	part-r-00000.gz
+bash-3.2$ tar xvzf part-r-00000.gz 
+tar: Unrecognized archive format
+tar: Error exit delayed from previous errors.
+bash-3.2$ tar xvf part-r-00000.gz 
+tar: Unrecognized archive format
+tar: Error exit delayed from previous errors.
+bash-3.2$ un[K[Kuntar part-r-00000.gz 
+bash: untar: command not found
+bash-3.2$ tar [K[K[K[Ktar x part-r-00000.gz 
+^C
+bash-3.2$ unzip part-r-00000.gz 
+Archive:  part-r-00000.gz
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of part-r-00000.gz or
+        part-r-00000.gz.zip, and cannot find part-r-00000.gz.ZIP, period.
+bash-3.2$ gunzip part-r-00000.gz 
+bash-3.2$ ls
+_SUCCESS	part-r-00000
+bash-3.2$ cat part-r-00000 
+Again.	1
+Fourth	4
+Hadoop	2
+Hadoop.	1
+Hello	13
+Ita	2
+Learning	1
+MapReduce	1
+World	1
+another	1
+count??	2
+enables	1
+fifth	3
+file	2
+horizontal	1
+line.	1
+of	1
+programming	1
+scalling.	1
+third	4
+time.	11
+with	1
+bash-3.2$ ech [Ko "M[K[K[K[K[K[K[Khadoop version
+Hadoop 2.8.2
+Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r 66c47f2a01ad9637879e95f80c41f798373828fb
+Compiled by jdu on 2017-10-19T20:39Z
+Compiled with protoc 2.5.0
+From source with checksum dce55e5afe30c210816b39b631a53b1d
+This command was run using /opt/hadoop-2.8.2/share/hadoop/common/hadoop-common-2.8.2.jar
+bash-3.2$ echo $[K[K[K[K[K[Kexit
+exit
+
+Script done on Sat Aug  1 10:58:06 2020
