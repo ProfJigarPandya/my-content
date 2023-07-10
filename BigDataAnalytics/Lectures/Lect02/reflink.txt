@@ -1,0 +1,5 @@
+
+https://cacm.acm.org/blogs/blog-cacm/267286-why-is-it-hard-to-define-data-science/fulltext
+
+Next level: Automating Data Science
+https://cacm.acm.org/magazines/2022/3/258912-automating-data-science/abstract

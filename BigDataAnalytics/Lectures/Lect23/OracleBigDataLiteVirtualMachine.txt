@@ -1,0 +1,9 @@
+Oracle Cloud Infrastructure provide Big Data Service.
+
+For development purpose an individual can utilise Oracle Big Data Lite Virtual Machine and then move forward with OCI BDS.
+
+https://www.oracle.com/database/technologies/bigdatalite-v411.html?authuser=0
+
+https://github.com/oracle/big-data-lite?authuser=0
+
+https://www.virtualbox.org/?authuser=0

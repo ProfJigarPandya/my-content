@@ -1,0 +1,2 @@
+Aim : "Interfacing to Distributed File System – HDFS commands and Web GUI file system
+browser usage"
