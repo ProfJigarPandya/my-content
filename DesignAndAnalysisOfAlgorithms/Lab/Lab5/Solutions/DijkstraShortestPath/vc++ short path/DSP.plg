@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DSP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/DSP.res" /d "_DEBUG" /d "_AFXDLL" "C:\Dsp\DSP.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP72C2.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DSP.pdb" /debug /machine:I386 /out:"Debug/DSP.exe" /pdbtype:sept 
+.\Debug\DSP.obj
+.\Debug\DSPDoc.obj
+.\Debug\DSPView.obj
+.\Debug\MainFrm.obj
+.\Debug\NameOfCityDlg.obj
+.\Debug\RoadInfoDlg.obj
+.\Debug\SelectSDView.obj
+.\Debug\StdAfx.obj
+.\Debug\DSP.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP72C2.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+DSP.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

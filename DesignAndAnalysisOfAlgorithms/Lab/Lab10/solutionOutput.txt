@@ -1,0 +1,75 @@
+ Example # 1
+ For n nodes 3
+SkillSet data
+1       1       1
+2       2       2
+3       3       3
+
+Job Assignment ....
+
+Total solutoins found are 6
+3       2       1
+2       3       1
+2       1       3
+3       1       2
+1       2       3
+1       3       2
+ Total cost going to be 6
+
+
+ Example # 2
+ For n nodes 3
+SkillSet data
+9       3       4
+7       8       4
+10      5       2
+
+Job Assignment ....
+
+Total solutoins found are 1
+2       1       3
+ Total cost going to be 12
+
+
+ Example # 3
+ For n nodes 4
+SkillSet data
+9       2       7       8
+6       4       3       7
+5       8       1       8
+7       6       9       4
+
+Job Assignment ....
+
+Total solutoins found are 1
+2       1       3       4
+ Total cost going to be 13
+
+
+ Example # 4
+ For n nodes 3
+SkillSet data
+4       7       3
+2       6       1
+3       9       4
+
+Job Assignment ....
+
+Total solutoins found are 1
+2       3       1
+ Total cost going to be 11
+
+
+ Example # 5
+ For n nodes 4
+SkillSet data
+11      12      18      40
+14      15      13      22
+11      17      19      23
+17      14      20      28
+
+Job Assignment ....
+1       3       4       2
+ Total cost going to be 61
+
+ Have a nice day.
