@@ -1,0 +1,25 @@
+17:17:36 SQL> 
+17:17:36 SQL> drop table client_master;
+drop table client_master
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+Elapsed: 00:00:00.00
+17:17:36 SQL> 
+17:17:36 SQL> create table client_master
+17:17:36   2  	(client_no varchar2(6),
+17:17:36   3  	name varchar2(20),
+17:17:36   4  	address1 varchar2(30),
+17:17:36   5  	address2 varchar2(30),
+17:17:36   6  	city varchar2(15),
+17:17:36   7  	state varchar2(15),
+17:17:36   8  	pincode number(6),
+17:17:36   9  	bal_due number(10,2));
+
+Table created.
+
+Elapsed: 00:00:00.01
+17:17:36 SQL> 
+17:17:36 SQL> spool off;

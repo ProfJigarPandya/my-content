@@ -1,0 +1,19 @@
+1. Oracle Database Certifications
+  https://education.oracle.com
+2. (Exam 1Z0-047) Book, Syllabus and Register for exam, Locate Test Centers 
+3. Installation of JDK, Oracle DB Server, SQL Developer client and parellel hands on. 
+4. Introduction to SQL and categories
+   https://docs.oracle.com
+5. Learn statements from diagrams/Regular Expression
+     SQL Chapter3 from subject text book 
+	 SQLDeveloper GUI on object table jpandya.test
+5. Administration with SQLPlus demo
+6. Commit DDL and DML
+7. PL-SQL Create users script demo
+   Cursor demo
+8. Python DB Demo --shared.
+9. ODBC with C Program gothrough --shared.
+10. SQL Loader demo to load data from csv
+11. Export/Import CSV, insert ready, database dump.
+12. TNSPing demo and tnsnames.ora file
+13. Interesting design and implementation about case sensitive/in ness of object names in oracle.

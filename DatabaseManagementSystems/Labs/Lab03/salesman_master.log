@@ -1,0 +1,55 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Mon Jul 25 13:41:46 2016
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   ctl/salesman_master.ctl
+Data File:      csv/salesman_master.csv
+  Bad File:     salesman_master.bad
+  Discard File: salesman_master.log 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SALESMAN_MASTER, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SALESMAN_NO                         FIRST     *   ,  O(') CHARACTER            
+SAL_NAME                             NEXT     *   ,  O(') CHARACTER            
+ADDRESS                              NEXT     *   ,  O(') CHARACTER            
+CITY                                 NEXT     *   ,  O(') CHARACTER            
+PINCODE                              NEXT     *   ,  O(') CHARACTER            
+STATE                                NEXT     *   ,  O(') CHARACTER            
+SAL_AMT                              NEXT     *   ,  O(') CHARACTER            
+TGT_TO_GET                           NEXT     *   ,  O(') CHARACTER            
+YTD_SALES                            NEXT     *   ,  O(') CHARACTER            
+REMARKS                              NEXT     *   ,  O(') CHARACTER            
+
+
+Table SALESMAN_MASTER:
+  4 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 165120 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:             4
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Jul 25 13:41:46 2016
+Run ended on Mon Jul 25 13:41:51 2016
+
+Elapsed time was:     00:00:05.48
+CPU time was:         00:00:00.02

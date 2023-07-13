@@ -1,0 +1,26 @@
+17:17:39 SQL> 
+17:17:39 SQL> 
+17:17:39 SQL> drop table product_master;
+drop table product_master
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+Elapsed: 00:00:00.00
+17:17:39 SQL> 
+17:17:39 SQL> create table product_master
+17:17:39   2  	(product_no varchar2(20),
+17:17:39   3  	description varchar2(20),
+17:17:39   4  	profit_percent number,
+17:17:39   5  	unit_measure varchar2(20),
+17:17:39   6  	qty_on_hand number,
+17:17:39   7  	reorder_lvl number,
+17:17:39   8  	sell_price number,
+17:17:39   9  	cost_price number);
+
+Table created.
+
+Elapsed: 00:00:00.00
+17:17:39 SQL> 
+17:17:39 SQL> spool off;
