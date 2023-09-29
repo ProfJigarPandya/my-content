@@ -12,6 +12,7 @@ int main()
  int array[MAX];
  int n;
  int i,j;
+ int temp;
  cout<<"\n How many elements to be sorted ";
  cin>>n;
  if(n>MAX)
@@ -26,22 +27,20 @@ int main()
 
  //assume that array[0] is sorted and insert 1 to last element into sorted array
  // so that list remains sorted.....
- for(i=1;i<n;i++)
+ i=1;
+ while(i<n)
  {
-   int temp;
    temp = array[i];
 
-   for(j=i-1;j>=0;j--)
+   j=i-1;
+   while((j>=0)&&(temp<array[j]))
    {
-    if(temp<array[j])
-    {
 	array[j+1] = array[j];
-    }
-    else
-      break;
+    	j--;
    }
 
    array[j+1] = temp;
+   i++;
 
   }
 
