@@ -1,0 +1,1 @@
+The world is data rich but information poor. - Authors of book Data Mining CONCEPTS AND TECHNIQUES. Jiawei Han, Micheline Kamber, Jian Pei.
