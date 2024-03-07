@@ -1,0 +1,28 @@
+Mongo exercise
+
+
+db.Students.insert({StudentId:1, subject:"Augmented Reality", marks:25})
+
+db.Students.insert({StudentId:1, subject:"Visual Recognition", marks:20})
+
+db.Students.insert({StudentId:1, subject:"Data Engineering", marks:15})
+
+db.Students.insert({StudentId:2, subject:"Data Engineering", marks:22})
+
+db.Students.insert({StudentId:2, subject:"Cloud Engineering", marks:20})
+
+db.Students.insert({StudentId:2, subject:"Visual Presentation", marks:24})
+
+ db.Students.insert({StudentId:3, subject:"Image Processing", marks:18})
+
+db.Students.insert({StudentId:3, subject:"Image Calculus", marks:28})
+
+
+db.Students.aggregate({$group:{_id: "$StudentId", TotalMarks:{$sum:"$marks"} }})
+
+ db.Students.aggregate({$group:{_id: "$subject", AvgMarks:{$avg:"$marks"} }})
+
+db.Students.find().sort({subject:1,marks:-1})
+
+ db.Students.find({StudentId:1},{subject:1, marks:1, _id:0})
+
