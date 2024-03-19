@@ -1,0 +1,52 @@
+Make sure to work on below topics for your project report:
+
+FrontPage
+CompanyCertificate
+CollegeDeptCertificate
+Acknowledgement
+AutomaticIndex
+ProjectAbstract
+ProjectTimelinePlanning
+Tools/TechnologyStack/Servers/IDEs/Cloud/SDKs
+SoftwareEngineeringMethodology(Agile/Waterfall,etc)
+Modularity/Reusability/DesignPatterns
+WorkDistribution/OwnershipOfModules
+SRS/Prototype/ProblemStatements/Goals
+UI/UserExperience/SceensDesingApproaches
+Class Diagram(OOP)/ORM
+UserRolesDiagram/UseCaseDiagram
+ActivityDiagram
+Secutiry(Authentication/Authorization/Tokens/Keys)
+ERDiagram
+DataDictionary/Schema
+TestCaseswithMatchingIDstoSRS
+CodeChallengesWithDesctiptionAndCodeSnipet
+AlgorithmsUsed/UseOfLLM
+DatabaseDDL
+DatabaseDMLWithDescription
+CloudPlatforms
+CodeColaborationArtifacts
+CodeReviewArtifacts
+SourceCodePackageStructure
+UnitTesting
+AutomatedTesting
+IntegrationTesting/StressTesting/LoadTesting
+LayoutsWithProperDescriptionAndFlow
+SoftwareVersionDeploymentDocument/UserManual
+Automation of Deployment/Microsevices Integration/Other Integration
+PropertiesFile/ConfigurationFiles(Attribute and purpose)
+ProductivityToolsUsed(Communication/Sharing/Remote,etc)
+DataFormats
+Searching/Sorting/PageRanking/Accessibility
+Statistics/Analytics/Downloads/SharingSupport
+Limitations/FutureExtensions
+CommunityContibution/ProfessionalPlatformsShaing
+Plugins/ThirdParty
+ContentManagement/Wordpress/Joomla/Reporting
+DeploymentOnInternet/Website
+Coding/Testing/Collaborating Standards Learned
+SkillsDeveloped(Typing/English/SoftSkills,etc)
+LessionsLearned/HalfCooked/Failures/Experiments
+Miscellaneous
+References/Glossary
+Conclusion
