@@ -1,0 +1,3 @@
+"Term","Definition","RelevantDetails"
+"Stakeholders","People who invest time and resources into a project and are interested in the outcome.","Stakeholders better be informed early about design and can be reached out when there is a need of helping hand."
+"Outliers","Data points that lie significantly outside the overall pattern of the data and could potentially skew the information.","Outliers can be detected out of scattered plot manually by looking at it; Outliers can be detected by math formula based beyond boundry on five-number summary and box plot; Outliers can have adverse effect. i.e k-means clustering is quite sensitive to outliers in your data set."
