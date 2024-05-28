@@ -1,0 +1,15 @@
+Different join types can be combined with any join conditions.
+
+A)  Join Types				
+
+inner join
+left outer join
+right outer join
+full outer join
+
+
+B) Join Conditions
+
+natural
+on <predicate>
+using (A1,A2,...,An)

@@ -1,0 +1,1637 @@
+
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Tessy Thomas - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Tessy_Thomas","wgTitle":"Tessy Thomas","wgCurRevisionId":767390787,"wgRevisionId":767390787,"wgArticleId":35548338,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from March 2016","Use Indian English from March 2015","All Wikipedia articles written in Indian English","Pages using infobox person with unknown parameters","Infobox person using religion","Articles with hCards","Engineers from Kerala","Malayali people","Defence Research and Development Organisation","Indian aerospace engineers","Indian Space Research Organisation people","1964 births","Living people","People from Alappuzha district","Indian women engineers","Government Engineering College, Thrissur alumni","20th-century Indian engineers","20th-century Indian women scientists","21st-century Indian engineers","Scientists from Kerala","21st-century Indian women scientists","Women scientists from Kerala"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Tessy_Thomas","wgRelevantArticleId":35548338,"wgRequestId":"WOsiBwpAMFkAAD503KcAAAAM","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q3521524","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.math.scripts%2Cstyles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.29.0-wmf.19"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Tessy_Thomas"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Tessy_Thomas&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Tessy_Thomas&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Tessy_Thomas"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Tessy_Thomas rootpage-Tessy_Thomas skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+						<div class="mw-indicators mw-body-content">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Tessy Thomas</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="infobox biography vcard" style="width:22em">
+<tr>
+<th colspan="2" style="text-align:center;font-size:125%;font-weight:bold"><span class="fn">Tessy Thomas</span></th>
+</tr>
+<tr>
+<th scope="row">Born</th>
+<td>April 1963<br />
+<span class="birthplace"><a href="/wiki/Alappuzha" title="Alappuzha">Alappuzha</a>, <a href="/wiki/Kerala" title="Kerala">Kerala</a></span></td>
+</tr>
+<tr>
+<th scope="row">Nationality</th>
+<td class="category"><a href="/wiki/India" title="India">Indian</a></td>
+</tr>
+<tr>
+<th scope="row">Education</th>
+<td>B.Tech.<a href="/wiki/Government_Engineering_College,_Thrissur" title="Government Engineering College, Thrissur">Government Engineering College, Thrissur</a>, <a href="/wiki/Defence_Institute_of_Advanced_Technology" title="Defence Institute of Advanced Technology">M.Tech from Institute of Armament Technology, Pune</a></td>
+</tr>
+<tr>
+<th scope="row">Occupation</th>
+<td class="role"><a href="/wiki/Scientist" title="Scientist">Scientist</a> at <a href="/wiki/DRDO" class="mw-redirect" title="DRDO">DRDO</a></td>
+</tr>
+<tr>
+<th scope="row">Years&#160;active</th>
+<td>1988 – present</td>
+</tr>
+<tr>
+<th scope="row"><span style="white-space:nowrap;">Notable credit(s)</span></th>
+<td><a href="/wiki/Agni_(missile)" title="Agni (missile)">Agni Missile</a> Project Director <a href="/wiki/Agni-IV" title="Agni-IV">Agni-IV</a></td>
+</tr>
+<tr>
+<th scope="row">Title</th>
+<td class="title">Scientist</td>
+</tr>
+<tr>
+<th scope="row"><span class="nowrap">Spouse(s)</span></th>
+<td>Saroj Kumar</td>
+</tr>
+<tr>
+<th scope="row">Children</th>
+<td>Tejas</td>
+</tr>
+</table>
+<p><b>Tessy Thomas</b> (born in 1963) is an <a href="/wiki/Engineer" title="Engineer">engineer</a> and the Project Director for <a href="/wiki/Agni-IV" title="Agni-IV">Agni-IV</a> missile in <a href="/wiki/Defence_Research_and_Development_Organisation" title="Defence Research and Development Organisation">Defence Research and Development Organisation</a>. She is the first woman engineer to head a missile project in <a href="/wiki/India" title="India">India</a>. She is known as the 'Missile Woman' of India.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Early_life_and_Education"><span class="tocnumber">1</span> <span class="toctext">Early life and Education</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Career"><span class="tocnumber">2</span> <span class="toctext">Career</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Personal_life"><span class="tocnumber">3</span> <span class="toctext">Personal life</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Awards"><span class="tocnumber">4</span> <span class="toctext">Awards</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#References"><span class="tocnumber">6</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#External_links"><span class="tocnumber">7</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Early_life_and_Education">Early life and Education</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Tessy_Thomas&amp;action=edit&amp;section=1" title="Edit section: Early life and Education">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Tessy was born in April 1963 in <a href="/wiki/Alappuzha" title="Alappuzha">Alappuzha</a>, <a href="/wiki/Kerala" title="Kerala">Kerala</a>,<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> to a small-businessman father and a homemaker mother. She graduated in <a href="/wiki/Engineering" title="Engineering">engineering</a> from <a href="/wiki/Government_Engineering_College,_Thrissur" title="Government Engineering College, Thrissur">Government Engineering College, Thrissur</a>. She grew up near a rocket launching station and says her fascination with rockets and missiles began then. She also has an M.Tech in Guided Missile from the Institute of Armament Technology, Pune (now known as the <a href="/wiki/Defence_Institute_of_Advanced_Technology" title="Defence Institute of Advanced Technology">Defence Institute of Advanced Technology</a>).<sup id="cite_ref-IWSA_2-0" class="reference"><a href="#cite_note-IWSA-2">[2]</a></sup> Her parents from Kerala named her after Mother Teresa.<sup id="cite_ref-IndiaToday_3-0" class="reference"><a href="#cite_note-IndiaToday-3">[3]</a></sup> <sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup></p>
+<h2><span class="mw-headline" id="Career">Career</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Tessy_Thomas&amp;action=edit&amp;section=2" title="Edit section: Career">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Tessy was associate project director of the 3,000&#160;km range <a href="/wiki/Agni-III" title="Agni-III">Agni-III</a> missile project.<sup id="cite_ref-kerala_5-0" class="reference"><a href="#cite_note-kerala-5">[5]</a></sup> She was the project director for mission <a href="/wiki/Agni-IV" title="Agni-IV">Agni IV</a> which was successfully tested in 2011.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> Tessy was appointed as the Project Director for 5,000&#160;km range <a href="/wiki/Agni-V" title="Agni-V">Agni-V</a> in 2009 and is based The missile was successfully tested on 19 April 2012. In January 2012, Prime Minister Manmohan Singh told the Indian Science Congress that Mrs Thomas is an example of a "woman making her mark in a traditionally male bastion and decisively breaking the glass ceiling". The media loves to call her Agniputri, or one born of fire, after the missiles she has helped develop. "We are all proud of our country. Agni-V is one of our greatest achievements," she says.</p>
+<h2><span class="mw-headline" id="Personal_life">Personal life</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Tessy_Thomas&amp;action=edit&amp;section=3" title="Edit section: Personal life">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>She is married to Saroj Kumar, now a commander in the Indian Navy and they have a son, Tejas.<sup id="cite_ref-IWSA_2-1" class="reference"><a href="#cite_note-IWSA-2">[2]</a></sup> engineer in Ford Technologies.In a glowing tribute in 2008, The Indian Woman Scientists Association did not forget to mention that "like most women she also does a tight-rope walk between home and career, between being a mother and a scientist who is dedicated to her job. We feel Tessy Thomas serves as a role model and an inspiration for women scientists to achieve their dreams and have their feet planted in both worlds successfully," the group said.</p>
+<h2><span class="mw-headline" id="Awards">Awards</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Tessy_Thomas&amp;action=edit&amp;section=4" title="Edit section: Awards">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Tessy Thomas was conferred the <a href="/wiki/Lal_Bahadur_Shastri_National_Award" title="Lal Bahadur Shastri National Award">Lal Bahadur Shastri National Award</a> for her outstanding contribution for making <a href="/wiki/India" title="India">India</a> self-reliant in the field of <a href="/wiki/Integrated_Guided_Missile_Development_Program" class="mw-redirect" title="Integrated Guided Missile Development Program">missile technology</a>.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup> Tessy Thomas was awarded <a href="/wiki/D.Sc." class="mw-redirect" title="D.Sc.">D.Sc.</a> (Honoris causa) by <a href="/wiki/ITM_University,_Gwalior" class="mw-redirect" title="ITM University, Gwalior">ITM University, Gwalior</a> in 2016.</p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Tessy_Thomas&amp;action=edit&amp;section=5" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div role="navigation" aria-label="Portals" class="noprint portal plainlist tright" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-style:italic;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/32px-Flag_of_India.svg.png" width="32" height="21" class="noviewer thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/48px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/64px-Flag_of_India.svg.png 2x" data-file-width="1350" data-file-height="900" /></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a href="/wiki/Portal:Military_of_India" title="Portal:Military of India">Military of India portal</a></span></li>
+</ul>
+</div>
+<ul>
+<li><a href="/wiki/Agni_(missile)" title="Agni (missile)">Agni (missile)</a></li>
+<li><a href="/wiki/Agni_IV" class="mw-redirect" title="Agni IV">Agni IV</a></li>
+<li><a href="/wiki/Agni-V" title="Agni-V">Agni-V</a></li>
+<li><a href="/wiki/Defence_Research_and_Development_Organisation" title="Defence Research and Development Organisation">DRDO</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Tessy_Thomas&amp;action=edit&amp;section=6" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.malayaly.com/php/showProfileDisplay.php?linkid=0&amp;id=128">Profile of Dr.Tessy Thomas</a></span></li>
+<li id="cite_note-IWSA-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-IWSA_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-IWSA_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation journal"><a rel="nofollow" class="external text" href="http://www.iwsa.net/BullJan09final.pdf">"Meet India's "Missile Woman"."</a> <span style="font-size:85%;">(PDF)</span>. <i>IWSA Newsletter</i>. <b>34</b> (3). September 2008<span class="reference-accessdate">. Retrieved <span class="nowrap">19 April</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATessy+Thomas&amp;rft.atitle=Meet+India%27s+%22Missile+Woman%22.&amp;rft.date=2008-09&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.iwsa.net%2FBullJan09final.pdf&amp;rft.issue=3&amp;rft.jtitle=IWSA+Newsletter&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=34" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-IndiaToday-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-IndiaToday_3-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://indiatoday.intoday.in/story/tessy-thomas-drdo-hyderabad/1/186349.html">Fire in the Belly, With eggs: India's Missile woman: Tessy Thomas</a>; 28 April 2012</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web">Bagla, Pallav. <a rel="nofollow" class="external text" href="http://www.bbc.co.uk/news/world-asia-india-17781281">"The 'missile woman' behind India's new ICBM"</a>. BBC Online<span class="reference-accessdate">. Retrieved <span class="nowrap">21 April</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATessy+Thomas&amp;rft.aufirst=Pallav&amp;rft.aulast=Bagla&amp;rft.btitle=The+%27missile+woman%27+behind+India%27s+new+ICBM&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fworld-asia-india-17781281&amp;rft.pub=BBC+Online&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-kerala-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-kerala_5-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.stateofkerala.in/news/dr%20tessy%20thomas%20is%20first%20woman%20scientist%20to%20head%20missile%20project.php">Smt. Tessy Thomas is first woman scientist to head missile project</a> .</span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://articles.timesofindia.indiatimes.com/2011-11-17/india/30409431_1_wheelers-island-agni-programme-agni-missiles">'Agni Putri' Tessy Thomas breaks glass ceiling</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation news"><a rel="nofollow" class="external text" href="http://www.moneycontrol.com/news/features/scientist-honoured-for-workagni-missile-tech_764008.html">"Scientist honoured for work on Agni missile tech"</a><span class="reference-accessdate">. Retrieved <span class="nowrap">2 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATessy+Thomas&amp;rft.atitle=Scientist+honoured+for+work+on+Agni+missile+tech&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.moneycontrol.com%2Fnews%2Ffeatures%2Fscientist-honoured-for-workagni-missile-tech_764008.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation news"><a rel="nofollow" class="external text" href="http://www.firstpost.com/fwire/missile-woman-tessy-thomas-conferred-shastri-award-476024.html?utm_source=fwire&amp;utm_medium=hp">"<span style="padding-left:0.2em;">'</span>Missile woman' Tessy Thomas conferred Shastri award"</a>. October 2, 2012<span class="reference-accessdate">. Retrieved <span class="nowrap">2 October</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ATessy+Thomas&amp;rft.atitle=%98Missile+woman%99+Tessy+Thomas+conferred+Shastri+award&amp;rft.date=2012-10-02&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.firstpost.com%2Ffwire%2Fmissile-woman-tessy-thomas-conferred-shastri-award-476024.html%3Futm_source%3Dfwire%26utm_medium%3Dhp&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Tessy_Thomas&amp;action=edit&amp;section=7" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=aVDDzOqXFw4">TV News Interview with Tessy Thomas</a></li>
+</ul>
+<div role="navigation" class="navbox" aria-labelledby="Missiles_of_the_Republic_of_India" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Indian_missiles" title="Template:Indian missiles"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Indian_missiles" title="Template talk:Indian missiles"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Indian_missiles&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Missiles_of_the_Republic_of_India" style="font-size:114%;margin:0 4em"><a href="/wiki/Integrated_Guided_Missile_Development_Program" class="mw-redirect" title="Integrated Guided Missile Development Program">Missiles of the Republic of India</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Surface-to-surface_missile" title="Surface-to-surface missile">Surface-to-surface</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Ballistic_missile" title="Ballistic missile">Ballistic missiles</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Intercontinental_ballistic_missile" title="Intercontinental ballistic missile">Intercontinental</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agni-V" title="Agni-V">Agni V</a>**</li>
+<li><a href="/wiki/Agni-VI" title="Agni-VI">Agni VI</a>*</li>
+<li><a href="/wiki/Surya_missile" title="Surya missile">Surya</a>*</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Intermediate-range_ballistic_missile" title="Intermediate-range ballistic missile">Intermediate range</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agni-III" title="Agni-III">Agni-III</a></li>
+<li><a href="/wiki/Agni-IV" title="Agni-IV">Agni IV</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Medium-range_ballistic_missile" title="Medium-range ballistic missile">Medium range</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agni-I" title="Agni-I">Agni-I</a></li>
+<li><a href="/wiki/Agni-II" title="Agni-II">Agni-II</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Short-range_ballistic_missile" title="Short-range ballistic missile">Short range</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Prithvi_(missile)" title="Prithvi (missile)">Prithvi-I</a></li>
+<li><a href="/wiki/Prithvi_(missile)" title="Prithvi (missile)">Prithvi-II</a></li>
+<li><a href="/wiki/Prithvi_(missile)" title="Prithvi (missile)">Prithvi-III</a></li>
+<li><a href="/wiki/Prahaar_(missile)" title="Prahaar (missile)">Prahar</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Submarine-launched_ballistic_missile" title="Submarine-launched ballistic missile">Submarine-launched</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sagarika_(missile)" title="Sagarika (missile)">K-15 Sagarika</a></li>
+<li><a href="/wiki/Dhanush_(missile)" title="Dhanush (missile)">Dhanush</a></li>
+<li><a href="/wiki/K-4_(SLBM)" title="K-4 (SLBM)">K-4</a>**</li>
+<li><a href="/wiki/K_Missile_family#K-5_Missile" title="K Missile family">K-5</a>*</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Cruise missiles</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Hypersonic</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Shaurya_(missile)" title="Shaurya (missile)">Shaurya</a></li>
+<li><a href="/wiki/BrahMos-II" title="BrahMos-II">BrahMos-II</a>*</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Supersonic</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/BrahMos" title="BrahMos">BrahMos-I</a></li>
+<li><a href="/wiki/Prahaar_(missile)" title="Prahaar (missile)">Prahar</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Subsonic</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/3M-54_Klub" title="3M-54 Klub">Klub</a></li>
+<li><a href="/wiki/P-500_Bazalt" title="P-500 Bazalt">Bazalt</a></li>
+<li><a href="/wiki/Nirbhay" title="Nirbhay">Nirbhay</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Anti-ship_missile" title="Anti-ship missile">Anti-ship</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/P-70_Ametist" title="P-70 Ametist">Ametist</a></li>
+<li><a href="/wiki/P-15_Termit" title="P-15 Termit">Termit</a></li>
+<li><a href="/wiki/P-270_Moskit" title="P-270 Moskit">Moskit</a></li>
+<li><a href="/wiki/Gabriel_(missile)" title="Gabriel (missile)">Gabriel</a></li>
+<li><a href="/wiki/Kh-35" title="Kh-35">SwitchBlade</a></li>
+<li><a href="/wiki/3M-54_Klub" title="3M-54 Klub">3M-54 Klub</a></li>
+<li><a href="/wiki/BrahMos" title="BrahMos">BrahMos-I</a></li>
+<li><a href="/wiki/Exocet" title="Exocet">Exocet</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Anti-tank_missile" title="Anti-tank missile">Anti-tank missiles</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Nag_(missile)" title="Nag (missile)">Nag</a></li>
+<li><a href="/wiki/Draft:Amogha_missile" class="mw-redirect" title="Draft:Amogha missile">Amogha</a></li>
+<li><a href="/wiki/9M113_Konkurs" title="9M113 Konkurs">Konkurs</a></li>
+<li><a href="/wiki/9K11_Malyutka" class="mw-redirect" title="9K11 Malyutka">Malyutka</a></li>
+<li><a href="/wiki/9K111_Fagot" title="9K111 Fagot">Fagot</a></li>
+<li><a href="/wiki/9M133_Kornet" title="9M133 Kornet">Kornet</a></li>
+<li><a href="/wiki/MILAN" title="MILAN">MILAN</a></li>
+<li><a href="/wiki/MILAN" title="MILAN">MILAN 2T</a></li>
+<li><a href="/wiki/LAHAT" title="LAHAT">LAHAT</a></li>
+<li><a href="/wiki/9K114_Shturm" title="9K114 Shturm">Spiral</a></li>
+<li><a href="/wiki/9M119_Svir" class="mw-redirect" title="9M119 Svir">Sniper</a></li>
+<li>CLGM</li>
+<li>3UBK-Invar</li>
+<li><a href="/wiki/DRDO_Anti_Tank_Missile" title="DRDO Anti Tank Missile">DRDO Anti Tank Missile</a></li>
+<li><a href="/wiki/ENTAC" title="ENTAC">ENTAC</a></li>
+<li><a href="/wiki/Spike_(missile)" title="Spike (missile)">Spike</a>**</li>
+<li><a href="/wiki/FGM-148_Javelin" title="FGM-148 Javelin">FGM-148 Javelin</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Torpedo" title="Torpedo">Torpedoes</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Shyena" class="mw-redirect" title="Shyena">Shyena</a></li>
+<li><a href="/wiki/Defence_Research_and_Development_Organisation#Torpedoes" title="Defence Research and Development Organisation">AEG-SUT Mod-1</a></li>
+<li><a href="/wiki/A244-S" title="A244-S">A244-S</a></li>
+<li><a href="/wiki/53-65_torpedo" class="mw-redirect" title="53-65 torpedo">53-65 torpedo</a></li>
+<li><a href="/wiki/Type_53_torpedo" title="Type 53 torpedo">Type 53</a></li>
+<li><a href="/wiki/Defence_Research_and_Development_Organisation#Torpedoes" title="Defence Research and Development Organisation">Advanced Light Weight Torpedo</a></li>
+<li>SUT AS/ASW</li>
+<li>SET-65E ASW</li>
+<li>TEST-71 AS/ASW</li>
+<li><a href="/wiki/Mark_54_MAKO_Lightweight_Torpedo" title="Mark 54 MAKO Lightweight Torpedo">Mark 54 MAKO Lightweight Torpedo</a>*</li>
+<li><a href="/wiki/Defence_Research_and_Development_Organisation#Torpedoes" title="Defence Research and Development Organisation">Varunastra Heavy Weight Torpedo</a></li>
+<li><a href="/wiki/Black_Shark_torpedo" title="Black Shark torpedo">Black Shark torpedo</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Anti-submarine_weapon" title="Anti-submarine weapon">Anti-submarine weapon</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li>Indigenous Anti-Submarine missile</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Air-to-surface_missile" title="Air-to-surface missile">Air-to-surface</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Cruise missiles</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Hypersonic</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/BrahMos-II" title="BrahMos-II">BrahMos-II</a>*</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Supersonic</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/BrahMos" title="BrahMos">BrahMos-I</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Subsonic</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/AGM-142_Have_Nap" class="mw-redirect" title="AGM-142 Have Nap">Crystal Maze</a></li>
+<li><a href="/wiki/Kh-59" title="Kh-59">Kh-59ME</a></li>
+<li><a href="/wiki/Nirbhay" title="Nirbhay">Nirbhay</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Anti-ship_missile" title="Anti-ship missile">Anti-ship</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Kh-29" title="Kh-29">KH-29 Kedge</a></li>
+<li><a href="/wiki/Kh-31" title="Kh-31">KH-31 Krypton</a></li>
+<li><a href="/wiki/Kh-59" title="Kh-59">KH-59MK</a></li>
+<li><a href="/wiki/Kh-35" title="Kh-35">Kh-35E</a></li>
+<li><a href="/wiki/Harpoon_(missile)" title="Harpoon (missile)">Harpoon</a></li>
+<li><a href="/wiki/Sea_Eagle_(missile)" title="Sea Eagle (missile)">Sea Eagle</a></li>
+<li><a href="/wiki/BrahMos" title="BrahMos">BrahMos-I</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Anti-tank_missile" title="Anti-tank missile">Anti-tank missiles</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/MILAN" title="MILAN">MILAN</a></li>
+<li><a href="/wiki/LAHAT" title="LAHAT">LAHAT</a></li>
+<li><a href="/wiki/SS.11" title="SS.11">SS.11</a></li>
+<li><a href="/wiki/3M11_Falanga" class="mw-redirect" title="3M11 Falanga">Scorpion</a></li>
+<li><a href="/wiki/9M120_Ataka-V" class="mw-redirect" title="9M120 Ataka-V">Ataka</a></li>
+<li><a href="/wiki/9K121_Vikhr" title="9K121 Vikhr">Scallion</a></li>
+<li><a href="/wiki/Nag_(missile)#Advanced_variants" title="Nag (missile)">Helina</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Torpedo" title="Torpedo">Torpedoes</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Shyena" class="mw-redirect" title="Shyena">Shyena</a></li>
+<li><a href="/wiki/Defence_Research_and_Development_Organisation#Torpedoes" title="Defence Research and Development Organisation">Advanced Light Weight Torpedo</a></li>
+<li><a href="/wiki/A244-S" title="A244-S">A244-S</a></li>
+<li><a href="/wiki/APR-3E_torpedo" title="APR-3E torpedo">APR-3E</a></li>
+<li>APR-1 ASW</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Laser-guided_bomb" title="Laser-guided bomb">Laser-guided bomb</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sudarshan_laser-guided_bomb" title="Sudarshan laser-guided bomb">Sudarshan laser-guided bomb</a></li>
+<li><a href="/wiki/KAB-500L" title="KAB-500L">KAB-500L</a></li>
+<li>KAB-1500L</li>
+<li><a href="/wiki/Paveway" title="Paveway">Paveway LGB</a></li>
+<li><a href="/wiki/KAB-500KR" title="KAB-500KR">KAB-500KR</a></li>
+<li>CBU-105 SFW LGB</li>
+<li><a href="/wiki/Griffin_LGB" title="Griffin LGB">Griffin LGB</a></li>
+<li><a href="/wiki/DRDO_Smart_Anti-Airfield_Weapon" title="DRDO Smart Anti-Airfield Weapon">Smart Anti-Airfield Weapon</a>*</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Anti-radiation_missile" title="Anti-radiation missile">Anti-radiation missile</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Martel_(missile)" title="Martel (missile)">Martel</a></li>
+<li><a href="/wiki/Kh-25" title="Kh-25">Kh-25</a></li>
+<li><a href="/wiki/Kh-31" title="Kh-31">Kh-31</a></li>
+<li><a href="/wiki/Kh-29" title="Kh-29">Kh-29</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Air-to-surface_missile" title="Air-to-surface missile">Medium range attack</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/AS-30L" class="mw-redirect" title="AS-30L">AS-30L</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Air-to-surface_missile" title="Air-to-surface missile">Short range attack</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sea_Skua" title="Sea Skua">Sea Skua</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Surface-to-air_missile" title="Surface-to-air missile">Surface-to-air</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Anti-ballistic_missile" title="Anti-ballistic missile">Anti-ballistic missiles</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/S-300_(missile)" class="mw-redirect" title="S-300 (missile)">S-300PMU-2</a></li>
+<li><a href="/wiki/Indian_Ballistic_Missile_Defense_Program" class="mw-redirect" title="Indian Ballistic Missile Defense Program">Prithvi Air Defence (PAD)</a>**</li>
+<li><a href="/wiki/Indian_Ballistic_Missile_Defense_Program" class="mw-redirect" title="Indian Ballistic Missile Defense Program">Advanced Air Defence (AAD)</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Surface-to-air_missile" title="Surface-to-air missile">Medium range SAM</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Akash_(missile)" title="Akash (missile)">Akash</a></li>
+<li><a href="/wiki/S-200_Angara/Vega/Dubna" class="mw-redirect" title="S-200 Angara/Vega/Dubna">SA-5 Gammon</a></li>
+<li><a href="/wiki/2K12_Kub" title="2K12 Kub">SA-6 Gainful</a></li>
+<li><a href="/wiki/9K37_Buk" class="mw-redirect" title="9K37 Buk">SA-11 Gadfly</a></li>
+<li><a href="/wiki/9K37_Buk" class="mw-redirect" title="9K37 Buk">SA-17 Grizzly</a></li>
+<li><a href="/wiki/Barak_8" title="Barak 8">Barak 8</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Surface-to-air_missile" title="Surface-to-air missile">Short range SAM</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Trishul_(missile)" title="Trishul (missile)">Trishul</a></li>
+<li><a href="/wiki/9K22_Tunguska" class="mw-redirect" title="9K22 Tunguska">Tunguska</a></li>
+<li><a href="/wiki/9K33_Osa" title="9K33 Osa">SA-8 Gecko</a></li>
+<li><a href="/wiki/S-125_Neva/Pechora" title="S-125 Neva/Pechora">SA-3 Goa</a></li>
+<li><a href="/wiki/9K31_Strela-1" title="9K31 Strela-1">SA-9 Gaskin</a></li>
+<li><a href="/wiki/S-75_Dvina" title="S-75 Dvina">SA-2 Guideline</a></li>
+<li><a href="/wiki/9K35_Strela-10" title="9K35 Strela-10">SA-13 Gopher</a></li>
+<li><a href="/wiki/Sea_Cat" class="mw-redirect" title="Sea Cat">Seacat</a></li>
+<li><a href="/wiki/Sea_Cat" class="mw-redirect" title="Sea Cat">Tigercat</a></li>
+<li><a href="/wiki/Barak_1" title="Barak 1">Barak 1</a></li>
+<li><a href="/wiki/SPYDER" title="SPYDER">SPYDER</a></li>
+<li><a href="/wiki/Maitri_(missile)" title="Maitri (missile)">Maitri</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Man-portable_air-defense_systems" class="mw-redirect" title="Man-portable air-defense systems">MANPADS</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/SA-16_Gimlet" class="mw-redirect" title="SA-16 Gimlet">SA-16 Gimlet</a></li>
+<li><a href="/wiki/SA-7_Grail" class="mw-redirect" title="SA-7 Grail">SA-7 Grail</a></li>
+<li><a href="/wiki/9K34_Strela-3" title="9K34 Strela-3">SA-14 Gremlin</a></li>
+<li><a href="/wiki/9K38_Igla" title="9K38 Igla">SA-18 Grouse</a></li>
+<li><a href="/wiki/AIM-92_Stinger" title="AIM-92 Stinger">FIM-92 Stinger</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Air-to-air_missile" title="Air-to-air missile">Air-to-air</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Air-to-air_missile" title="Air-to-air missile">Visual range</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Python_(missile)" title="Python (missile)">Python</a></li>
+<li><a href="/wiki/Super_530" title="Super 530">Super 530</a></li>
+<li><a href="/wiki/R.550_Magic" title="R.550 Magic">R.550 Magic-1</a></li>
+<li><a href="/wiki/R.550_Magic" title="R.550 Magic">R.550 Magic-2</a></li>
+<li><a href="/wiki/K-13_(missile)" title="K-13 (missile)">K-13S</a></li>
+<li><a href="/wiki/R-40_(missile)" title="R-40 (missile)">R-40</a></li>
+<li><a href="/wiki/R-60_(missile)" title="R-60 (missile)">R-60</a></li>
+<li><a href="/wiki/R-73_(missile)" title="R-73 (missile)">R-73</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Beyond-visual-range_missile" title="Beyond-visual-range missile">Beyond visual range</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/R-27_(air-to-air_missile)" title="R-27 (air-to-air missile)">R-27ER</a></li>
+<li><a href="/wiki/R-27_(air-to-air_missile)" title="R-27 (air-to-air missile)">R-27ET</a></li>
+<li><a href="/wiki/R-27_(air-to-air_missile)" title="R-27 (air-to-air missile)">R-27R</a></li>
+<li><a href="/wiki/R-27_(air-to-air_missile)" title="R-27 (air-to-air missile)">R-27T</a></li>
+<li><a href="/wiki/R-77" title="R-77">R-77</a></li>
+<li><a href="/wiki/Python_(missile)" title="Python (missile)">Derby</a></li>
+<li><a href="/wiki/Python_(missile)" title="Python (missile)">Python-4</a></li>
+<li><a href="/wiki/R-23_(missile)" title="R-23 (missile)">R-23R</a></li>
+<li><a href="/wiki/R-23_(missile)" title="R-23 (missile)">R-23T</a></li>
+<li><a href="/wiki/Super_530" title="Super 530">Super 530</a></li>
+<li><a href="/wiki/MICA_(missile)" title="MICA (missile)">MBDA MICA</a></li>
+<li><a href="/wiki/ASRAAM" title="ASRAAM">MBDA ASRAAM</a></li>
+<li><a href="/wiki/Astra_(missile)" title="Astra (missile)">Astra</a>**</li>
+<li><a href="/wiki/K-100_(missile)" title="K-100 (missile)">K-100</a>**</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><i>Notes: (*) Undergoing development</i></li>
+<li><i>(**) Undergoing trials</i></li>
+<li><a href="/wiki/Indian_Armed_Forces" title="Indian Armed Forces">Indian Armed Forces</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div role="navigation" class="navbox" aria-labelledby="Defence_Research_and_Development_Organisation_.28DRDO.29" style="padding:3px">
+<table class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Defence_Research_and_Development_Organisation" title="Template:Defence Research and Development Organisation"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Defence_Research_and_Development_Organisation" title="Template talk:Defence Research and Development Organisation"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Defence_Research_and_Development_Organisation&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Defence_Research_and_Development_Organisation_.28DRDO.29" style="font-size:114%;margin:0 4em"><a href="/wiki/Defence_Research_and_Development_Organisation" title="Defence Research and Development Organisation">Defence Research and Development Organisation (DRDO)</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Aeronautics</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Avionics</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/HAL_Tejas" title="HAL Tejas">Tejas</a></li>
+<li><a href="/wiki/Advanced_Medium_Combat_Aircraft" class="mw-redirect" title="Advanced Medium Combat Aircraft">Advanced Medium Combat Aircraft</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Other HAL programmes</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/HAL_HJT-36" class="mw-redirect" title="HAL HJT-36">HJT-36</a></li>
+<li><a href="/wiki/HAL_HTT-40" title="HAL HTT-40">HTT-40</a></li>
+<li><a href="/wiki/HAL_Dhruv" title="HAL Dhruv">Dhruv</a></li>
+<li><a href="/wiki/HAL_Rudra" title="HAL Rudra">Rudra</a></li>
+<li><a href="/wiki/HAL_Light_Combat_Helicopter" title="HAL Light Combat Helicopter">Light Combat Helicopter</a></li>
+<li><a href="/wiki/HAL_Light_Utility_Helicopter" title="HAL Light Utility Helicopter">Light Utility Helicopter</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Unmanned aerial vehicles</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/DRDO_Nishant" title="DRDO Nishant">Nishant</a></li>
+<li><a href="/wiki/DRDO_Rustom" title="DRDO Rustom">Rustom</a></li>
+<li><a href="/wiki/DRDO_Lakshya" title="DRDO Lakshya">Lakshya</a></li>
+<li><a href="/wiki/DRDO_Kapothaka" title="DRDO Kapothaka">Kapothaka</a></li>
+<li><a href="/wiki/DRDO_Ulka" title="DRDO Ulka">Ulka</a></li>
+<li><a href="/wiki/DRDO_Fluffy" title="DRDO Fluffy">Fluffy</a></li>
+<li><a href="/wiki/AURA_UAV" class="mw-redirect" title="AURA UAV">AURA UAV</a></li>
+<li><a href="/wiki/DRDO_Imperial_Eagle" title="DRDO Imperial Eagle">Imperial Eagle</a></li>
+<li><a href="/wiki/DRDO_Netra" title="DRDO Netra">Netra</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Armaments</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Small arms</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/INSAS_rifle" title="INSAS rifle">INSAS</a></li>
+<li><a href="/wiki/Vidhwansak" title="Vidhwansak">Vidhwansak</a></li>
+<li><a href="/wiki/Modern_Sub_Machine_Carbine" title="Modern Sub Machine Carbine">MSMC</a></li>
+<li><a href="/wiki/Multi_Caliber_Individual_Weapon_System_(MCIWS)" class="mw-redirect" title="Multi Caliber Individual Weapon System (MCIWS)">MCIWS</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Artillery systems and ammunition</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Pinaka_Multi_Barrel_Rocket_Launcher" class="mw-redirect" title="Pinaka Multi Barrel Rocket Launcher">Pinaka Multi Barrel Rocket Launcher</a></li>
+<li><a href="/wiki/M-46_Catapult" title="M-46 Catapult">M-46 Catapult</a></li>
+<li><a href="/wiki/Bhim_self-propelled_howitzer" title="Bhim self-propelled howitzer">Bhim-T6</a></li>
+<li><a href="/wiki/DRDO_155_mm_artillery_gun" title="DRDO 155 mm artillery gun">Dhanush Howitzer</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Armoured fighting<br />
+vehicles</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Tanks</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Arjun_(tank)" title="Arjun (tank)">Arjun</a></li>
+<li><a href="/wiki/Arjun_(tank)#Arjun_Mk-II" title="Arjun (tank)">Arjun Mk-II</a></li>
+<li><a href="/wiki/Tank_EX" title="Tank EX">Tank EX</a></li>
+<li><a href="/wiki/DRDO_light_tank" title="DRDO light tank">DRDO light tank</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Infantry fighting vehicle</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"><a href="/wiki/Abhay_IFV" title="Abhay IFV">Abhay IFV</a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Other vehicles</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Carrier_Mortar_Tracked" title="Carrier Mortar Tracked">Carrier Mortar Tracked</a></li>
+<li><a href="/wiki/Armoured_Engineer_Reconnaissance_Vehicle" title="Armoured Engineer Reconnaissance Vehicle">Armoured Engineer Reconnaissance Vehicle</a></li>
+<li><a href="/wiki/Armoured_Vehicle_(VDRE)" class="mw-redirect" title="Armoured Vehicle (VDRE)">Light Armoured Vehicle</a></li>
+<li><a href="/wiki/Kartik_BLT" title="Kartik BLT">Kartik BLT</a></li>
+<li><a href="/wiki/DRDO_Daksh" title="DRDO Daksh">Daksh</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Electronics and<br />
+Computer Sciences</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Electronic warfare</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Samyukta_Electronic_Warfare_System" title="Samyukta Electronic Warfare System">Samyukta</a></li>
+<li><a href="/wiki/Radar_warning_receivers" class="mw-redirect" title="Radar warning receivers">Tarang</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Radars</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Indian_Doppler_Radar" title="Indian Doppler Radar">INDRA</a></li>
+<li><a href="/wiki/Rajendra_Radar" title="Rajendra Radar">Rajendra Radar</a></li>
+<li><a href="/wiki/Swordfish_Long_Range_Tracking_Radar" title="Swordfish Long Range Tracking Radar">Swordfish Long Range Tracking Radar</a></li>
+<li><a href="/wiki/HAL_Tejas#Radar" title="HAL Tejas">Multi-mode radar</a></li>
+<li><a href="/wiki/DRDO_AEW%26CS" title="DRDO AEW&amp;CS">3D Airborne Warning and Control</a></li>
+<li><a href="/wiki/Defence_Research_and_Development_Organisation#Radars" title="Defence Research and Development Organisation">Super Vision-2000</a></li>
+<li><a href="/wiki/BEL_Battle_Field_Surveillance_Radar" title="BEL Battle Field Surveillance Radar">BFSR-SR</a></li>
+<li><a href="/wiki/Central_Acquisition_Radar_(3D-CAR)" class="mw-redirect" title="Central Acquisition Radar (3D-CAR)">3D-CAR</a></li>
+<li><a href="/wiki/Swathi_Weapon_Locating_Radar" title="Swathi Weapon Locating Radar">Swathi Weapon Locating Radar</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Software</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/DRDO_NETRA" title="DRDO NETRA">NETRA</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Missile systems</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Ballistic_missile" title="Ballistic missile">Ballistic missiles</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Agni_(missile)" title="Agni (missile)">Agni</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Agni-I" title="Agni-I">Agni-I</a></li>
+<li><a href="/wiki/Agni-II" title="Agni-II">Agni-II</a></li>
+<li><a href="/wiki/Agni-III" title="Agni-III">Agni-III</a></li>
+<li><a href="/wiki/Agni-IV" title="Agni-IV">Agni-IV</a></li>
+<li><a href="/wiki/Agni-V" title="Agni-V">Agni-V</a></li>
+<li><a href="/wiki/Agni-VI" title="Agni-VI">Agni-VI</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Prithvi_missile" class="mw-redirect" title="Prithvi missile">Prithvi</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Prithvi_missile#Prithvi_I" class="mw-redirect" title="Prithvi missile">I</a></li>
+<li><a href="/wiki/Prithvi_missile#Prithvi_II" class="mw-redirect" title="Prithvi missile">II</a></li>
+<li><a href="/wiki/Prithvi_missile#Prithvi_III" class="mw-redirect" title="Prithvi missile">III</a></li>
+<li><a href="/wiki/Integrated_Guided_Missile_Development_Program#Dhanush_.28prithvi_III_missile.29" class="mw-redirect" title="Integrated Guided Missile Development Program">Dhanush</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Short-range_ballistic_missile" title="Short-range ballistic missile">SRBM</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Shaurya_(missile)" title="Shaurya (missile)">Shaurya</a></li>
+<li><a href="/wiki/Prahaar_(missile)" title="Prahaar (missile)">Prahaar</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Submarine-launched_ballistic_missile" title="Submarine-launched ballistic missile">SLBM</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sagarika_(missile)" title="Sagarika (missile)">K-15</a></li>
+<li><a href="/wiki/K_Missile_family#K-4_Missile" title="K Missile family">K-4</a></li>
+<li><a href="/wiki/K_Missile_family#K-5_Missile" title="K Missile family">K-5</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Cruise_missile" title="Cruise missile">Cruise missiles</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Nirbhay_missile" class="mw-redirect" title="Nirbhay missile">Nirbhay</a></li>
+<li><a href="/wiki/BrahMos" title="BrahMos">BrahMos</a>
+<ul>
+<li><a href="/wiki/BrahMos-II" title="BrahMos-II">II</a></li>
+</ul>
+</li>
+<li><a href="/wiki/HSTDV" class="mw-redirect" title="HSTDV">HSTDV</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Air-to-air_missile" title="Air-to-air missile">Air-to-air missiles</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Astra_missile" class="mw-redirect" title="Astra missile">Astra BVRAAM</a></li>
+<li><a href="/wiki/DRDO_Anti-Radiation_Missile" title="DRDO Anti-Radiation Missile">DRDO Anti-Radiation Missile</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><b><a href="/wiki/Anti-tank_guided_missile" class="mw-redirect" title="Anti-tank guided missile">Anti-tank missiles</a></b></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Nag_missile" class="mw-redirect" title="Nag missile">Nag</a></li>
+<li><a href="/wiki/DRDO_Anti_Tank_Missile" title="DRDO Anti Tank Missile">DRDO Anti Tank Missile</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><b><a href="/wiki/Surface-to-air_missile" title="Surface-to-air missile">Surface-to-air</a></b></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Akash_missile" class="mw-redirect" title="Akash missile">Akash</a></li>
+<li><a href="/wiki/Trishul_(missile)" title="Trishul (missile)">Trishul</a></li>
+<li><a href="/wiki/Maitri_missile" class="mw-redirect" title="Maitri missile">Maitri missile</a></li>
+<li><a href="/wiki/Barak_8" title="Barak 8">Barak 8</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><b><a href="/wiki/Air-to-surface_missile" title="Air-to-surface missile">Air-to-surface</a></b></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Nag_missile#Advanced_variants" class="mw-redirect" title="Nag missile">Helina</a></li>
+<li><a href="/wiki/BrahMos#Variants" title="BrahMos">BrahMos Air launched Variant</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Anti-ballistic_missile" title="Anti-ballistic missile">Anti-ballistic</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Indian_Ballistic_Missile_Defence_Programme#Prithvi_Air_Defence_.28PAD.29" title="Indian Ballistic Missile Defence Programme">Prithvi Air Defence (PAD)</a></li>
+<li><a href="/wiki/Indian_Ballistic_Missile_Defence_Programme#Advanced_Air_Defence_.28AAD.29" title="Indian Ballistic Missile Defence Programme">Advanced Air Defence (AAD)</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Torpedo" title="Torpedo">Torpedoes</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Advanced_Light_Torpedo_Shyena" title="Advanced Light Torpedo Shyena">Advanced Light Torpedo Shyena</a></li>
+<li><a href="/wiki/Varunastra_(Torpedo)" class="mw-redirect" title="Varunastra (Torpedo)">Varunastra Heavy Weight Torpedo</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Bombs</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Laser-guided</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Sudarshan_laser-guided_bomb" title="Sudarshan laser-guided bomb">Sudarshan</a></li>
+<li><a href="/wiki/DRDO_Smart_Anti-Airfield_Weapon" title="DRDO Smart Anti-Airfield Weapon">Smart Anti-Airfield Weapon</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">People</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Scientists</div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Ranjit_Lal_Jetley" title="Ranjit Lal Jetley">Maj General Ranjit Lal Jetley</a></li>
+<li><a href="/wiki/Ram_Narain_Agarwal" title="Ram Narain Agarwal">Ram Narain Agarwal</a></li>
+<li><a href="/wiki/A._P._J._Abdul_Kalam" title="A. P. J. Abdul Kalam">A. P. J. Abdul Kalam</a></li>
+<li><a href="/wiki/A._Sivathanu_Pillai" title="A. Sivathanu Pillai">A. Sivathanu Pillai</a></li>
+<li><a href="/wiki/W_Selvamurthy" class="mw-redirect" title="W Selvamurthy">W Selvamurthy</a></li>
+<li><a href="/wiki/V._K._Saraswat" title="V. K. Saraswat">V. K. Saraswat</a></li>
+<li><a href="/wiki/V._K._Aatre" title="V. K. Aatre">V. K. Aatre</a></li>
+<li><a href="/wiki/Raja_Ramanna" title="Raja Ramanna">Raja Ramanna</a></li>
+<li><a href="/wiki/V._S._Mahalingam" title="V. S. Mahalingam">V. S. Mahalingam</a></li>
+<li><a href="/wiki/Keshav_Dattatreya_Nayak" title="Keshav Dattatreya Nayak">Keshav Dattatreya Nayak</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Engines</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Gas_Turbine_Research_Establishment#Products" title="Gas Turbine Research Establishment">GTX 37-14U</a></li>
+<li><a href="/wiki/GTRE_GTX-35VS_Kaveri" title="GTRE GTX-35VS Kaveri">GTX-35VS Kaveri</a></li>
+<li><a href="/wiki/Gas_Turbine_Research_Establishment#Kaveri_Marine_Gas_Turbine_.28KMGT.29" title="Gas Turbine Research Establishment">Kaveri Marine Gas Turbine</a></li>
+<li><a href="/wiki/DRDO#GATET_engine" class="mw-redirect" title="DRDO">GATET engine</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Important programmes</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Project_Indigo" title="Project Indigo">Project Indigo</a></li>
+<li><a href="/wiki/Project_Valiant" title="Project Valiant">Project Valiant</a></li>
+<li><a href="/wiki/Project_Devil" title="Project Devil">Project Devil</a></li>
+<li><a href="/wiki/Integrated_Guided_Missile_Development_Programme" title="Integrated Guided Missile Development Programme">IGMDP</a></li>
+<li><a href="/wiki/Indian_Ballistic_Missile_Defence_Programme" title="Indian Ballistic Missile Defence Programme">Indian Ballistic Missile Defence Programme</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><a href="/wiki/Integrated_Guided_Missile_Development_Programme" title="Integrated Guided Missile Development Programme">Indian Missile Programme</a></li>
+<li><a href="/wiki/Indian_Armed_Forces" title="Indian Armed Forces">Indian Armed Forces</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div role="navigation" class="navbox" aria-labelledby="Types_of_missile" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Missile_types" title="Template:Missile types"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Missile_types" title="Template talk:Missile types"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Missile_types&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Types_of_missile" style="font-size:114%;margin:0 4em">Types of <a href="/wiki/Missile" title="Missile">missile</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">By platform</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Air-launched_ballistic_missile" title="Air-launched ballistic missile">Air-launched ballistic missile (ALBM)</a></li>
+<li><a href="/wiki/Air-launched_cruise_missile" title="Air-launched cruise missile">Air-launched cruise missile (ALCM)</a></li>
+<li><a href="/wiki/Air-to-air_missile" title="Air-to-air missile">Air-to-air missile (AAM)</a></li>
+<li><a href="/wiki/Air-to-surface_missile" title="Air-to-surface missile">Air-to-surface missile (ASM)</a></li>
+<li><a href="/wiki/Ballistic_missile" title="Ballistic missile">Ballistic missile</a></li>
+<li><a href="/wiki/Cruise_missile" title="Cruise missile">Cruise missile</a></li>
+<li><a href="/wiki/Intercontinental_ballistic_missile" title="Intercontinental ballistic missile">Intercontinental ballistic missile (ICBM)</a></li>
+<li><a href="/wiki/Intermediate-range_ballistic_missile" title="Intermediate-range ballistic missile">Intermediate-range ballistic missile (IRBM)</a></li>
+<li><a href="/wiki/Shoulder-fired_missile" title="Shoulder-fired missile">Shoulder-fired missile</a></li>
+<li><a href="/wiki/Submarine-launched_ballistic_missile" title="Submarine-launched ballistic missile">Submarine-launched ballistic missile (SLBM)</a></li>
+<li><a href="/wiki/Submarine-launched_cruise_missile" title="Submarine-launched cruise missile">Submarine-launched cruise missile (SLCM)</a></li>
+<li><a href="/wiki/Surface-to-air_missile" title="Surface-to-air missile">Surface-to-air missile (SAM)</a></li>
+<li><a href="/wiki/Surface-to-surface_missile" title="Surface-to-surface missile">Surface-to-surface missile (SSM)</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">By target type</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Anti-ballistic_missile" title="Anti-ballistic missile">Anti-ballistic missile (ABM)</a></li>
+<li><a href="/wiki/Anti-satellite_weapon" title="Anti-satellite weapon">Anti-satellite weapon (ASAT)</a></li>
+<li><a href="/wiki/Anti-ship_ballistic_missile" title="Anti-ship ballistic missile">Anti-ship ballistic missile (ASBM)</a></li>
+<li><a href="/wiki/Anti-ship_missile" title="Anti-ship missile">Anti-ship missile (AShM)</a></li>
+<li><a href="/wiki/Anti-submarine_missile" title="Anti-submarine missile">Anti-submarine missile</a></li>
+<li><a href="/wiki/Anti-tank_missile" title="Anti-tank missile">Anti-tank missile (ATGM)</a></li>
+<li><a href="/wiki/Land-attack_missile" title="Land-attack missile">Land-attack missile (LACM)</a></li>
+<li><a href="/wiki/Man-portable_air-defense_systems" class="mw-redirect" title="Man-portable air-defense systems">Man-portable air-defense systems</a> (MANPADS)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">By <a href="/wiki/Missile_guidance" title="Missile guidance">guidance</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Rocket_(weapon)" title="Rocket (weapon)">Unguided</a></li>
+<li><a href="/wiki/Radar_guidance" title="Radar guidance">Radar guidance</a>
+<ul>
+<li><a href="/wiki/Radar_altimeter" title="Radar altimeter">Radar altimeter</a></li>
+<li><a href="/wiki/Active_radar_homing" title="Active radar homing">Active radar guidance</a> (ARH)</li>
+<li><a href="/wiki/Semi-active_radar_homing" title="Semi-active radar homing">Semi-active radar guidance</a> (SAHR)</li>
+<li><a href="/wiki/Passive_radar" title="Passive radar">Passive radar</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Passive_homing" class="mw-redirect" title="Passive homing">Passive homing</a></li>
+<li><a href="/wiki/Track-via-missile" title="Track-via-missile">Track-via-missile</a> (TVM)</li>
+<li><a href="/wiki/Anti-radiation_missile" title="Anti-radiation missile">Anti-radiation</a> (ARM)</li>
+<li><a href="/wiki/Command_guidance" title="Command guidance">Command guidance</a></li>
+<li><a href="/wiki/Command_to_line-of-sight_guidance" class="mw-redirect" title="Command to line-of-sight guidance">Command to line-of-sight guidance</a> (CLOS)</li>
+<li><a href="/wiki/Command_off_line-of-sight_guidance" class="mw-redirect" title="Command off line-of-sight guidance">Command off line-of-sight guidance</a> (COLOS)</li>
+<li><a href="/wiki/Manual_command_to_line_of_sight" title="Manual command to line of sight">Manual command to line of sight</a> (MCLOS)</li>
+<li><a href="/wiki/Semi-automatic_command_to_line_of_sight" title="Semi-automatic command to line of sight">Semi-automatic command to line of sight</a> (SACLOS)</li>
+<li><a href="/wiki/Automatic_Command_to_Line-Of-Sight" class="mw-redirect" title="Automatic Command to Line-Of-Sight">Automatic Command to Line-Of-Sight</a> (ACLOS)</li>
+<li><a href="/wiki/Pursuit_guidance" title="Pursuit guidance">Pursuit guidance</a></li>
+<li><a href="/wiki/Beam_riding" title="Beam riding">Beam riding</a> (LOSBR)</li>
+<li><a href="/wiki/Infrared_homing" title="Infrared homing">Infrared guidance</a></li>
+<li><a href="/wiki/Laser_guidance" title="Laser guidance">Laser guidance</a></li>
+<li><a href="/wiki/Wire-guided_missile" title="Wire-guided missile">Wire guidance</a></li>
+<li><a href="/wiki/Satellite_guidance" class="mw-redirect" title="Satellite guidance">Satellite guidance</a>
+<ul>
+<li><a href="/wiki/Global_Positioning_System" title="Global Positioning System">Global Positioning System</a> (GPS)</li>
+<li><a href="/wiki/GLONASS" title="GLONASS">GLONASS</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Inertial_guidance" class="mw-redirect" title="Inertial guidance">Inertial guidance</a></li>
+<li><a href="/wiki/Astro-inertial_guidance" class="mw-redirect" title="Astro-inertial guidance">Astro-inertial guidance</a></li>
+<li>Terrestial guidance
+<ul>
+<li><a href="/wiki/TERPROM" title="TERPROM">TERPROM</a></li>
+<li><a href="/wiki/TERCOM" title="TERCOM">TERCOM</a></li>
+<li><a href="/wiki/DSMAC" class="mw-redirect" title="DSMAC">DSMAC</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Automatic_target_recognition" title="Automatic target recognition">Automatic target recognition</a> (ATR)</li>
+<li><a href="/wiki/Radio_guidance" class="mw-redirect" title="Radio guidance">Radio guidance</a></li>
+<li><a href="/wiki/TV_guidance" class="mw-redirect" title="TV guidance">TV guidance</a></li>
+<li><a href="/wiki/Contrast_seeker" title="Contrast seeker">Contrast seeker</a></li>
+<li><a href="/wiki/Compass" title="Compass">Compass</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Lists</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/List_of_military_rockets" title="List of military rockets">List of military rockets</a></li>
+<li><a href="/wiki/List_of_missiles" title="List of missiles">List of missiles</a></li>
+<li><a href="/wiki/List_of_missiles_by_country" title="List of missiles by country">List of missiles by country</a></li>
+<li><a href="/wiki/List_of_anti-ship_missiles" title="List of anti-ship missiles">List of anti-ship missiles</a></li>
+<li><a href="/wiki/List_of_anti-tank_missiles" title="List of anti-tank missiles">List of anti-tank missiles</a></li>
+<li><a href="/wiki/List_of_ICBMs" title="List of ICBMs">List of ICBMs</a></li>
+<li><a href="/wiki/List_of_surface-to-air_missiles" title="List of surface-to-air missiles">List of surface-to-air missiles</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div><i>See also:</i> <a href="/wiki/Sounding_rocket" title="Sounding rocket">Sounding rocket</a></div>
+</td>
+</tr>
+</table>
+</div>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1254
+Cached time: 20170410061119
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.264 seconds
+Real time usage: 0.319 seconds
+Preprocessor visited node count: 7516/1000000
+Preprocessor generated node count: 0/1500000
+Post-expand include size: 251823/2097152 bytes
+Template argument size: 19318/2097152 bytes
+Highest expansion depth: 12/40
+Expensive parser function count: 2/500
+Lua time usage: 0.093/10.000 seconds
+Lua memory usage: 3.83 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  235.043      1 -total
+ 71.65%  168.415     18 Template:Navbox
+ 36.72%   86.316     15 Template:Navbox_subgroup
+ 24.99%   58.732      1 Template:Infobox_person
+ 20.30%   47.714      1 Template:Indian_missiles
+ 19.55%   45.961      1 Template:Reflist
+ 18.16%   42.672      1 Template:Defence_Research_and_Development_Organisation_(DRDO)
+ 15.59%   36.655      1 Template:Infobox
+ 11.57%   27.186      1 Template:Cite_journal
+  8.73%   20.508      1 Template:Use_dmy_dates
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:35548338-0!*!0!!en!4!* and timestamp 20170410061119 and revision id 767390787
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Tessy_Thomas&amp;oldid=767390787">https://en.wikipedia.org/w/index.php?title=Tessy_Thomas&amp;oldid=767390787</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Engineers_from_Kerala" title="Category:Engineers from Kerala">Engineers from Kerala</a></li><li><a href="/wiki/Category:Malayali_people" title="Category:Malayali people">Malayali people</a></li><li><a href="/wiki/Category:Defence_Research_and_Development_Organisation" title="Category:Defence Research and Development Organisation">Defence Research and Development Organisation</a></li><li><a href="/wiki/Category:Indian_aerospace_engineers" title="Category:Indian aerospace engineers">Indian aerospace engineers</a></li><li><a href="/wiki/Category:Indian_Space_Research_Organisation_people" title="Category:Indian Space Research Organisation people">Indian Space Research Organisation people</a></li><li><a href="/wiki/Category:1964_births" title="Category:1964 births">1964 births</a></li><li><a href="/wiki/Category:Living_people" title="Category:Living people">Living people</a></li><li><a href="/wiki/Category:People_from_Alappuzha_district" title="Category:People from Alappuzha district">People from Alappuzha district</a></li><li><a href="/wiki/Category:Indian_women_engineers" title="Category:Indian women engineers">Indian women engineers</a></li><li><a href="/wiki/Category:Government_Engineering_College,_Thrissur_alumni" title="Category:Government Engineering College, Thrissur alumni">Government Engineering College, Thrissur alumni</a></li><li><a href="/wiki/Category:20th-century_Indian_engineers" title="Category:20th-century Indian engineers">20th-century Indian engineers</a></li><li><a href="/wiki/Category:20th-century_Indian_women_scientists" title="Category:20th-century Indian women scientists">20th-century Indian women scientists</a></li><li><a href="/wiki/Category:21st-century_Indian_engineers" title="Category:21st-century Indian engineers">21st-century Indian engineers</a></li><li><a href="/wiki/Category:Scientists_from_Kerala" title="Category:Scientists from Kerala">Scientists from Kerala</a></li><li><a href="/wiki/Category:21st-century_Indian_women_scientists" title="Category:21st-century Indian women scientists">21st-century Indian women scientists</a></li><li><a href="/wiki/Category:Women_scientists_from_Kerala" title="Category:Women scientists from Kerala">Women scientists from Kerala</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Use_dmy_dates_from_March_2016" title="Category:Use dmy dates from March 2016">Use dmy dates from March 2016</a></li><li><a href="/wiki/Category:Use_Indian_English_from_March_2015" title="Category:Use Indian English from March 2015">Use Indian English from March 2015</a></li><li><a href="/wiki/Category:All_Wikipedia_articles_written_in_Indian_English" title="Category:All Wikipedia articles written in Indian English">All Wikipedia articles written in Indian English</a></li><li><a href="/wiki/Category:Pages_using_infobox_person_with_unknown_parameters" title="Category:Pages using infobox person with unknown parameters">Pages using infobox person with unknown parameters</a></li><li><a href="/wiki/Category:Infobox_person_using_religion" title="Category:Infobox person using religion">Infobox person using religion</a></li><li><a href="/wiki/Category:Articles_with_hCards" title="Category:Articles with hCards">Articles with hCards</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Tessy+Thomas" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Tessy+Thomas" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Tessy_Thomas"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:Tessy_Thomas"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Tessy_Thomas" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/w/index.php?title=Tessy_Thomas&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Tessy_Thomas&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Tessy_Thomas" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Tessy_Thomas" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Tessy_Thomas&amp;oldid=767390787" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Tessy_Thomas&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Q3521524" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Tessy_Thomas&amp;id=767390787" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Tessy+Thomas">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Tessy+Thomas&amp;returnto=Tessy+Thomas&amp;oldid=767390787&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Tessy_Thomas&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-bn"><a href="https://bn.wikipedia.org/wiki/%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A6%BF_%E0%A6%A5%E0%A6%AE%E0%A6%BE%E0%A6%B8" title="???? ???? – Bangla" lang="bn" hreflang="bn" class="interlanguage-link-target">?????</a></li><li class="interlanguage-link interwiki-bh"><a href="https://bh.wikipedia.org/wiki/%E0%A4%9F%E0%A5%87%E0%A4%B8%E0%A5%80_%E0%A4%A5%E0%A5%89%E0%A4%AE%E0%A4%B8" title="???? ???? – ???????" lang="bh" hreflang="bh" class="interlanguage-link-target">???????</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D8%AA%D8%B3%DB%8C_%D8%AA%D9%88%D9%85%D8%A7%D8%B3" title="??? ????? – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">?????</a></li><li class="interlanguage-link interwiki-hi"><a href="https://hi.wikipedia.org/wiki/%E0%A4%9F%E0%A5%87%E0%A4%B8%E0%A5%80_%E0%A4%A5%E0%A5%89%E0%A4%AE%E0%A4%B8" title="???? ???? – Hindi" lang="hi" hreflang="hi" class="interlanguage-link-target">??????</a></li><li class="interlanguage-link interwiki-kn"><a href="https://kn.wikipedia.org/wiki/%E0%B2%9F%E0%B2%BF%E0%B2%B8%E0%B3%8D%E0%B2%B8%E0%B2%BF_%E0%B2%A5%E0%B2%BE%E0%B2%AE%E0%B2%B8%E0%B3%8D" title="?????? ????? – Kannada" lang="kn" hreflang="kn" class="interlanguage-link-target">?????</a></li><li class="interlanguage-link interwiki-mg"><a href="https://mg.wikipedia.org/wiki/Tessy_Thomas" title="Tessy Thomas – Malagasy" lang="mg" hreflang="mg" class="interlanguage-link-target">Malagasy</a></li><li class="interlanguage-link interwiki-ml"><a href="https://ml.wikipedia.org/wiki/%E0%B4%9F%E0%B5%86%E0%B4%B8%E0%B5%8D%E0%B4%B8%E0%B4%BF_%E0%B4%A4%E0%B5%8B%E0%B4%AE%E0%B4%B8%E0%B5%8D" title="?????? ????? – Malayalam" lang="ml" hreflang="ml" class="interlanguage-link-target">??????</a></li><li class="interlanguage-link interwiki-pa"><a href="https://pa.wikipedia.org/wiki/%E0%A8%9F%E0%A9%87%E0%A8%B8%E0%A9%80_%E0%A8%A5%E0%A8%BE%E0%A8%AE%E0%A8%B8" title="???? ???? – Punjabi" lang="pa" hreflang="pa" class="interlanguage-link-target">??????</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Tessy_Thomas" title="Tessy Thomas – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-ta"><a href="https://ta.wikipedia.org/wiki/%E0%AE%9F%E0%AF%86%E0%AE%B8%E0%AF%8D%E0%AE%B8%E0%AE%BF_%E0%AE%A4%E0%AE%BE%E0%AE%AE%E0%AE%B8%E0%AF%8D" title="?????? ????? – Tamil" lang="ta" hreflang="ta" class="interlanguage-link-target">?????</a></li><li class="interlanguage-link interwiki-te"><a href="https://te.wikipedia.org/wiki/%E0%B0%9F%E0%B1%86%E0%B0%B8%E0%B1%8D%E0%B0%B8%E0%B1%80_%E0%B0%A5%E0%B0%BE%E0%B0%AE%E0%B0%B8%E0%B1%8D" title="?????? ????? – Telugu" lang="te" hreflang="te" class="interlanguage-link-target">??????</a></li>					</ul>
+				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Q3521524#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 25 February 2017, at 16:57.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Tessy_Thomas&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.264","walltime":"0.319","ppvisitednodes":{"value":7516,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":251823,"limit":2097152},"templateargumentsize":{"value":19318,"limit":2097152},"expansiondepth":{"value":12,"limit":40},"expensivefunctioncount":{"value":2,"limit":500},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  235.043      1 -total"," 71.65%  168.415     18 Template:Navbox"," 36.72%   86.316     15 Template:Navbox_subgroup"," 24.99%   58.732      1 Template:Infobox_person"," 20.30%   47.714      1 Template:Indian_missiles"," 19.55%   45.961      1 Template:Reflist"," 18.16%   42.672      1 Template:Defence_Research_and_Development_Organisation_(DRDO)"," 15.59%   36.655      1 Template:Infobox"," 11.57%   27.186      1 Template:Cite_journal","  8.73%   20.508      1 Template:Use_dmy_dates"]},"scribunto":{"limitreport-timeusage":{"value":"0.093","limit":"10.000"},"limitreport-memusage":{"value":4016837,"limit":52428800}},"cachereport":{"origin":"mw1254","timestamp":"20170410061119","ttl":2592000,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":389,"wgHostname":"mw1254"});});</script>
+	</body>
+</html>

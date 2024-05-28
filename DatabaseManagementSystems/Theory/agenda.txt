@@ -17,3 +17,4 @@
 11. Export/Import CSV, insert ready, database dump.
 12. TNSPing demo and tnsnames.ora file
 13. Interesting design and implementation about case sensitive/in ness of object names in oracle.
+14. Join Types And Join Conditions
