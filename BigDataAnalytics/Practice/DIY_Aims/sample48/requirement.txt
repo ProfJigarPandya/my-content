@@ -1,0 +1,1 @@
+For a hospital find out if there is over or under utilization of patient beds.

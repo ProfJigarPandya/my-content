@@ -1,0 +1,10 @@
+Whether To Go Out To Eat
+Related data as below:
+1) Do we have grocerry and vegetables at home?
+2) Do we have presence of someone who can cook?
+3) When did we last go out to restaurant for fun?
+4) Are we having any company of friends/families today?
+5) Do we have restaurants open in the area now?
+6) How about having transport means availability to go out?
+
+

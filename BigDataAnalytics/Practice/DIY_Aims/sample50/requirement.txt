@@ -1,0 +1,1 @@
+A dashboard could be used to track hourly error rates when programming code.
