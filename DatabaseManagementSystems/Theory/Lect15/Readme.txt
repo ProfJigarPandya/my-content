@@ -22,12 +22,16 @@ Date Functions:
 
 SYSDATE, SYSTIMESTAMP, ROUND, TRUNC, MONTHS_BETWEEN, ADD_MONTHS, etc.
 
-Conversion Functions and  Other functions.
+Conversion Functions:
+
+TO_NUMBER, TO_CHAR, TO_DATE, TO_TIMESTAMP, CAST
+
+Other functions:
+
+SUBSTR, EXTRACT, etc.
 
 Note that oracle database supports a virtual table named 'dual' to run sample queries like below:
 
 select sysdate from dual;
 
 Returns the system date.
-
-
