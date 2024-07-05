@@ -8,4 +8,4 @@ Data Mining
 https://hanj.cs.illinois.edu/bk3/
 
 
-
+https://www.coursera.org/articles/data-science-terms

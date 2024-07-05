@@ -1,0 +1,12 @@
+When to wake up
+
+Related data as below:
+
+1) Total number of estimated hours required for all tasks to complete throughout the day
+2) Ordering of the tasks timewise and the first task's timing in it
+3) How much hours of sleep do you need tonight?
+4) How is the weather for the day?
+5) When is the sun rising?
+6) Do I want to do exercise or not?
+
+

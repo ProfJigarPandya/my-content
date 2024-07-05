@@ -1,0 +1,1 @@
+order (rank) these factors from most to least influential on sales: price, flavor, and time of year (season)

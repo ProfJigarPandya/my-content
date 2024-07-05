@@ -1,0 +1,12 @@
+I have a thourouh understanding of data-driven decision-making and how it helps organizations guide their business strategy based on facts.
+I am able to ask questions and make hypotheses about business problems and use them to guide me through the data analysis process.
+I know steps to verify data credibility and perform data validation.
+I understand data modeling and know how organizations use it as a tool to understand their data.
+I can select and desing visualizations that help me effectively communicate analysis insights to stakeholders.
+I am able to join data from multiple sources to use for data analysis.
+I can sort data in both a spreadsheet and a database.
+I am able to clean data by ensuring it contains no duplicate or incorrect entries and is in the correct form.
+I know how to create data visualizations using a spreadsheet, Tableau and R.
+I can write a SQL command that would select several columns from a table.
+I understand packages in R and can select and install the packages I need to complete specific tasks.
+

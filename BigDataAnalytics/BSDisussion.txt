@@ -1,0 +1,31 @@
+What is the relationship between the data life cycle and the data analysis process? How are the two processes similar? How are they different?
+
+
+What is the relationship between the Ask phase of the data analysis process and the Plan phase of the data life cycle? How are they similar? How are they different?
+
+What are the pros and cons of reports?
+Pros:
+High-level historical data
+Easy to design and use
+Pre-cleaned and sorted data
+Cons:
+Cintinual maintenance
+Less visually appealing
+
+
+What are the pros and cons of dashboards?
+Pros:
+Dynamic, automative and interactive
+More stakeholder access
+Low maintenance
+Cons:
+Labor-intensive design
+Can be confusing sometimes because of lot of data/information
+
+
+How do you like about being data detective? Are you amongst those who ask big questions first or later?
+
+
+An entertainment website displays a star rating for a movie based on user reviews. Users can select from one to five whole stars to rate the movie. The star rating is an example of what type of data? 
+
+If I may have to go back and observe how have I handled any project/module/presentation, I had always been coming up with big question/quote/agenda first to grab first best impression. And hence I am just confirming on that I am from the group of data detectives, who will ask big questions first. Being a data detective is interesting. Because it is when I am required to use my brain the most and I love doing so. One of my all-time hobbies is observing. Data detective suppose should be observing data and learn to question to come to a problem solution. 

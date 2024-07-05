@@ -1,0 +1,1 @@
+Use past booking data to accurately anticipate levels of demand for hotel rooms.

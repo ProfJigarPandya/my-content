@@ -1,0 +1,6 @@
+Who To Call On The Phone
+Related data as below:
+1) Who all are there in the contacts list
+2) Relevance of the task at hand to contacts
+3) Who might be available to talk right now?
+
