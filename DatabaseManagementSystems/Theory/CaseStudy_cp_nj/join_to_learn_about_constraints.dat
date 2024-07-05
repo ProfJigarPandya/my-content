@@ -1,0 +1,53 @@
+CONSTRAINT_NAME                TABLE_NAME                     CONSTRAINT_TYPE R_TABLE_NAME                   R_CONSTRAINT_NAME            
+------------------------------ ------------------------------ --------------- ------------------------------ ------------------------------
+SYS_C007717                    ASTUDENT                       REFRENCE KEY    ADEPARTMENT                    SYS_C007715                    
+
+CONSTRAINT_NAME                CONSTRAINT_TYPE TABLE_NAME                     R_CONSTRAINT_NAME            
+------------------------------ --------------- ------------------------------ ------------------------------
+SYS_C007716                    PRIMARY KEY     ASTUDENT                                                      
+SYS_C007715                    PRIMARY KEY     ADEPARTMENT                                                   
+SYS_C007717                    REFRENCE KEY    ASTUDENT                       SYS_C007715                    
+
+CONSTRAINT_NAME                CONSTRAINT_TYPE TABLE_NAME                   
+------------------------------ --------------- ------------------------------
+SYS_C007717                    REFRENCE KEY    ADEPARTMENT                    
+
+desc student
+ERROR:                               
+------------------------------------ 
+ERROR: object STUDENT does not exist 
+
+desc department
+Name      Null     Type         
+--------- -------- ------------ 
+DEPT_NAME NOT NULL VARCHAR2(20) 
+BUILDING           VARCHAR2(15) 
+BUDGET             NUMBER(12,2) 
+
+desc faculty
+ERROR:                               
+------------------------------------ 
+ERROR: object FACULTY does not exist 
+
+CONSTRAINT_NAME                CONSTRAINT_TYPE TABLE_NAME                     R_CONSTRAINT_NAME            
+------------------------------ --------------- ------------------------------ ------------------------------
+SYS_C007715                    PRIMARY KEY     ADEPARTMENT                                                   
+SYS_C007718                    PRIMARY KEY     AFACULTY                                                      
+SYS_C007716                    PRIMARY KEY     ASTUDENT                                                      
+SYS_C007717                    REFRENCE KEY    ASTUDENT                       SYS_C007715                    
+SYS_C007719                    REFRENCE KEY    ADEPARTMENT                    SYS_C007718                    
+
+CONSTRAINT_NAME                CONSTRAINT_TYPE R_TABLE_NAME                 
+------------------------------ --------------- ------------------------------
+SYS_C007716                    PRIMARY KEY                                    
+SYS_C007717                    REFRENCE KEY    ADEPARTMENT                    
+
+CONSTRAINT_NAME                CONSTRAINT_TYPE R_TABLE_NAME                 
+------------------------------ --------------- ------------------------------
+SYS_C007715                    PRIMARY KEY                                    
+SYS_C007719                    REFRENCE KEY    AFACULTY                       
+
+CONSTRAINT_NAME                CONSTRAINT_TYPE R_TABLE_NAME                 
+------------------------------ --------------- ------------------------------
+SYS_C007718                    PRIMARY KEY                                    
+

@@ -1,0 +1,346 @@
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+
+SQL> desc adepartment
+ERROR:
+ORA-04043: object anth does not exist
+
+--01. Knowing that adepartment whose column is a foreign key in astudent table, does not exist, can we create astudent table?
+
+SQL> create table astudent (student_id number(6),student_name varchar2(20),dept_id number(6), primary key(student_id), foreign key (dept_id) references adepartment);
+create table astudent (student_id number(6),student_name varchar2(20),dept_id number(6), primary key(student_id), foreign key (dept_id) references adepartment)
+                                                                                                                                                   *
+ERROR at line 1:
+ORA-00942: table or view does not exist
+
+-- NO.
+
+--02. Let's create adepartment table.
+SQL> @ddl/create_table_adepartment.sql;
+
+Table created.
+
+--03. Let's now create astudent table.
+SQL> @ddl/create_table_astudent.sql;
+
+Table created.
+
+--04. Knowing that no department record exist, can I insert a student with dept_id foreign key column value as '1'?
+SQL> insert into astudent values (1,'jigar',1);
+insert into astudent values (1,'jigar',1)
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (JPANDYA.SYS_C007717) violated - parent key not
+found
+--NO. The message says parent key not found. Meaning dept_id does not exist in department table.
+
+--05. Let's create department record
+SQL> insert into adepartment values (1,'Computer',100);
+
+1 row created.
+--06. Now we shall be allowed to create student record.
+SQL> insert into astudent values (1,'jigar',1);
+
+1 row created.
+
+SQL> select * from astudent;
+
+STUDENT_ID STUDENT_NAME 	   DEPT_ID
+---------- -------------------- ----------
+	 1 jigar			 1
+
+SQL> select * from adepartment;
+
+   DEPT_ID DEPT_NAME		TOTAL_EMPLOYEES
+---------- -------------------- ---------------
+	 1 Computer			    100
+--07. How about, finding all the students who are enrolled in any department. 
+
+SQL> select * from astudent, adepartment where astudent.dept_id=adepartment.dept_id;
+
+STUDENT_ID STUDENT_NAME 	   DEPT_ID    DEPT_ID DEPT_NAME
+---------- -------------------- ---------- ---------- --------------------
+TOTAL_EMPLOYEES
+---------------
+	 1 jigar			 1	    1 Computer
+	    100
+-- Above is known as cartesian product. Here, out of leftxright number of total tuples only matching are shown.
+
+
+--08. Using rename operation for more clarification.
+
+
+SQL> select ast.student_id, ast.student_name, adept.dept_id, adept.dept_name from astudent ast, adepartment adept where ast.dept_id=adept.dept_id;
+
+STUDENT_ID STUDENT_NAME 	   DEPT_ID DEPT_NAME
+---------- -------------------- ---------- --------------------
+	 1 jigar			 1 Computer
+
+SQL> 
+
+SQL> desc astudent;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ STUDENT_ID                                NOT NULL NUMBER(6)
+ STUDENT_NAME                                       VARCHAR2(20)
+ DEPT_ID                                            NUMBER(6)
+
+SQL> select * from astudent;
+
+STUDENT_ID STUDENT_NAME            DEPT_ID                                      
+---------- -------------------- ----------                                      
+         1 jigar                         1                                      
+
+SQL> desc adepartment;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DEPT_ID                                   NOT NULL NUMBER(6)
+ DEPT_NAME                                          VARCHAR2(20)
+ TOTAL_EMPLOYEES                                    NUMBER(5)
+
+SQL> select * from adepartment;
+
+   DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES                                 
+---------- -------------------- ---------------                                 
+         1 Computer                         100                                 
+
+--09. Can we drop department table with all records being removed, provided dependent table student with records exist?
+
+SQL> drop table adepartment;
+drop table adepartment
+           *
+ERROR at line 1:
+ORA-02449: unique/primary keys in table referenced by foreign keys 
+
+--NO.
+
+--10. Can I remove a record from department table which is referenced by student records? Meaning can we remove department when students are enrolled to that department?
+
+
+
+SQL> delete from adepartment where dept_id=1;
+delete from adepartment where dept_id=1
+*
+ERROR at line 1:
+ORA-02292: integrity constraint (JPANDYA.SYS_C007717) violated - child record 
+found 
+
+--NO.
+
+-- Let's insert another department.
+
+SQL> insert into adepartment values (2,'Electronics',80);
+
+1 row created.
+
+--11. Can I remove depatment record for which no student record exist?
+
+SQL> delete from adepartment where dept_id=2;
+
+1 row deleted.
+
+--YES.
+
+--Let's just insert the department again.
+
+SQL> insert into adepartment values (2,'Electronics',80);
+
+1 row created.
+
+-- Because we did not made dept_id in student table as not null, student can enroll without giving department data.
+-- Lets insert a student without giving department id.
+SQL> insert into astudent values (2,'jigar',null);
+
+1 row created.
+SQL> select * from astudent;
+
+STUDENT_ID STUDENT_NAME            DEPT_ID                                      
+---------- -------------------- ----------                                      
+         1 jigar                         1                                      
+         2 james                                                                
+
+--12. How are null foreign keys handled? 
+SQL> select * from astudent, adepartment where astudent.dept_id=adepartment.dept_id;
+
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME                 
+---------- -------------------- ---------- ---------- --------------------      
+TOTAL_EMPLOYEES                                                                 
+---------------                                                                 
+         1 jigar                         1          1 Computer                  
+            100                                                                 
+                                                                                
+-- They are not shown. Records are discarded when cartesian product with matching applied. Because, no matching dept found. Note that dept_id is shown one each from both the tables and this is cartesian product.
+
+SQL> select ast.student_id, ast.student_name, adept.dept_id, adept.dept_name from astudent ast, adepartment adept where ast.dept_id=adept.dept_id;
+
+STUDENT_ID STUDENT_NAME            DEPT_ID DEPT_NAME                            
+---------- -------------------- ---------- --------------------                 
+         1 jigar                         1 Computer                             
+-- An unsuccessful attempt (wrong logic) to retrieve all records with 0 as dept_id and 'Unknown' as dept_name for records not enrolled to any dept.
+
+SQL> select ast.student_id, ast.student_name, nvl(adept.dept_id,0), nvl(adept.dept_name,'Unknown') from astudent ast, adepartment adept where (ast.dept_id is not null and ast.dept_id=adept.dept_id) or ast.dept_id is null;
+
+STUDENT_ID STUDENT_NAME         NVL(ADEPT.DEPT_ID,0) NVL(ADEPT.DEPT_NAME,       
+---------- -------------------- -------------------- --------------------       
+         1 jigar                                   1 Computer                   
+         2 james                                   1 Computer                   
+         2 james                                   2 Electronics                
+--This is because, this is cartesian product. Every single null record is paired with all others from dept table. See that james is shown with Computer as well as Electronics.
+
+--13. For records not having dept_id availabe, how to show defualt data. i.e. dept_id as 0 and dept_name as 'Unknown'?
+
+SQL> select ast.student_id, ast.student_name, adept.dept_id, adept.dept_name from astudent ast, adepartment adept where (ast.dept_id is not null and ast.dept_id=adept.dept_id);
+
+STUDENT_ID STUDENT_NAME            DEPT_ID DEPT_NAME                            
+---------- -------------------- ---------- --------------------                 
+         1 jigar                         1 Computer                             
+
+SQL> select ast.student_id, ast.student_name, adept.dept_id, adept.dept_name from astudent ast, adepartment adept where (ast.dept_id is not null and ast.dept_id=adept.dept_id) union select ast.student_id, ast.student_name, 0 as dept_id,'unknown' as dept_name from astudent ast, adepartment adept where ast.dept_id is null;
+
+STUDENT_ID STUDENT_NAME            DEPT_ID DEPT_NAME                            
+---------- -------------------- ---------- --------------------                 
+         1 jigar                         1 Computer                             
+         2 james                         0 unknown                              
+--UNION.
+
+--Note that blind cartesian product produces leftxright number of rows including null records.
+SQL> select * from astudent, adepartment;
+
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME                 
+---------- -------------------- ---------- ---------- --------------------      
+TOTAL_EMPLOYEES                                                                 
+---------------                                                                 
+         1 jigar                         1          1 Computer                  
+            100                                                                 
+                                                                                
+         1 jigar                         1          2 Electronics               
+             80                                                                 
+                                                                                
+         2 james                                    1 Computer                  
+            100                                                                 
+                                                                                
+
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME                 
+---------- -------------------- ---------- ---------- --------------------      
+TOTAL_EMPLOYEES                                                                 
+---------------                                                                 
+         2 james                                    2 Electronics               
+             80                                                                 
+--14. What is natural join? 
+
+SQL> select * from astudent natural join adepartment;
+
+   DEPT_ID STUDENT_ID STUDENT_NAME         DEPT_NAME            TOTAL_EMPLOYEES 
+---------- ---------- -------------------- -------------------- --------------- 
+         1          1 jigar                Computer                         100 
+
+SQL> select * from adepartment natural join astudent;
+
+   DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES STUDENT_ID STUDENT_NAME         
+---------- -------------------- --------------- ---------- -------------------- 
+         1 Computer                         100          1 jigar                
+--Naturally all mentioned relations having similar column names are matched for data similarity and only those records are shown. Also, display is formatted. First all commmon fields. Then fields from left side table and lastly fields from right side table.
+
+--15. Can we have more than two relations participate in cartesian product or natural join?
+--Lets create another table called where we will associate all departments to corresponding faculties. i.e 'computer' dept to faculty of technology
+SQL> insert into afaculty
+  2  values('1','Technology
+  3  ','Prof.Panchal');
+
+1 row created.
+
+
+SQL> @ddl/alter_adepartment_add_faculty_idforeignkey.sql;
+add faculty_id, faculty_id references afaculty
+
+Table altered.
+
+
+SQL> desc adepartment;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DEPT_ID                                   NOT NULL NUMBER(6)
+ DEPT_NAME                                          VARCHAR2(20)
+ TOTAL_EMPLOYEES                                    NUMBER(5)
+
+SQL> desc astudent;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ STUDENT_ID                                NOT NULL NUMBER(6)
+ STUDENT_NAME                                       VARCHAR2(20)
+ DEPT_ID                                            NUMBER(6)
+
+
+SQL> @ddl/alter_adepartment_add_faculty_idforeignkey.sql;
+
+Table altered.
+
+SQL> desc adepartment;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ DEPT_ID                                   NOT NULL NUMBER(6)
+ DEPT_NAME                                          VARCHAR2(20)
+ TOTAL_EMPLOYEES                                    NUMBER(5)
+ FACULTY_ID                                         NUMBER(6)
+
+
+SQL> desc afaculty;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ FACULTY_ID                                NOT NULL NUMBER(6)
+ FACULTY_NAME                                       VARCHAR2(20)
+ PRINCIPAL                                          VARCHAR2(20)
+
+SQL> select * from afaculty;
+
+FACULTY_ID FACULTY_NAME         PRINCIPAL                                       
+---------- -------------------- --------------------                            
+         1 Technology           Prof.Panchal                                    
+
+SQL> select * from adepartment;
+
+   DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID                      
+---------- -------------------- --------------- ----------                      
+         1 Computer                         100                                 
+         2 Electronics                       80                                 
+
+
+--Associate each department with some faculty. 
+SQL> update adepartment set faculty_id=1 where dept_id=1;
+
+1 row updated.
+
+SQL> select * from adepartment;
+
+   DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID                      
+---------- -------------------- --------------- ----------                      
+         1 Computer                         100          1                      
+         2 Electronics                       80                                 
+--See again, null records do not show up even in natural join. Here, join of three relations involved.
+--Show Faculty_name with principal name for all students enrolled to certain department and department is enrolled under any registered faculty.
+
+SQL> select * from afaculty natural join adepartment natural join astudent;
+
+   DEPT_ID FACULTY_ID FACULTY_NAME         PRINCIPAL                            
+---------- ---------- -------------------- --------------------                 
+DEPT_NAME            TOTAL_EMPLOYEES STUDENT_ID STUDENT_NAME                    
+-------------------- --------------- ---------- --------------------            
+         1          1 Technology           Prof.Panchal                         
+Computer                         100          1 jigar                           
+                                                                                
+
+SQL> update adepartment set faculty_id=1 where dept_id=2;
+
+1 row updated.
+
+SQL> select * from afaculty natural join adepartment natural join astudent;
+
+   DEPT_ID FACULTY_ID FACULTY_NAME         PRINCIPAL                            
+---------- ---------- -------------------- --------------------                 
+DEPT_NAME            TOTAL_EMPLOYEES STUDENT_ID STUDENT_NAME                    
+-------------------- --------------- ---------- --------------------            
+         1          1 Technology           Prof.Panchal                         
+Computer                         100          1 jigar                           
+                                                                                
+--Insert more complete/incomplete records and exercise how "not null" is important.
+
