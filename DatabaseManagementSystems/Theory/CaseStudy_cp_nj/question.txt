@@ -1,0 +1,15 @@
+--01. Knowing that adepartment whose column is a foreign key in astudent table, does not exist, can we create astudent table?
+--02. Let's create adepartment table.
+--03. Let's now create astudent table.
+--04. Knowing that no department record exist, can I insert a student with dept_id foreign key column value as '1'?
+--05. Let's create department record
+--06. Now we shall be allowed to create student record.
+--07. How about, finding all the students who are enrolled in any department. 
+--08. Using rename operation for more clarification.
+--09. Can we drop department table with all records being removed, provided dependent table student with records exist?
+--10. Can I remove a record from department table which is referenced by student records? Meaning can we remove department when students are enrolled to that department?
+--11. Can I remove depatment record for which no student record exist?
+--12. How are null foreign keys handled? 
+--13. For records not having dept_id availabe, how to show defualt data. i.e. dept_id as 0 and dept_name as 'Unknown'?
+--14. What is natural join? 
+--15. Can we have more than two relations participate in cartesian product or natural join?
