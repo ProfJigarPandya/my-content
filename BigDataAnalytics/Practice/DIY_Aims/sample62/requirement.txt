@@ -1,0 +1,1 @@
+How many doctors are available to treat patients within a certain population compared to other populations.
