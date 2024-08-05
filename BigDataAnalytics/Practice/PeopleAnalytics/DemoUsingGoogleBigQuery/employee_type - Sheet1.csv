@@ -1,0 +1,3 @@
+employee_type_id,employee_type_name,employee_type_description
+1,Manager,"Employee who is a manager by job title."
+2,GeneralEmployee,"Regular employee who may be assigned any given task per day."
