@@ -6,6 +6,7 @@ Also, document each and every activity with logs. i.e. Records having null, dupl
 
 Determine the size of dataset. If it can be managed by spreadsheet softwares good enough. Otherwise for initial fill of the population, you may extract partial dataset/sample as csv and explore a bit. Decide for the complete dataset cleaning and correcting errors at the source which software/tool will you be using. i.e. SQL
 
+Where the data lives?
  
 Know your data by headers and categories of values for every field.
 
@@ -17,7 +18,23 @@ Identify unformatted data. May use add-ons like GoogleSheets->Extensions->Change
 
 Split data field into multiple using split function those who have some valid delimiter.
 
-Make sure to validate count at every step and do maths about records from raw_data vs cleaned data and anywhere in between.
+Make sure to validate count at every step and do maths about records from raw_data vs cleaned data and anywhere in between. May use countif.
+
+Is there any data which is outdated?
+
+May use len, trim, left, right, mid, concatenate, vlookup, etc.
+
+Make sure to detect source of errors and fix if possible this will save time for other projects on the same dataset in the future.
+
+Mismatched data types when talking about mapping or merger.
+
+Messy date formats.
+
+Misleading labels of variables.
+
+Cross check data with business logic that is data specs.
+
+Review your goal and make sure data (cleaned) is still aligning.
 
 
 
