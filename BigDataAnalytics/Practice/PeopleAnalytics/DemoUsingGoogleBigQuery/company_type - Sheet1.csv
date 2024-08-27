@@ -1,0 +1,4 @@
+company_type_id,company_type_name,company_type_description
+1,A,"Company named A; Having  0-2000 employees."
+2,B,"Company named B; Having  2000-4000 employees."
+3,C,"Company named C; Having  >4000 employees."

@@ -5,6 +5,7 @@ https://cloud.google.com/life-sciences/docs/resources/public-datasets/1000-genom
 https://datasetsearch.research.google.com/
 https://www.opendatanetwork.com/
 https://data.gov/
+<<<<<<< HEAD
 https://data.gov.in/
 https://www.kaggle.com/datasets
 https://cloud.google.com/bigquery/public-data
@@ -18,3 +19,6 @@ https://www.kaggle.com/datasnaek/youtube-new
 https://www.kaggle.com/rtatman/188-million-us-wildfires
 https://www.kaggle.com/bigquery/google-analytics-sample
 https://archive.ics.uci.edu/dataset/10/automobile
+=======
+https://public.tableau.com/app/learn/sample-data
+>>>>>>> f9b37feeea24de52084d24787d16b2aa1e9fa84f
