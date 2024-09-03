@@ -1,7 +1,28 @@
 https://www.who.int/data/gho/data/themes/topics/health-workforce
 https://cloud.google.com/datasets
+https://cloud.google.com/healthcare-api/docs/resources/public-datasets/idc
+https://cloud.google.com/life-sciences/docs/resources/public-datasets/1000-genomes
 https://datasetsearch.research.google.com/
 https://www.opendatanetwork.com/
 https://data.gov/
+<<<<<<< HEAD
+https://data.gov.in/
+https://www.kaggle.com/datasets
+https://cloud.google.com/bigquery/public-data
+https://www.ncei.noaa.gov/products
+https://www.climate.gov/maps-data/all?listingMain=datasetgallery
+https://data.unicef.org/resources/dataset/sowc-2019-statistical-tables/
+https://www.bls.gov/cps/tables.htm
+https://openpolicing.stanford.edu/
+www.kaggle.com/sakshigoyal7/credit-card-customers
+https://www.kaggle.com/datasnaek/youtube-new
+https://www.kaggle.com/rtatman/188-million-us-wildfires
+https://www.kaggle.com/bigquery/google-analytics-sample
+https://archive.ics.uci.edu/dataset/10/automobile
+=======
 https://public.tableau.com/app/learn/sample-data
+<<<<<<< HEAD
 https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data
+=======
+>>>>>>> f9b37feeea24de52084d24787d16b2aa1e9fa84f
+>>>>>>> b9d5be55abfe8adb855c3864b9925715ab4d69e3

@@ -1,0 +1,1 @@
+Changing the scale on the y-axis can make the differences between different groups in your data seem more dramatic, even if the difference is actually quite small. 
