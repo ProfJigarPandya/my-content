@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Export</title>
+
+    <script type="text/javascript"
+        src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script type="text/javascript">
+        var viz;
+
+        function initViz() {
+            var containerDiv = document.getElementById("vizContainer"),
+                url = "http://public.tableau.com/views/CO2MultipleTables2000To2011/Sheet1",
+                options = {
+                    hideTabs: true
+                };
+
+            viz = new tableau.Viz(containerDiv, url, options);
+            // Create a viz object and embed it in the container div.
+        }
+
+        // Opens the Download to PDF dialog box
+        function exportToPDF() {
+            viz.showExportPDFDialog();
+        }
+
+		// Opens the Download Crosstab dialog box
+        function exportToCSV() {
+            viz.showExportCrossTabDialog();
+        }
+
+		// Downloads the crosstab data in an Excel file
+        function exportToExcel() {
+            viz.exportCrossTabToExcel();
+        }
+
+		// Opens the Download Image dialog box
+        function exportImage() {
+            viz.showExportImageDialog();
+        }
+
+		// Opens the Download PowerPoint dialog box
+        function exportPowerPoint() {
+            viz.showExportPowerPointDialog();
+        }
+ 		// Opens the Download dialog box
+        function showDownloadDialog() {
+                viz.showDownloadDialog();
+        }
+
+
+    </script>
+</head>
+
+<body onload="initViz();">
+    <div id="vizContainer"></div>
+    <button onclick="exportToPDF();">Export to PDF</button>
+    <button onclick="exportToCSV();">Export to CSV</button>
+    <button onclick="exportToExcel();">Export to Excel</button>
+    <button onclick="exportImage();">Export as Image</button>
+    <button onclick="exportPowerPoint();">Export to PowerPoint</button>
+    <button onclick="showDownloadDialog();">Show Download Dialog</button>
+</body>
+
+</html>

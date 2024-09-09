@@ -1,0 +1,16 @@
+Data Warehouse use in industry generally comprises of 3 abstractions/tiers:
+1) External Tier (Front-end) (Presentation)
+2) Middle Tier (OLAP Server) (Analysis)
+3) Internal Tier (Data Warehouse Server)(Improved storage,ETLR)
+
+Know the fact that ETLR (Extract, Transform, Load and Refresh) are steps involved into loading data from sources of raw data into Data Warehouse server.
+
+Here, sometimes when ingesting data, concept of staging is used that is intermediate storage/temporary one for migrating data.
+
+Data marts containing information specific to sole unit of any organization ending into data silos (unlike data lakes). 
+
+
+
+
+
+

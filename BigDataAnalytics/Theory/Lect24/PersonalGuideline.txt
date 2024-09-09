@@ -1,0 +1,24 @@
+
+What should you consider when deciding on the right data visualization?
+
+Deciding on right data visualization, one should consider following:
+
+- If number of results are 5-7 consisting 100% and wishes to showcase part-to-whole relationship than using pie charts are best.
+- If data showcase a trend over period of time about a single measure then use line chart.
+- If there is no noticeable difference about numbers then use table with numbers itself simply.
+- When many data points are involved and having a dimension spatial that is location than utilize density maps.
+- A histogram is ideal for comparing the distribution of two variables by individual grouping.
+- A scatter plot is ideal for exploring potential relationships between two variables.
+- Be extremely cautious when trying to mix up many concepts to convey at the same time in a single viz via color, size, shapes and labels altogether.
+- Any of created viz, try to test about 5-seconds rule.
+
+
+
+What is your first step in determining the best data visualization for a presentation?
+
+My first step in determining the best data visualization for a presentation is checking my options by AI powered/suggested. I will try to apply my expertise on top of that to validate. Have a checklist and verify that design principles' do and don'ts are adhered fully.
+
+
+
+By Coach:
+After you understand the type of data (frequency, changes over time, categorical comparisons, etc.), then you must determine what your audience needs to see to understand your analysis. After that, find which graph or chart style fits your goal. Finally, utilize the visual design guidelines above to create an accessible and aesthetically pleasing data visualization.

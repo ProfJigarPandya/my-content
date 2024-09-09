@@ -1,1 +1,2 @@
-discover the top neighborhoods where ice cream club members live
+discover the top neighborhoods where ice cream club members live.
+measure how long ice cream pint inventory sits in company freezers

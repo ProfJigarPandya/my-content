@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+which industries are connected to serious health issues
+=======
+ total weekly pay for your employees
+>>>>>>> b9d5be55abfe8adb855c3864b9925715ab4d69e3
