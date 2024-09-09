@@ -1,1 +1,0 @@
-How many doctors a given hospital will need at any given time?

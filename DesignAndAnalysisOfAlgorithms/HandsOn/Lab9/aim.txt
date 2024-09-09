@@ -1,5 +1,0 @@
-Backtracking - 2
-
-Write a program to solve Graph Coloring Problem
-
-

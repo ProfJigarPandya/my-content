@@ -1,8 +1,0 @@
-Showcase how to use data to improve their customer experience!
-The health insurance provider company has these complaints from customers that claims either are not settled at all or takes longer time unfortunately every time!  
-As there are norms that only hospitalization bills get covered by insurance cashless and dealt directly by hospital to insurance provider. The pre and post hospitalization has to be separately claimed by the insurer. Now that doctor's follow up normally takes 2-3 months after hospitalization to confirm stability of health, insurer is anyway in need of money spent well ahead hospitalization OPD. 
-
-The insurance company has atleast has data for cashless claimed settled. Why can not they be customer centric and see to it whether pre+post hospitalization claim received and settled or not. This has to be done without much hassles because all proofs are anyways checked during cashless hospitalization settlement.
-The health insurance provider company, if at all abided by ethics, pre+post hospitalization claims must not go unsettled and can be settled in no time provided proper staffing and processes are in place. 
-
-Leadership of such health provider company shall be advised to invest in data analytics to achieve customer satisfaction.

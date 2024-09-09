@@ -1,5 +1,0 @@
-Reports and Visualization
-
-Jaspersoft Documentation
-
-https://community.jaspersoft.com/documentation/tibco-jaspersoft-studio-user-guide/v720/getting-started-jaspersoft-studio-0

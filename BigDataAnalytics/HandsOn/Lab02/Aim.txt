@@ -1,3 +1,0 @@
-BDA_Lab2: Hadoop (Psuedo Distributed)
-
-Aim : "Configuring and experiencing Hadoop Single node cluster. Start/stop script and monitoring."

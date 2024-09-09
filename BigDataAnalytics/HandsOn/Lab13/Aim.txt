@@ -1,7 +1,0 @@
-Lab13: Analytics using R
-https://www.r-project.org/about.html
-https://www.rstudio.com/products/rstudio/download/#download
-https://cran.r-project.org/bin/windows/base/
-apt install --no-install-recommends r-base
-
-

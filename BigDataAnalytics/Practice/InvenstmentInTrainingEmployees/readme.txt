@@ -1,1 +1,0 @@
-The workforce of any company is the backbone of it. It always helps invenst in training employees for the latest in the market for future ready workforce. How much, where and when to invest about training emplyoees is always crucial and canbe supported by data analytics.

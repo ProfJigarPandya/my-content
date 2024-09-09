@@ -1,2 +1,0 @@
-Movie Theatres:
-Which showtime was the most popular and had the greatest attendance? Find out 2nd and 3rd popular showtimes in the order.

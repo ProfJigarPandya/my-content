@@ -1,1 +1,0 @@
-Use stock market data to determine which portfolios to invest in

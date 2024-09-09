@@ -1,1 +1,0 @@
-Spot something unusual while continuously monitoring health vitals.

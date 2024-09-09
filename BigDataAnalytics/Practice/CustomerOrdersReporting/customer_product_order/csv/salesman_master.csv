@@ -1,5 +1,0 @@
-Salesman_n,Salesman_name,Address,City,PinCode,State,Salamt,tgt_to_get,ytd_sales,remark
-500001,'Kiran','A/14 worli','Bombay',400002,'Maharastra',3000,100,50,'Good'
-500002,'Manish','65, nariman','Bombay',400001,'Maharastra',3000,200,100,'Good'
-500003,'Ravi',P-7 Bandra','Bombay', 400032, 'Maharastra', 3000, 200, 100,'Good'
-500004,'Ashish','A/5 Juhu','Bombay',400044,'Maharastra',3500,200,150,'Good'

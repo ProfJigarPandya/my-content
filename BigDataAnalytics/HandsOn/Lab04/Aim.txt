@@ -1,3 +1,0 @@
-Aim:
-
-Hello World of MapReduce Framework - Java  (WordCount)
