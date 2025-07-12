@@ -1,0 +1,9 @@
+Thread is a light weight process.
+
+Threads are introduced to avoid the heavy context switch of processes. The way we have process schedulers there must be some mechanism for thread scheduler. Again based on whether the thread supported is user level thread (i.e. posix pthread lib in linux, used via a C program) or kernel level threads (Windows OS internal threading architecture), scheduler is present in library itself or in kernel space.
+
+ 
+
+PThread library create (creates and runs both) and join. Join also let you retrieve information via pthread_exit from the thread.
+
+https://jigarpandyablog.wordpress.com/category/operating-system/

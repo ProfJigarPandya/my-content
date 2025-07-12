@@ -1,0 +1,4 @@
+Lab 6
+Write C programs which will communicate with each other using shared memory.
+
+(Use of shmget, shmat, shmdt system calls)

@@ -1,0 +1,1 @@
+Hadoop is framework for distributed processing
