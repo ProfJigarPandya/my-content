@@ -1,0 +1,18 @@
+UNIX Standardization and Implementations
+ISO C (International Organisation for Standardization)
+
+IEEE (Institute of Electrical and Electronics Engineers)
+
+POSIX (Portable Operating System Interface)
+
+XSI (X/Open System Interface)
+
+FIPS Federal Information Processing Standard
+
+BSD Berkely Software Distribution
+
+FreeBSD Operating System
+
+OpenBSD similar to FreeBSD but with emphasis on security
+
+Solaris - a UNIX system by Sun Microsystems

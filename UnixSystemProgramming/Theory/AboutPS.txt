@@ -1,0 +1,142 @@
+Extracted using 
+man ps
+
+*******
+On following system:
+[jpandya@localhost ~]$ cat /etc/redhat-release 
+CentOS release 5.5 (Final)
+[jpandya@localhost ~]$ uname -a
+Linux localhost.localdomain 2.6.18-194.el5xen #1 SMP Fri Apr 2 16:16:54 EDT 2010 i686 i686 i386 GNU/Linux
+[jpandya@localhost ~]$ cat /proc/version 
+Linux version 2.6.18-194.el5xen (mockbuild@builder16.centos.org) (gcc version 4.1.2 20080704 (Red Hat 4.1.2-48)) #1 SMP Fri Apr 2 16:16:54 EDT 2010
+*******
+
+
+ps - report a snapshot of the current processes.
+
+
+PROCESS STATE CODES
+Here are the different values that the s, stat and state output specifiers (header "STAT" or "S") will display to describe the state of a process.
+D    Uninterruptible sleep (usually IO)
+R    Running or runnable (on run queue)
+S    Interruptible sleep (waiting for an event to complete)
+T    Stopped, either by a job control signal or because it is being traced.
+W    paging (not valid since the 2.6.xx kernel)
+X    dead (should never be seen)
+Z    Defunct ("zombie") process, terminated but not reaped by its parent.
+
+
+For BSD formats and when the stat keyword is used, additional characters may be displayed:
+<    high-priority (not nice to other users)
+N    low-priority (nice to other users)
+L    has pages locked into memory (for real-time and custom IO)
+s    is a session leader
+l    is multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
++    is in the foreground process group
+
+
+HEADERS AND MEANING
+KEY   LONG         DESCRIPTION
+c     cmd          simple name of executable
+C     pcpu         cpu utilization
+f     flags        flags as in long format F field
+g     pgrp         process group ID
+G     tpgid        controlling tty process group ID
+j     cutime       cumulative user time
+J     cstime       cumulative system time
+k     utime        user time
+m     min_flt      number of minor page faults
+M     maj_flt      number of major page faults
+n     cmin_flt     cumulative minor page faults
+N     cmaj_flt     cumulative major page faults
+o     session      session ID
+p     pid          process ID
+P     ppid         parent process ID
+r     rss          resident set size
+R     resident     resident pages
+s     size         memory size in kilobytes
+S     share        amount of shared pages
+t     tty          the device number of the controlling tty
+T     start_time   time process was started
+U     uid          user ID number
+u     user         user name
+v     vsize        total VM size in kB
+y     priority     kernel scheduling priority
+
+
+
+cls        CLS      scheduling class of the process. (alias policy, class). Field’s possible values are:
+                    -   not reported
+                    TS  SCHED_OTHER
+                    FF  SCHED_FIFO
+                    RR  SCHED_RR
+                    ?   unknown value
+
+
+Examples:
+
+Display chosen fields using -o option for the selected user with -u. size is memory occupied in kb. cls shows scheduling class of the process.
+
+ ps -u jpandya -o comm,user,pid,ppid,stat,size,priority,pcpu,cls --sort size
+
+
+Print only the name of PID 42:
+   ps -p 42 -o comm=
+   ps -p `echo $$` -o comm,pid
+
+
+Display all process of root user having scheduled class first come first out (FIFO)
+[jpandya@localhost ~]$ ps --headings -au root -o comm,user,pid,ppid,stat,size,priority,pcpu,cls --sort size  | grep FF
+migration/0     root         2     1 S<       0 -100 0.0  FF
+watchdog/0      root         4     1 S<       0 -100 0.0  FF
+migration/1     root         5     1 S<       0 -100 0.0  FF
+watchdog/1      root         7     1 S<       0 -100 0.0  FF
+[jpandya@localhost ~]$ 
+
+
+Display all processes of all users:
+ps aux
+
+ps --headings aux --sort user | more
+
+Search and show process ids
+pgrep bash
+
+
+related commands:
+fg
+bg
+man 1 kill
+man 1p kill (this allows send signal to process. i.e. kill -9 pid sends sig_kill.)
+/sbin/runlevel shows the previous and current runlevel.
+Restarts the computer w/o any warning (need sudo access). /sbin/init 6
+pstree
+top
+pgrep bash
+proc
+Ctrl+z puts a process in suspended mode. 'bg' shows the list of jobs stopped. Using 'fg' and the %number, one can bring job in foreground.
+
+Ctrl+c terminates application.
+
+
+[jpandya@localhost ch4-process]$ vi
+
+[1]+  Stopped                 vim (pressed Ctrl+z)
+[jpandya@localhost ch4-process]$ bg
+[1]+ vim &
+
+[1]+  Stopped                 vim
+[jpandya@localhost ch4-process]$ pgrep vim
+3123
+
+[jpandya@localhost ch4-process]$ ps -l 
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S   501  2903  2900  0  75   0 -  1190 wait   pts/0    00:00:00 bash
+0 T   501  3123  2903  0  75   0 -  2406 finish pts/0    00:00:00 vim
+0 R   501  3128  2903  0  77   0 -  1083 -      pts/0    00:00:00 ps
+[jpandya@localhost ch4-process]$ #In above next to vim under "S" header value "T" indicates, its stopped.
+
+
+[jpandya@localhost ~]$ cat /etc/passwd | grep jpandya
+jpandya:x:501:502::/home/jpandya:/bin/bash
+[jpandya@localhost ~]$ 

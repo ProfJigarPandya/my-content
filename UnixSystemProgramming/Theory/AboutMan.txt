@@ -1,0 +1,81 @@
+man command provides manual based on section selected. 
+
+Many known statements, can be commands also and system calls also. i.e. write
+Many known statements, can be commands also and library call also. i.e. printf
+
+man 7 man
+
+  The manual sections are traditionally defined as follows:
+
+              1 Commands
+                        Those commands that can be executed by the user from within a shell.
+
+              2 System calls
+                        Those functions which must be performed by the kernel.
+
+              3 Library calls
+                        Most of the libc functions, such as qsort(3).
+
+              4 Special files
+                        Files found in /dev.
+
+              5 File formats and conventions
+                        The format for /etc/passwd and other human-readable files.
+
+              6 Games
+
+              7 Conventions and miscellaneous
+                        A description of the standard file system layout, network protocols, ASCII and other character codes, this man page, and  other
+                        things.
+
+              8 System management commands
+                        Commands like mount(8), many of which only root can execute.
+
+              9 Kernel routines
+                        This is an obsolete manual section.  Once it was thought a good idea to document the Linux kernel here, but in fact very little
+                        has been documented, and the documentation that exists is outdated already. There are better sources of information for  kernel
+                        developers.
+
+
+
+
+man 1 printf
+//printf as a linux command
+
+man 3 printf
+//printf as c library function
+
+**************************
+
+man write
+//a command by defualt
+
+man 1 write
+//a command 
+
+NAME
+       write - send a message to another user
+
+SYNOPSIS
+       write user [ttyname]
+
+man 7 write
+
+
+**************************
+
+
+man 2 write
+//a system call 
+
+
+NAME
+       write - write to a file descriptor
+
+SYNOPSIS
+       #include <unistd.h>
+
+       ssize_t write(int fd, const void *buf, size_t count);
+
+
+**************************

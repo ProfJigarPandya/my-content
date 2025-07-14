@@ -1,0 +1,18 @@
+File I/O. Files and Directories.
+vnode
+
+https://www.freebsd.org/cgi/man.cgi?query=vnode
+
+inode
+
+https://www.freebsd.org/cgi/man.cgi?query=inode
+
+Source_glibc2_27/bits/fcntl.h
+
+#define FD_CLOEXEC 1 /* Close on exec.  */
+
+/* Mask for file access modes.  This is system-dependent in case
+
+   some system ever wants to define some other flavor of access.  */
+
+#define O_ACCMODE (O_RDONLY|O_WRONLY|O_RDWR)

@@ -1,0 +1,41 @@
+What to do when see this error?
+FATAL: accept() failed: Too many open files
+(1) Identify the code block bug which is leaving files opened even after completion of theis usage. Use close system call.
+(2) If you need the max soft/hard limit on number of active files then use below knowledge to update them.
+
+
+
+command 'lsof' - shows of list open files for a given process id.
+/usr/sbin/lsof -p `/sbin/pidof mycat`
+
+
+Maxmimum number of open file descriptors per system
+cat /proc/sys/fs/file-max
+/usr/sbin/lsof | wc -l
+/sbin/sysctl fs.file-max
+vi /etc/sysctl.conf 
+	append below line:
+		fs.file-max = 100000  
+sysctl -p
+
+
+ulimit -a: Maximum number of file descriptors allowed to be opened by a shell and processes it starts
+
+[jpandya@localhost testet]$ ulimit -a  |grep files
+open files                      (-n) 1024
+
+[jpandya@localhost testet]$ ulimit -n
+open files                      (-n) 1024
+
+
+
+
+
+vi /etc/security/limits.conf 
+jpandya          -       nofile          10001
+
+
+logout
+
+check back
+ulimit -n

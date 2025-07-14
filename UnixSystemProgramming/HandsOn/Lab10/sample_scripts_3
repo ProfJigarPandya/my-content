@@ -1,0 +1,75 @@
+1)
+
+
+[jpandya@JMP shellscripts]$ ./pat_abc.sh 
+ A  
+
+ B  C  
+
+ D  E  F  
+
+ G  H  I  J  
+
+ K  L  M  N  O  
+
+ a  
+
+ b  c  
+
+ d  e  f  
+
+ g  h  i  j  
+
+ k  l  m  n  o  
+
+[jpandya@JMP shellscripts]$ cat pat_abc.sh
+
+Char=101
+#101 is in octal. Equivalent decimal ascii is 65 for A.
+
+for ((i=1;i<=5;i++))
+{
+  for ((j=1;j<=i;j++))
+    {
+        echo -ne " \\0$Char " #\0n means ASCII character represented by the octal value n, where n cant exceed 0377 decimal value of 255 
+        Char=`echo "ibase=8;obase=8;$Char + 1"|bc`
+    }   
+echo -e  " \n"
+}
+
+Char=141
+#141 is in octal. Equivalent decimal ascii is 97 for a.
+for ((i=1;i<=5;i++))
+{
+  for ((j=1;j<=i;j++))
+    {   
+        echo -ne " \\0$Char " #\0n means ASCII character represented by the octal value n, where n cant exceed 0377 decimal value of 255 
+        Char=`echo "ibase=8;obase=8;$Char + 1"|bc`
+    }   
+echo -e  " \n"
+}
+
+
+2)
+
+[jpandya@JMP shellscripts]$ cat tpath.sh 
+#!/bin/bash
+#Program that looks at every component of PATH and checks whether the directory exists and is also accessible.
+
+
+for var in `echo $PATH | tr ":" "\n"`
+do 
+        #echo $var
+        if [ -d $var ]
+        then 
+                if [ -x $var ]
+                then
+                        echo  " $var does exist and is accessible."
+                else
+                        echo  " $var exist but not accessible. "
+                fi
+
+        else 
+                echo " $var does NOT exist."
+        fi
+done

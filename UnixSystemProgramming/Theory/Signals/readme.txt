@@ -1,0 +1,2 @@
+Idempotence
+Reentrant function
