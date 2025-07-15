@@ -1,0 +1,5 @@
+https://www.fsf.org/
+http://www.gnu.org/
+https://man7.org/linux/man-pages/man1/man.1.html
+https://en.wikipedia.org/wiki/Unix-like
+https://bsd.org/
