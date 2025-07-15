@@ -1,0 +1,2 @@
+Let us display the content of xyz.txt file.
+cat: xyz.txt: No such file or directory
