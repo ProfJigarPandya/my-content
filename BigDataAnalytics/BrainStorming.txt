@@ -1,3 +1,0 @@
-What is the relationship between the data life cycle and the data analysis process? How are the two processes similar? How are they different?
-
-What is the relationship between the Ask phase of the data analysis process and the Plan phase of the data life cycle? How are they similar? How are they different?

@@ -1,4 +1,0 @@
-Lab5
-Write a C program that can understand the redirection and pipe features similar to shell.
-
-(Use of dup system call)

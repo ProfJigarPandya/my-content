@@ -1,4 +1,0 @@
-pmj:winter
-ram:summer
-apv:spring
-

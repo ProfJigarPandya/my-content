@@ -1,2 +1,0 @@
-identify the top 10 “hotspot” areas of traffic congestion in the
-city using traffic sensor data

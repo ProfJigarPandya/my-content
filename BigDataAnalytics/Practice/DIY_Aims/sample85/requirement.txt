@@ -1,1 +1,0 @@
- owner of a local landscaping business just acquired the customers from another landscaping business where the owner retired. Both owners had created their own databases containing customer information, including names, phone numbers, and services requested. The new owner wants to combine this customer data into a single, unified database so that they have everything in one place

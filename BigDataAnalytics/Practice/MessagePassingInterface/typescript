@@ -1,34 +1,0 @@
-Script started on Tue 08 Jan 2019 05:48:59 PM IST
-]0;user1@hadoop-clone:~/Desktop/mpi/Lab1/lab_1.1[?1034h[user1@hadoop-clone lab_1.1]$ [H[2J[user1@hadoop-clone lab_1.1]$ vi ~/.bash_profile 
-[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;16r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[16;1H"~/.bash_profile" 12L, 200C[>c[1;1H[34m# .bash_profile
-
-# Get the aliases and functions[m
-[33mif [[m [33m-f[m ~/.bashrc [33m][m; [33mthen
-        . [m~/.bashrc
-[33mfi[m
-
-[34m# User specific environment and startup programs[m
-
-[36mPATH[m=[35m$PATH[m:[35m$HOME[m/bin:/usr/lib64/openmpi/bin:
-
-[33mexport[m[36m PATH[m
-[1m[34m~                                                      [14;1H~                                                      [15;1H~                                                      [m[16;38H10,1[10CAll[10;1H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[16;39H2[12;1H[?12l[?25h[?25l[16;39H1,0-1[11;1H[?12l[?25h[?25l[16;39H0,1  [10;1H[?12l[?25h[?25l[16;38H9,0-1[9;1H[?12l[?25h[?25l[16;38H10,1 [10;1H[?12l[?25h[?25l[16;1H[K[16;1H:[?12l[?25hq[?25l[?12l[?25h[?25l[16;1H[K[16;1H[?1l>[?12l[?25h[?1049l]0;user1@hadoop-clone:~/Desktop/mpi/Lab1/lab_1.1[user1@hadoop-clone lab_1.1]$ source [K[K[K[K[K[K[KATH=$PATH:$HOME/bin:/usr/ lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[C[CPATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[C[CEPATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[CPATH=$PATH:$HOME/bin:/usr/[1Plib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[CePATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[CxPATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[CpPATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[CoPATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[CrPATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[CtPATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[C PATH=$PATH:$HOME/bin:/usr/lib64/openmpi/bin:[A[C[C[C[C[C[C[C[C[C[C[C
-
-]0;user1@hadoop-clone:~/Desktop/mpi/Lab1/lab_1.1[user1@hadoop-clone lab_1.1]$ source [K[K[K[K[K[K[Ksource ~/.bash_profile 
-]0;user1@hadoop-clone:~/Desktop/mpi/Lab1/lab_1.1[user1@hadoop-clone lab_1.1]$ source ~/.bash_profile export PATH=$PATH:$HOME/biin:/usr/lib64/openmpi/bin:[A[C[C[C[C[6Pvi ~/.bash_profile 
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./a.outvi ~/.bash_profile export PATH=$PATH:$HOME/biin:/usr/lib64/openmpi/bin:[A[C[C[C[C[2Psource ~/.bash_profile 
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpwd
-/home/user1/Desktop/mpi/Lab1/lab_1.1
-]0;user1@hadoop-clone:~/Desktop/mpi/Lab1/lab_1.1[user1@hadoop-clone lab_1.1]$ pwdsource ~/.bash_profile export PATH=$PATH:$HOME/biin:/usr/lib64/openmpi/bin:[A[C[C[C[C[6Pvi ~/.bash_profile 
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12P./a.outg++ mrsa.cpp[5P./a.outg++ mrsa.cpp[7Pclearg++ mrsa.cpp[Kmpicc 
-a.out       lab1_1.c    p1.png      typescript
-[user1@hadoop-clone lab_1.1]$ mpicc lab1_1.c 
-]0;user1@hadoop-clone:~/Desktop/mpi/Lab1/lab_1.1[user1@hadoop-clone lab_1.1]$ mpirun -n 4[K5 a.out 
-Number of tasks= 5 My rank= 2 Running on hadoop-clone
-Number of tasks= 5 My rank= 3 Running on hadoop-clone
-Number of tasks= 5 My rank= 1 Running on hadoop-clone
-Number of tasks= 5 My rank= 0 Running on hadoop-clone
-Number of tasks= 5 My rank= 4 Running on hadoop-clone
-]0;user1@hadoop-clone:~/Desktop/mpi/Lab1/lab_1.1[user1@hadoop-clone lab_1.1]$ exit
-
-Script done on Tue 08 Jan 2019 05:52:15 PM IST

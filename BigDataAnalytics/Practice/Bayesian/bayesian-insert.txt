@@ -1,6 +1,0 @@
-insert into book values ('sales','senior',31,46,30);
-insert into book values ('sales','junior',26,26,40);
-insert into book values ('sales','junior',31,35,40);
-insert into book values ('systems','senior',31,46,30);
-
-/

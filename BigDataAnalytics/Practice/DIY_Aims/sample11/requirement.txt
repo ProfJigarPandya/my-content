@@ -1,1 +1,0 @@
-Use bed occupancy data to determine the number of nurses and orderlies to schedule on a given shift

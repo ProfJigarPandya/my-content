@@ -1,5 +1,0 @@
-Greedy Strategy: Kruskal's MST (Minimum Spanning Tree) Algorithm and implementation
-
-https://www.hackerrank.com/challenges/kruskalmstrsub/problem
-
-

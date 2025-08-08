@@ -1,1 +1,0 @@
-community center uses SQL to explore the data in its employee database. In particular, they want to examine the percent_participation field in the EmployeeTraining

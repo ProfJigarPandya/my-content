@@ -1,1 +1,0 @@
-curl -u "apikey:FKXMkNpeaupQy_CJcQc8J7nO6YcfE6iAbwWtKf7nBdyK" "https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?url=https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/26155623/Siberian-Husky-standing-outdoors-in-the-winter.jpg&version=2018-03-19&classifier_ids=cls_1804154854"

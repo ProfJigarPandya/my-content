@@ -1,1 +1,0 @@
-Hello Again. Learning MapReduce programming with Hadoop. Hadoop enables horizontal scalling.

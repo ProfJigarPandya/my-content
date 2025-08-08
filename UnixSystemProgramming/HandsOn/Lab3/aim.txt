@@ -1,4 +1,0 @@
-Lab3
-Write a C program to create a new process and run another program in it.
-
-(Use of fork, wait, exec system calls) and to display process information of all the processes existing in the system (Understand /proc file system)

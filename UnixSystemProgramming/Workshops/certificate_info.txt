@@ -1,7 +1,0 @@
-Red Hat certifications for enterprise linux
-http://www.redhat.com/training/certifications/
-I have personally worked with Red Hat certified professionals and believe me there are excellent opportunities world wide for those who live Linux and when they also pursue certificates like below:
-Red Hat certifications
-    • Red Hat Certified System Administrator (RHCSA)
-    • Red Hat Certified Engineer (RHCE)
-http://www.redhat.com/training/certifications/#certifications

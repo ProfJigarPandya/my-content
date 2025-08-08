@@ -1,2 +1,0 @@
-Showcase importance of date formats
- Imagine ordering extra inventory for December when it was actually needed in October!10/12/20

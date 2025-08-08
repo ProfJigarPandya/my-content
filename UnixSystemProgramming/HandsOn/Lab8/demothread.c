@@ -1,4 +1,0 @@
-/*
-Write a C program to create threads and perform the job using threads.
-
-*/

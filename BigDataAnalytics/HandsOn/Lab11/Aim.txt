@@ -1,8 +1,0 @@
-Lab11 Mining Complex Types of Data
-Mining ...
-
-          - Spatial
-          - multimedia
-          - time series and sequence data
-          - text
-          - world wide web (scrapper, spider and beyond), etc

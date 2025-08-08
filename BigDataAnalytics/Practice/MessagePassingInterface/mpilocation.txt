@@ -1,5 +1,0 @@
-[root@localhost /]# find / -name mpicc
-
-/usr/lib64/mpich/bin/mpicc
-/usr/lib64/mpich-3.2/bin/mpicc
-/usr/lib64/openmpi/bin/mpicc

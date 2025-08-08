@@ -1,6 +1,0 @@
-Write a C program to create threads and perform the job using threads.
-
-(Use of pthread library)
-
-
-Compile and link with -pthread

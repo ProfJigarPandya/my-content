@@ -1,4 +1,0 @@
-https://www.coursera.org/learn/data-preparation/supplement/EOCT4/transforming-data
-
-Data transformation example: data merging
-Mario is a plumber who owns a plumbing company. After years in the business, he buys another plumbing company. Mario wants to merge the customer information from his newly acquired company with his own, but the other company uses a different database. So, Mario needs to make the data compatible. To do this, he has to transform the format of the acquired company’s data. Then, he must remove duplicate rows for customers they had in common. When the data is compatible and together, Mario’s plumbing company will have a complete and merged customer database.

@@ -1,4 +1,0 @@
-Lab4
-Write a C program to display files and directories from the current directory.
-
-(Use of opendir, readdir, closedir system calls)

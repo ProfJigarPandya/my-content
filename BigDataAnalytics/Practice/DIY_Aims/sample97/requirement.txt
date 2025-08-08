@@ -1,1 +1,0 @@
-analysis on inventory and sales data to make recommendations for changes to inventory management practices
