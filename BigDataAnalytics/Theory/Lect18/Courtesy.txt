@@ -1,0 +1,6 @@
+Its unfortunate that I could not locate the true source - creator of this content. 
+
+I have this impression that it is one of the instructors' material made available with books on Distributed Systems from legacy research and development work.
+
+
+My humble courtesy to the creator of the content. Their efforts have pioneered todays cluster, cloud and IOT. Sincere thanks.

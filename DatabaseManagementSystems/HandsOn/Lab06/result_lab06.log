@@ -1,0 +1,458 @@
+SQL> 
+SQL> select * from client_master;
+
+CLIENT NAME                 ADDRESS1                                            
+------ -------------------- ------------------------------                      
+ADDRESS2                       CITY            STATE              PINCODE       
+------------------------------ --------------- --------------- ----------       
+   BAL_DUE                                                                      
+----------                                                                      
+0002   Vandana                                                                  
+                               Madras          Tamilnadu           780001       
+         0                                                                      
+                                                                                
+0003   Pramada                                                                  
+                               Bombay          Maharashtra         400057       
+      5000                                                                      
+
+CLIENT NAME                 ADDRESS1                                            
+------ -------------------- ------------------------------                      
+ADDRESS2                       CITY            STATE              PINCODE       
+------------------------------ --------------- --------------- ----------       
+   BAL_DUE                                                                      
+----------                                                                      
+                                                                                
+0004   Basu                                                                     
+                               Bombay          Maharashtra         400056       
+         0                                                                      
+                                                                                
+0005   Ravi                                                                     
+                               Bombay          Gujarat             100001       
+
+CLIENT NAME                 ADDRESS1                                            
+------ -------------------- ------------------------------                      
+ADDRESS2                       CITY            STATE              PINCODE       
+------------------------------ --------------- --------------- ----------       
+   BAL_DUE                                                                      
+----------                                                                      
+      2000                                                                      
+                                                                                
+0006   Rukmini                                                                  
+                               Bombay          Maharashtra         400050       
+         0                                                                      
+                                                                                
+0001   Ivan                                                                     
+
+CLIENT NAME                 ADDRESS1                                            
+------ -------------------- ------------------------------                      
+ADDRESS2                       CITY            STATE              PINCODE       
+------------------------------ --------------- --------------- ----------       
+   BAL_DUE                                                                      
+----------                                                                      
+                               Bombay          Maharastra          400054       
+     15000                                                                      
+                                                                                
+
+6 rows selected.
+
+SQL> select * from product_master;
+
+PRODUCT_NO           DESCRIPTION          PROFIT_PERCENT UNIT_MEASURE           
+-------------------- -------------------- -------------- --------------------   
+QTY_ON_HAND REORDER_LVL SELL_PRICE COST_PRICE                                   
+----------- ----------- ---------- ----------                                   
+P00001               1.44floppies                      5 piece                  
+        100          20        525        500                                   
+                                                                                
+P03453               Monitors                          6 piece                  
+         10           3      12000      11200                                   
+                                                                                
+P06734               Mouse                             5 piece                  
+         20           5       1050        500                                   
+                                                                                
+
+PRODUCT_NO           DESCRIPTION          PROFIT_PERCENT UNIT_MEASURE           
+-------------------- -------------------- -------------- --------------------   
+QTY_ON_HAND REORDER_LVL SELL_PRICE COST_PRICE                                   
+----------- ----------- ---------- ----------                                   
+P07865               1.22floppies                      5 piece                  
+        100          20        525        500                                   
+                                                                                
+P07868               Keyboards                         2 piece                  
+         10           3       3150       3050                                   
+                                                                                
+P07885               CD Drive                        2.5 piece                  
+         10           3       5250       5100                                   
+                                                                                
+
+PRODUCT_NO           DESCRIPTION          PROFIT_PERCENT UNIT_MEASURE           
+-------------------- -------------------- -------------- --------------------   
+QTY_ON_HAND REORDER_LVL SELL_PRICE COST_PRICE                                   
+----------- ----------- ---------- ----------                                   
+P07965               540 HDD                           4 piece                  
+         10           3       8400       8000                                   
+                                                                                
+P07975               1.44 Drive                        5 piece                  
+         10           3       1050       1000                                   
+                                                                                
+P08865               1.22 Drive                        5 piece                  
+          2           3       1050       1000                                   
+                                                                                
+
+9 rows selected.
+
+SQL> select * from salesman_master;
+
+SALESM SAL_NAME             ADDRESS                                             
+------ -------------------- --------------------------------------------------  
+CITY                 STATE                   PINCODE    SAL_AMT TGT_TO_GET      
+-------------------- -------------------- ---------- ---------- ----------      
+ YTD_SALES REMARKS                                                              
+---------- ------------------------------                                       
+500001 Kiran                A/14 worli                                          
+Bombay               Maharastra               400002       3000        100      
+        50 Good                                                                 
+                                                                                
+500002 Manish               65, nariman                                         
+Bombay               Maharastra               400001       3000        200      
+       100 Good                                                                 
+
+SALESM SAL_NAME             ADDRESS                                             
+------ -------------------- --------------------------------------------------  
+CITY                 STATE                   PINCODE    SAL_AMT TGT_TO_GET      
+-------------------- -------------------- ---------- ---------- ----------      
+ YTD_SALES REMARKS                                                              
+---------- ------------------------------                                       
+                                                                                
+500003 Ravi                 P-7 Bandra'                                         
+Bombay               Maharastra               400032       3000        200      
+       100 Good                                                                 
+                                                                                
+500004 Ashish               A/5 Juhu                                            
+Bombay               Maharastra               400044       3500        200      
+
+SALESM SAL_NAME             ADDRESS                                             
+------ -------------------- --------------------------------------------------  
+CITY                 STATE                   PINCODE    SAL_AMT TGT_TO_GET      
+-------------------- -------------------- ---------- ---------- ----------      
+ YTD_SALES REMARKS                                                              
+---------- ------------------------------                                       
+       150 Good                                                                 
+                                                                                
+
+SQL> select * from sales_order;
+
+S_ORDE S_ORDER_D CLIENT_NO                 DELY_A SALESM D B DELY_DATE          
+------ --------- ------------------------- ------ ------ - - ---------          
+ORDER_STATUS                                                                    
+-------------------------                                                       
+019001 12-JAN-96 0001                             500001 f N 20-JAN-96          
+backorder                                                                       
+                                                                                
+019002 25-JAN-96 0002                             500002 p N 27-JAN-96          
+fullfilled                                                                      
+                                                                                
+016865 18-FEB-96 0003                             500003 f Y 20-FEB-96          
+fullfilled                                                                      
+                                                                                
+
+S_ORDE S_ORDER_D CLIENT_NO                 DELY_A SALESM D B DELY_DATE          
+------ --------- ------------------------- ------ ------ - - ---------          
+ORDER_STATUS                                                                    
+-------------------------                                                       
+019003 03-APR-96 0001                             500001 f Y 07-APR-96          
+fullfilled                                                                      
+                                                                                
+046866 20-MAY-96 0004                             500004 p N 22-MAY-96          
+cancelled                                                                       
+                                                                                
+010008 24-MAY-96 0005                             500004 f N 26-MAY-96          
+backorder                                                                       
+                                                                                
+
+6 rows selected.
+
+SQL> select * from sales_order_details;
+
+S_ORDE PRODUC  QTY_ORDER   QTY_DISP PRODUCT_RATE                                
+------ ------ ---------- ---------- ------------                                
+019001 P00001          4          4          525                                
+019001 P07965          2          1         8400                                
+019001 P07885          2          1         5250                                
+019002 P00001         10          0          525                                
+019003 P00001          4          4         1050                                
+019003 P03453          2          2         1050                                
+046866 P06734          1          1        12000                                
+046866 P07965          1          0         8400                                
+010008 P07975          1          0         1050                                
+010008 P00001         10          5          525                                
+
+10 rows selected.
+
+SQL> 
+SQL> 
+SQL> 
+SQL> --Q1.- Print the description and total quantity sold for each product.
+SQL> --Here, description is in product master where as quantity sold is in sales_order_details;
+SQL> select pm.description, sum(sod.qty_disp)
+  2  from product_master pm, sales_order_details sod
+  3  where pm.product_no=sod.product_no
+  4  group by pm.description;
+
+DESCRIPTION          SUM(SOD.QTY_DISP)                                          
+-------------------- -----------------                                          
+1.44floppies                        13                                          
+CD Drive                             1                                          
+540 HDD                              1                                          
+Mouse                                1                                          
+1.44 Drive                           0                                          
+Monitors                             2                                          
+
+6 rows selected.
+
+SQL> --We should have better grouped by pm.product_no because description is not a uniq attribute.
+SQL> 
+SQL> 
+SQL> 
+SQL> 
+SQL> --Q2.- Find the value of each product sold.
+SQL> select pm.description, sum(sod.qty_disp*product_rate)
+  2  from product_master pm, sales_order_details sod
+  3  where pm.product_no=sod.product_no
+  4  group by pm.description;
+
+DESCRIPTION          SUM(SOD.QTY_DISP*PRODUCT_RATE)                             
+-------------------- ------------------------------                             
+1.44floppies                                   8925                             
+CD Drive                                       5250                             
+540 HDD                                        8400                             
+Mouse                                         12000                             
+1.44 Drive                                        0                             
+Monitors                                       2100                             
+
+6 rows selected.
+
+SQL> 
+SQL> 
+SQL> 
+SQL> --Q3.- Calculate the average quantity sold for each client that has a maximum order value of 15000.
+SQL> --Here, interest is to find out customers who need to be given more promotions as they are not using the site enough.
+SQL> 
+SQL> select b.name,a.aqsold from
+  2  (select so.client_no, avg(sod.qty_disp) aqsold
+  3  from sales_order so, sales_order_details sod
+  4  where so.s_order_no=sod.s_order_no
+  5  group by so.client_no
+  6  having sum(sod.product_rate*sod.qty_order) <= 15000) a, client_master  b
+  7  where a.client_no=b.client_no;
+
+NAME                     AQSOLD                                                 
+-------------------- ----------                                                 
+Ravi                        2.5                                                 
+Vandana                       0                                                 
+
+SQL> 
+SQL> --Other way lets find out premium customers, who are already ordering a  lot.
+SQL> select b.name,a.aqsold from
+  2  (select so.client_no, avg(sod.qty_disp) aqsold
+  3  from sales_order so, sales_order_details sod
+  4  where so.s_order_no=sod.s_order_no
+  5  group by so.client_no
+  6  having sum(sod.product_rate*sod.qty_order) > 15000) a, client_master  b
+  7  where a.client_no=b.client_no;
+
+NAME                     AQSOLD                                                 
+-------------------- ----------                                                 
+Ivan                        2.4                                                 
+Basu                         .5                                                 
+
+SQL> 
+SQL> 
+SQL> 
+SQL> --Q4.- Find out the products which has been sold to Ivan.
+SQL> select b.product_no, b.description, a.totalq
+  2  from
+  3  (
+  4  select sod.product_no, sum(sod.qty_disp) totalq
+  5  from client_master cm, product_master pm, sales_order so, sales_order_details sod
+  6  where cm.client_no = so.client_no
+  7  and cm.name='Ivan'
+  8  and so.s_order_no=sod.s_order_no
+  9  and pm.product_no=sod.product_no
+ 10  group by sod.product_no
+ 11  ) a,
+ 12  product_master b
+ 13  where a.product_no=b.product_no
+ 14  order by a.product_no;
+
+PRODUCT_NO           DESCRIPTION              TOTALQ                            
+-------------------- -------------------- ----------                            
+P00001               1.44floppies                  8                            
+P03453               Monitors                      2                            
+P07885               CD Drive                      1                            
+P07965               540 HDD                       1                            
+
+SQL> 
+SQL> --Q4.- Find out the products which has been sold to Ivan.
+SQL> 
+SQL> select sod.product_no, pm.description
+  2  from client_master cm, product_master pm, sales_order so, sales_order_details sod
+  3  where cm.client_no = so.client_no
+  4  and cm.name='Ivan'
+  5  and so.s_order_no=sod.s_order_no
+  6  and pm.product_no=sod.product_no;
+
+PRODUC DESCRIPTION                                                              
+------ --------------------                                                     
+P00001 1.44floppies                                                             
+P07885 CD Drive                                                                 
+P07965 540 HDD                                                                  
+P00001 1.44floppies                                                             
+P03453 Monitors                                                                 
+
+SQL> 
+SQL> SELECT DISTINCT description
+  2  FROM product_master
+  3  WHERE product_no IN
+  4    (SELECT product_no
+  5    FROM sales_order_details
+  6    WHERE s_order_no IN
+  7  	 (SELECT s_order_no
+  8  	 FROM sales_order
+  9  	 WHERE client_no IN
+ 10  	   (SELECT client_no FROM client_master WHERE name='Ivan'
+ 11  	   )
+ 12  	 )
+ 13    );
+
+DESCRIPTION                                                                     
+--------------------                                                            
+1.44floppies                                                                    
+CD Drive                                                                        
+540 HDD                                                                         
+Monitors                                                                        
+
+SQL> 
+SQL> 
+SQL> --Q5.- Find the names of clients who have ‘CD Drive’.
+SQL> select b.name, a.totalq
+  2  from
+  3  (
+  4  select so.client_no, sum(sod.qty_disp) totalq
+  5  from product_master pm, sales_order so, sales_order_details sod
+  6  where pm.description='CD Drive'
+  7  and so.s_order_no=sod.s_order_no
+  8  and pm.product_no=sod.product_no
+  9  group by so.client_no
+ 10  ) a,
+ 11  client_master b
+ 12  where a.client_no=b.client_no
+ 13  order by b.client_no;
+
+NAME                     TOTALQ                                                 
+-------------------- ----------                                                 
+Ivan                          1                                                 
+
+SQL> 
+SQL> 
+SQL> 
+SQL> --Q6.- Find the products and their quantities for the orders placed by ‘Vandana’ and ‘Ivan’.
+SQL> select b.description, a.tq
+  2  from
+  3  (select sod.product_no, sum(sod.qty_disp) tq
+  4  from  sales_order so,sales_order_details sod
+  5  where so.s_order_no=sod.s_order_no
+  6  and so.client_no in (select client_no from client_master where name in ('Vandana','Ivan'))
+  7  group by sod.product_no) a, product_master b
+  8  where a.product_no=b.product_no
+  9  ;
+
+DESCRIPTION                  TQ                                                 
+-------------------- ----------                                                 
+1.44floppies                  8                                                 
+Monitors                      2                                                 
+CD Drive                      1                                                 
+540 HDD                       1                                                 
+
+SQL> 
+SQL> 
+SQL> 
+SQL> --Q7.- Select product_no, total qty_ordered for each product.
+SQL> select sod.product_no, sum(sod.qty_order)
+  2  from sales_order_details sod
+  3  group by sod.product_no
+  4  order by 2 desc;
+
+PRODUC SUM(SOD.QTY_ORDER)                                                       
+------ ------------------                                                       
+P00001                 28                                                       
+P07965                  3                                                       
+P07885                  2                                                       
+P03453                  2                                                       
+P07975                  1                                                       
+P06734                  1                                                       
+
+6 rows selected.
+
+SQL> 
+SQL> 
+SQL> --Q8.- Select product_no, product description and qty ordered for each product.
+SQL> select a.pno, b.description, a.qto
+  2  from
+  3  (select sod.product_no pno, sum(sod.qty_order) qto
+  4  from sales_order_details sod
+  5  group by sod.product_no) a, product_master b
+  6  where a.pno=b.product_no
+  7  order by 3 desc;
+
+PNO    DESCRIPTION                 QTO                                          
+------ -------------------- ----------                                          
+P00001 1.44floppies                 28                                          
+P07965 540 HDD                       3                                          
+P03453 Monitors                      2                                          
+P07885 CD Drive                      2                                          
+P07975 1.44 Drive                    1                                          
+P06734 Mouse                         1                                          
+
+6 rows selected.
+
+SQL> 
+SQL> 
+SQL> --Q9.- Display the order number and day on which clients placed their order.
+SQL> select so.s_order_no, to_char(so.s_order_date,'DAY')
+  2  from  sales_order so
+  3  order by so.client_no;
+
+S_ORDE TO_CHAR(SO.S_ORDER_DATE,'DAY')                                           
+------ ------------------------------------                                     
+019001 FRIDAY                                                                   
+019003 WEDNESDAY                                                                
+019002 THURSDAY                                                                 
+016865 SUNDAY                                                                   
+046866 MONDAY                                                                   
+010008 FRIDAY                                                                   
+
+6 rows selected.
+
+SQL> 
+SQL> 
+SQL> --Q10.- Display the month and Date when the order must be delivered.
+SQL> select so.s_order_no, to_char(so.dely_date,'MON-DD-yyyy') delivery_date
+  2  from  sales_order so
+  3  order by so.client_no;
+
+S_ORDE DELIVERY_DATE                                                            
+------ --------------------                                                     
+019001 JAN-20-1996                                                              
+019003 APR-07-1996                                                              
+019002 JAN-27-1996                                                              
+016865 FEB-20-1996                                                              
+046866 MAY-22-1996                                                              
+010008 MAY-26-1996                                                              
+
+6 rows selected.
+
+SQL> 
+SQL> 
+SQL> 
+SQL> spool off;

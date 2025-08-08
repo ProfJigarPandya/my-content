@@ -1,0 +1,40 @@
+C:\Users\jigar\OneDrive\Documents\DAA\prog\DirectedGraph_DataStructureTopoplogialSort\DirectedGraph_DataStructure\DirectedGraph_DataStructureInC>demograph.o
+
+ DFS Traversal
+ *********** DFS Traversal from node shirt **************
+Node Visited:  shirt
+Node Visited:  tie
+Node Visited:  jacket
+Node Visited:  belt
+ DFS Traversal
+ *********** DFS Traversal from node watch **************
+Node Visited:  watch
+ DFS Traversal
+ *********** DFS Traversal from node undershorts **************
+Node Visited:  undershorts
+Node Visited:  pants
+Node Visited:  shoes
+ DFS Traversal
+ *********** DFS Traversal from node socks **************
+Node Visited:  socks
+Node Source shirt ->     discovered at 1 ->      finished at 8 ->
+                (DestinationNode tie, Weight 0 )
+                (DestinationNode belt, Weight 0 )
+Node Source tie ->       discovered at 2 ->      finished at 5 ->
+                (DestinationNode jacket, Weight 0 )
+Node Source jacket ->    discovered at 3 ->      finished at 4 ->
+Node Source belt ->      discovered at 6 ->      finished at 7 ->
+                (DestinationNode jacket, Weight 0 )
+Node Source watch ->     discovered at 9 ->      finished at 10 ->
+Node Source undershorts ->       discovered at 11 ->     finished at 16 ->
+                (DestinationNode pants, Weight 0 )
+                (DestinationNode shoes, Weight 0 )
+Node Source pants ->     discovered at 12 ->     finished at 15 ->
+                (DestinationNode shoes, Weight 0 )
+                (DestinationNode belt, Weight 0 )
+Node Source shoes ->     discovered at 13 ->     finished at 14 ->
+Node Source socks ->     discovered at 17 ->     finished at 18 ->
+                (DestinationNode shoes, Weight 0 )
+ ******** TOPOLOGICAL SORTING LIST ************
+socks   undershorts     pants   shoes   watch   shirt   belt    tie     jacket
+ Have a nice day!

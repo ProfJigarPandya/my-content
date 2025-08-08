@@ -1,0 +1,159 @@
+SQL> 
+SQL> select name from client_master;
+
+NAME                                                                            
+--------------------                                                            
+Ivan                                                                            
+Vandana                                                                         
+Pramada                                                                         
+Basu                                                                            
+Ravi                                                                            
+Rukmini                                                                         
+
+6 rows selected.
+
+SQL> 
+SQL> select name, city from client_master;
+
+NAME                 CITY                                                       
+-------------------- ---------------                                            
+Ivan                 Bombay                                                     
+Vandana              Madras                                                     
+Pramada              Bombay                                                     
+Basu                 Bombay                                                     
+Ravi                 Delhi                                                      
+Rukmini              Bombay                                                     
+
+6 rows selected.
+
+SQL> 
+SQL> 
+SQL> select product_no, description from product_master;
+
+PRODUCT_NO           DESCRIPTION                                                
+-------------------- --------------------                                       
+P00001               1.44floppies                                               
+P03453               Monitors                                                   
+P06734               Mouse                                                      
+P07865               1.22floppies                                               
+P07868               Keyboards                                                  
+P07885               CD Drive                                                   
+P07965               540 HDD                                                    
+P07975               1.44 Drive                                                 
+P08865               1.22 Drive                                                 
+
+9 rows selected.
+
+SQL> 
+SQL> 
+SQL> select name from client_master where lower(city)='bombay';
+
+NAME                                                                            
+--------------------                                                            
+Ivan                                                                            
+Pramada                                                                         
+Basu                                                                            
+Rukmini                                                                         
+
+SQL> 
+SQL> 
+SQL> select * from client_master
+  2    where client_no in ('0001','0002');
+
+CLIENT NAME                 ADDRESS1                                            
+------ -------------------- ------------------------------                      
+ADDRESS2                       CITY            STATE              PINCODE       
+------------------------------ --------------- --------------- ----------       
+   BAL_DUE                                                                      
+----------                                                                      
+0001   Ivan                                                                     
+                               Bombay          Maharashtra         400054       
+     15000                                                                      
+                                                                                
+0002   Vandana                                                                  
+                               Madras          Tamilnadu           780001       
+         0                                                                      
+
+CLIENT NAME                 ADDRESS1                                            
+------ -------------------- ------------------------------                      
+ADDRESS2                       CITY            STATE              PINCODE       
+------------------------------ --------------- --------------- ----------       
+   BAL_DUE                                                                      
+----------                                                                      
+                                                                                
+
+SQL> 
+SQL> 
+SQL> select * from product_master
+  2    where lower(description) in ('1.44 drive','1.22 drive');
+
+PRODUCT_NO           DESCRIPTION          PROFIT_PERCENT UNIT_MEASURE           
+-------------------- -------------------- -------------- --------------------   
+QTY_ON_HAND REORDER_LVL SELL_PRICE COST_PRICE                                   
+----------- ----------- ---------- ----------                                   
+P07975               1.44 Drive                        5 piece                  
+         10           3       1050       1000                                   
+                                                                                
+P08865               1.22 Drive                        5 piece                  
+          2           3       1050       1000                                   
+                                                                                
+
+SQL> 
+SQL> 
+SQL> select * from product_master
+  2  where sell_price > 5000;
+
+PRODUCT_NO           DESCRIPTION          PROFIT_PERCENT UNIT_MEASURE           
+-------------------- -------------------- -------------- --------------------   
+QTY_ON_HAND REORDER_LVL SELL_PRICE COST_PRICE                                   
+----------- ----------- ---------- ----------                                   
+P03453               Monitors                          6 piece                  
+         10           3      12000      11200                                   
+                                                                                
+P07885               CD Drive                        2.5 piece                  
+         10           3       5250       5100                                   
+                                                                                
+P07965               540 HDD                           4 piece                  
+         10           3       8400       8000                                   
+                                                                                
+
+SQL> 
+SQL> 
+SQL> select name from client_master where lower(city) in ('bombay','delhi','madras');
+
+NAME                                                                            
+--------------------                                                            
+Ivan                                                                            
+Vandana                                                                         
+Pramada                                                                         
+Basu                                                                            
+Ravi                                                                            
+Rukmini                                                                         
+
+6 rows selected.
+
+SQL> 
+SQL> 
+SQL> 
+SQL> select * from product_master
+  2  where sell_price > 2000 and sell_price<=5000;
+
+PRODUCT_NO           DESCRIPTION          PROFIT_PERCENT UNIT_MEASURE           
+-------------------- -------------------- -------------- --------------------   
+QTY_ON_HAND REORDER_LVL SELL_PRICE COST_PRICE                                   
+----------- ----------- ---------- ----------                                   
+P07868               Keyboards                         2 piece                  
+         10           3       3150       3050                                   
+                                                                                
+
+SQL> 
+SQL> 
+SQL> select name, city, state from client_master where lower(state) not in ('maharashtra');
+
+NAME                 CITY            STATE                                      
+-------------------- --------------- ---------------                            
+Vandana              Madras          Tamilnadu                                  
+Ravi                 Delhi           Gujarat                                    
+
+SQL> 
+SQL> spool off;

@@ -1,0 +1,80 @@
+Script started on 2020-12-11 13:51:55+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="62"]
+]0;jpandya@jpandya-VirtualBox: ~[01;32mjpandya@jpandya-VirtualBox[00m:[01;34m~[00m$ fdisk[K[K[K[K[Ksudo fdsik =[K[K[K[K[Kik[Ksk -l
+[sudo] password for jpandya: 
+[1mDisk /dev/loop0: 54.98 MiB, 57626624 bytes, 112552 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop1: 55.37 MiB, 58052608 bytes, 113384 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop2: 217.92 MiB, 228478976 bytes, 446248 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop3: 62.9 MiB, 65105920 bytes, 127160 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop4: 255.58 MiB, 267980800 bytes, 523400 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop5: 64.79 MiB, 67915776 bytes, 132648 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop6: 51.2 MiB, 53501952 bytes, 104496 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop7: 31.7 MiB, 32579584 bytes, 63632 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+
+
+[1mDisk /dev/sda: 10 GiB, 10737418240 bytes, 20971520 sectors
+[0mDisk model: VBOX HARDDISK   
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x31849b2e
+
+[1mDevice[0m     [1mBoot[0m [1m  Start[0m [1m     End[0m [1m Sectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/sda1  *       2048  1050623  1048576  512M  b W95 FAT32
+/dev/sda2       1052670 20969471 19916802  9.5G  5 Extended
+/dev/sda5       1052672 20969471 19916800  9.5G 83 Linux
+
+
+[1mDisk /dev/loop9: 50.69 MiB, 53133312 bytes, 103776 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop10: 31.6 MiB, 32571392 bytes, 63616 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+]0;jpandya@jpandya-VirtualBox: ~[01;32mjpandya@jpandya-VirtualBox[00m:[01;34m~[00m$ exit
+
+Script done on 2020-12-11 13:52:12+05:30 [COMMAND_EXIT_CODE="0"]

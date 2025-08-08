@@ -1,0 +1,1 @@
+Yum is Linux install mechanism.

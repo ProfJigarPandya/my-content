@@ -1,0 +1,11 @@
+Spark Resources
+https://aws.amazon.com/big-data/what-is-spark/
+https://spark.apache.org/
+eBook: https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf
+
+Reference Book:
+Data Mining
+https://hanj.cs.illinois.edu/bk3/
+
+
+https://www.coursera.org/articles/data-science-terms

@@ -1,0 +1,24 @@
+Enter number of total distinct objects 5
+
+ Enter Values
+ Enter weight and value for0object1 1
+
+ Enter weight and value for1object2 6
+
+ Enter weight and value for2object5 18
+
+ Enter weight and value for3object6 22
+
+ Enter weight and value for4object7 28
+
+ Enter capacity of knapsack 11
+
+ RESULT
+  Weight  Value  SELECT (y/n)
+         1         1     NO
+         2         6     NO
+         5        18    Yes
+         6        22    Yes
+         7        28     NO
+
+ Total profit 40

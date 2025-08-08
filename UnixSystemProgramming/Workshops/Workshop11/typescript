@@ -1,0 +1,14 @@
+Script started on Tue 18 Sep 2018 03:16:37 PM IST
+[?1034hbash-4.1$ historypoweroff[K[K[K[K[K[K[K[Kod -a source.txt ; ls -l source.txt ; od -a destination.txt ; ls -l destination.txt ;
+0000000   A   B   C   D nul nul nul nul nul nul nul nul nul nul nul nul
+0000020 nul nul nul nul nul nul nul nul nul nul nul nul nul nul nul nul
+*
+0023420 nul nul nul nul   a   b   c   d
+0023430
+-rw-r-----. 1 user1 user1 10008 Sep 18 14:45 source.txt
+0000000   A   B   C   D   a   b   c   d
+0000010
+-rw-r-----. 1 user1 user1 8 Sep 18 15:06 destination.txt
+bash-4.1$ exit
+
+Script done on Tue 18 Sep 2018 03:16:44 PM IST

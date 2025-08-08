@@ -1,0 +1,9 @@
+[user1@hadoop-clone lab_1.1]$ mpicc lab1_1.c 
+[user1@hadoop-clone lab_1.1]$ mpirun -n 5 a.out 
+Number of tasks= 5 My rank= 2 Running on hadoop-clone
+Number of tasks= 5 My rank= 3 Running on hadoop-clone
+Number of tasks= 5 My rank= 1 Running on hadoop-clone
+Number of tasks= 5 My rank= 0 Running on hadoop-clone
+Number of tasks= 5 My rank= 4 Running on hadoop-clone
+[user1@hadoop-clone lab_1.1]$ exit
+

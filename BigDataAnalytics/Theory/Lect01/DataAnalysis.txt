@@ -1,0 +1,10 @@
+There are logically six phases/steps involved in data analysis generally.
+Ask
+Prepare
+Process
+Analyze
+Share
+Act
+
+All of these are having their own importance.
+Data analysis process have six phases. Ideally if any of the 6 steps are not performed than Data Analysis is not performed well. Thus, each steps of Data Analysis has to support the task to move closer to expected outcome. Moreover, the current step's finer result depends upon all previous steps performed best way possible and with high enthusiasm. The interests and skills based on which person to person the step's outcome may vary but as a whole a true data analyst has to keep himself motivated for first to last step throughout. Even to my knowledge, if found weaker the practices during a step later on then analyst better revisit and continue further in natural order. And this is why I personally emphasize on utilizing tools other than manual actions for any actions throughout all phases. Note that maintaining diary notes at every steps will help too if required to refer or understand better at a later stage or required to revisit by another team member.

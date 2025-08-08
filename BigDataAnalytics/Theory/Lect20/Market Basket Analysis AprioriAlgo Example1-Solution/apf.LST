@@ -1,0 +1,667 @@
+select * from town_youngsters;
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         0          1          1          1          1                          
+         0          0          1          1          1                          
+         0          0          0          0          0                          
+         1          1          1          1          0                          
+         0          0          1          1          1                          
+         1          0          1          1          0                          
+         1          0          0          0          1                          
+         1          0          1          1          0                          
+         1          1          1          1          1                          
+         0          0          1          1          0                          
+         1          0          1          0          0                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         1          0          1          0          0                          
+         0          1          0          0          1                          
+         1          0          1          1          0                          
+         0          0          1          1          0                          
+         1          1          1          1          1                          
+         0          0          1          1          1                          
+         0          0          1          0          1                          
+         1          0          1          1          1                          
+         0          0          1          0          0                          
+         1          0          1          0          0                          
+         0          0          1          1          1                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         1          0          1          0          0                          
+         0          0          1          1          0                          
+         0          1          1          0          1                          
+         0          0          1          0          0                          
+         1          1          1          1          1                          
+         1          1          0          0          1                          
+         0          0          0          0          0                          
+         0          0          0          0          0                          
+         0          0          1          0          0                          
+         1          0          1          1          1                          
+         0          0          1          1          0                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         0          1          1          1          1                          
+         0          0          1          1          1                          
+         0          1          1          1          0                          
+         1          0          1          0          0                          
+         0          0          1          0          0                          
+         0          0          0          0          0                          
+         0          1          1          0          1                          
+         1          0          1          1          1                          
+         0          0          1          1          0                          
+         1          1          1          1          1                          
+         1          1          1          1          0                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         1          0          1          1          1                          
+         0          0          1          1          0                          
+         0          0          1          0          1                          
+         0          0          1          1          0                          
+         0          0          1          1          1                          
+         1          0          1          1          0                          
+         1          1          1          1          1                          
+         0          0          1          1          1                          
+         1          0          1          0          0                          
+         1          0          1          0          1                          
+         0          1          1          1          1                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         0          0          1          0          1                          
+         1          1          1          1          0                          
+         0          0          1          1          1                          
+         0          0          1          1          0                          
+         1          0          1          1          1                          
+         1          0          1          1          1                          
+         1          1          1          1          0                          
+         0          0          1          1          0                          
+         1          0          1          0          0                          
+         0          1          0          0          0                          
+         0          1          1          1          1                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         1          1          1          1          1                          
+         1          1          1          0          0                          
+         1          1          1          0          1                          
+         0          1          1          1          0                          
+         0          0          1          0          1                          
+         1          1          1          1          1                          
+         1          0          1          0          0                          
+         0          0          1          0          1                          
+         0          0          1          1          1                          
+         0          0          0          0          0                          
+         1          1          1          0          1                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         1          1          0          0          0                          
+         1          0          1          1          1                          
+         0          0          1          1          1                          
+         1          0          1          0          0                          
+         0          0          1          0          0                          
+         0          1          1          1          0                          
+         1          1          1          1          1                          
+         1          0          1          0          0                          
+         0          1          1          1          1                          
+         0          0          1          1          1                          
+         1          0          1          0          0                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         0          0          1          1          1                          
+         1          0          1          0          0                          
+         1          1          1          1          1                          
+         1          1          1          1          1                          
+         1          1          1          1          1                          
+         0          1          1          0          1                          
+         1          1          1          0          1                          
+         0          0          1          0          1                          
+         0          1          1          1          1                          
+         0          1          1          1          1                          
+         1          0          1          1          1                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         1          1          1          0          1                          
+         0          1          1          1          1                          
+         1          0          1          0          0                          
+         0          1          1          1          1                          
+         1          0          1          0          0                          
+         1          0          1          1          1                          
+         1          0          1          0          0                          
+         0          0          1          0          0                          
+         0          0          0          0          0                          
+         1          1          1          1          1                          
+         1          1          1          1          0                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         0          0          1          1          0                          
+         0          1          1          1          1                          
+         0          0          1          0          1                          
+         1          1          1          1          0                          
+         1          0          1          0          1                          
+         1          1          0          0          1                          
+         1          1          1          1          1                          
+         0          0          1          1          0                          
+         0          1          1          1          1                          
+         1          1          1          1          1                          
+         1          1          1          1          1                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         1          0          0          0          0                          
+         1          0          1          0          1                          
+         1          1          1          0          0                          
+         0          0          1          0          0                          
+         0          1          1          1          1                          
+         1          0          1          1          1                          
+         1          0          1          1          0                          
+         1          0          1          1          0                          
+         1          1          0          0          1                          
+         0          1          1          1          0                          
+         0          1          1          0          1                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         0          1          1          1          1                          
+         1          0          0          0          1                          
+         0          0          1          0          1                          
+         1          1          1          0          1                          
+         0          0          1          0          0                          
+         1          0          1          1          0                          
+         0          0          1          0          0                          
+         0          0          1          1          1                          
+         1          0          1          1          0                          
+         1          1          1          1          0                          
+         0          1          1          1          1                          
+
+        I1         I2         I3         I4         I5                          
+---------- ---------- ---------- ---------- ----------                          
+         0          0          1          1          0                          
+         1          1          1          1          0                          
+         1          1          1          0          1                          
+         0          1          1          1          1                          
+         1          1          1          0          1                          
+         0          1          0          0          1                          
+         0          0          1          1          1                          
+
+150 rows selected.
+
+SQL> get C:\Users\JIGAR PANDYA\Desktop\Algo.SQL
+SP2-0423: Illegal GET command
+SQL> @drop;
+drop table i1
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+drop table ii
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+drop table iii
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SQL> @algo;
+Enter value for minimum_support: 0.4
+Enter value for minimum_confidence: 0.5
+the item is not removed. I1                                                     
+the item is not removed. I2                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 2                                                                
+The items is not removed. 1 3                                                   
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+ITEM REMOVED.2 3                                                                
+ITEM REMOVED.2 4                                                                
+ITEM REMOVED.2 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 3                                                           
+ITEM REMOVED.1 2 3                                                              
+ITEM REMOVED.1 2 4                                                              
+ITEM REMOVED.1 2 5                                                              
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.2 3 4                                                              
+ITEM REMOVED.2 3 5                                                              
+ITEM REMOVED.2 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+I1 -> I3   Support:.45   Confidence:.9                                          
+I3 -> I1   Support:.45   Confidence:.5                                          
+I3 -> I4   Support:.57   Confidence:.64                                         
+I4 -> I3   Support:.57   Confidence:1                                           
+I3 -> I5   Support:.5   Confidence:.56                                          
+I5 -> I3   Support:.5   Confidence:.91                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @drop;
+drop table i1
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+drop table ii
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+drop table iii
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+SQL> @algo;
+Enter value for minimum_support: 0.5
+Enter value for minimum_confidence: 0.5
+the item is not removed. I1                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 3                                                                
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 2                                                           
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+I3 -> I4   Support:.57   Confidence:.64                                         
+I4 -> I3   Support:.57   Confidence:1                                           
+I3 -> I5   Support:.5   Confidence:.56                                          
+I5 -> I3   Support:.5   Confidence:.91                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.6
+Enter value for minimum_confidence: 0.5
+the item is not removed. I3                                                     
+NO. OF TUPLES IN II 0                                                           
+NO. OF TUPLES IN III 0                                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.4
+Enter value for minimum_confidence: 0.6
+the item is not removed. I1                                                     
+the item is not removed. I2                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 2                                                                
+The items is not removed. 1 3                                                   
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+ITEM REMOVED.2 3                                                                
+ITEM REMOVED.2 4                                                                
+ITEM REMOVED.2 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 3                                                           
+ITEM REMOVED.1 2 3                                                              
+ITEM REMOVED.1 2 4                                                              
+ITEM REMOVED.1 2 5                                                              
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.2 3 4                                                              
+ITEM REMOVED.2 3 5                                                              
+ITEM REMOVED.2 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+I1 -> I3   Support:.45   Confidence:.9                                          
+xxx                                                                             
+I3 -> I4   Support:.57   Confidence:.64                                         
+I4 -> I3   Support:.57   Confidence:1                                           
+xxx                                                                             
+I5 -> I3   Support:.5   Confidence:.91                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.4
+Enter value for minimum_confidence: 0.7
+the item is not removed. I1                                                     
+the item is not removed. I2                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 2                                                                
+The items is not removed. 1 3                                                   
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+ITEM REMOVED.2 3                                                                
+ITEM REMOVED.2 4                                                                
+ITEM REMOVED.2 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 3                                                           
+ITEM REMOVED.1 2 3                                                              
+ITEM REMOVED.1 2 4                                                              
+ITEM REMOVED.1 2 5                                                              
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.2 3 4                                                              
+ITEM REMOVED.2 3 5                                                              
+ITEM REMOVED.2 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+I1 -> I3   Support:.45   Confidence:.9                                          
+xxx                                                                             
+xxx                                                                             
+I4 -> I3   Support:.57   Confidence:1                                           
+xxx                                                                             
+I5 -> I3   Support:.5   Confidence:.91                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.4
+Enter value for minimum_confidence: 0.8
+the item is not removed. I1                                                     
+the item is not removed. I2                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 2                                                                
+The items is not removed. 1 3                                                   
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+ITEM REMOVED.2 3                                                                
+ITEM REMOVED.2 4                                                                
+ITEM REMOVED.2 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 3                                                           
+ITEM REMOVED.1 2 3                                                              
+ITEM REMOVED.1 2 4                                                              
+ITEM REMOVED.1 2 5                                                              
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.2 3 4                                                              
+ITEM REMOVED.2 3 5                                                              
+ITEM REMOVED.2 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+I1 -> I3   Support:.45   Confidence:.9                                          
+xxx                                                                             
+xxx                                                                             
+I4 -> I3   Support:.57   Confidence:1                                           
+xxx                                                                             
+I5 -> I3   Support:.5   Confidence:.91                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.4
+Enter value for minimum_confidence: 0.9
+the item is not removed. I1                                                     
+the item is not removed. I2                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 2                                                                
+The items is not removed. 1 3                                                   
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+ITEM REMOVED.2 3                                                                
+ITEM REMOVED.2 4                                                                
+ITEM REMOVED.2 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 3                                                           
+ITEM REMOVED.1 2 3                                                              
+ITEM REMOVED.1 2 4                                                              
+ITEM REMOVED.1 2 5                                                              
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.2 3 4                                                              
+ITEM REMOVED.2 3 5                                                              
+ITEM REMOVED.2 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+xxx                                                                             
+xxx                                                                             
+xxx                                                                             
+I4 -> I3   Support:.57   Confidence:1                                           
+xxx                                                                             
+I5 -> I3   Support:.5   Confidence:.91                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.4
+Enter value for minimum_confidence: 1
+the item is not removed. I1                                                     
+the item is not removed. I2                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 2                                                                
+The items is not removed. 1 3                                                   
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+ITEM REMOVED.2 3                                                                
+ITEM REMOVED.2 4                                                                
+ITEM REMOVED.2 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 3                                                           
+ITEM REMOVED.1 2 3                                                              
+ITEM REMOVED.1 2 4                                                              
+ITEM REMOVED.1 2 5                                                              
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.2 3 4                                                              
+ITEM REMOVED.2 3 5                                                              
+ITEM REMOVED.2 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+xxx                                                                             
+xxx                                                                             
+xxx                                                                             
+I4 -> I3   Support:.57   Confidence:1                                           
+xxx                                                                             
+xxx                                                                             
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.5
+Enter value for minimum_confidence: 0.6
+the item is not removed. I1                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 3                                                                
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 2                                                           
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+I3 -> I4   Support:.57   Confidence:.64                                         
+I4 -> I3   Support:.57   Confidence:1                                           
+xxx                                                                             
+I5 -> I3   Support:.5   Confidence:.91                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.5
+Enter value for minimum_confidence: 0.7
+the item is not removed. I1                                                     
+the item is not removed. I3                                                     
+the item is not removed. I4                                                     
+the item is not removed. I5                                                     
+ITEM REMOVED.1 3                                                                
+ITEM REMOVED.1 4                                                                
+ITEM REMOVED.1 5                                                                
+The items is not removed. 3 4                                                   
+The items is not removed. 3 5                                                   
+ITEM REMOVED.4 5                                                                
+NO. OF TUPLES IN II 2                                                           
+ITEM REMOVED.1 3 4                                                              
+ITEM REMOVED.1 3 5                                                              
+ITEM REMOVED.1 4 5                                                              
+ITEM REMOVED.3 4 5                                                              
+NO. OF TUPLES IN III 0                                                          
+xxx                                                                             
+I4 -> I3   Support:.57   Confidence:1                                           
+xxx                                                                             
+I5 -> I3   Support:.5   Confidence:.91                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> @drop;
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+SQL> @algo;
+Enter value for minimum_support: 0.6
+Enter value for minimum_confidence: 0.6
+the item is not removed. I3                                                     
+NO. OF TUPLES IN II 0                                                           
+NO. OF TUPLES IN III 0                                                          
+
+PL/SQL procedure successfully completed.
+
+SQL> 

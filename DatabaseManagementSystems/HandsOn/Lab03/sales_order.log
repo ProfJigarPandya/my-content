@@ -1,0 +1,53 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Mon Jul 25 13:41:52 2016
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   ctl/sales_order.ctl
+Data File:      csv/sales_order.csv
+  Bad File:     sales_order.bad
+  Discard File: sales_order.log 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SALES_ORDER, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+S_ORDER_NO                          FIRST     *   ,  O(') CHARACTER            
+S_ORDER_DATE                         NEXT     *   ,  O(') DATE dd-mon-yy       
+CLIENT_NO                            NEXT     *   ,  O(') CHARACTER            
+DELY_TYPE                            NEXT     *   ,  O(') CHARACTER            
+BILLED_YN                            NEXT     *   ,  O(') CHARACTER            
+SALESMAN_NO                          NEXT     *   ,  O(') CHARACTER            
+DELY_DATE                            NEXT     *   ,  O(') DATE dd-mon-yy       
+ORDER_STATUS                         NEXT     *   ,  O(') CHARACTER            
+
+
+Table SALES_ORDER:
+  6 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 132096 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:             6
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Mon Jul 25 13:41:52 2016
+Run ended on Mon Jul 25 13:41:58 2016
+
+Elapsed time was:     00:00:06.37
+CPU time was:         00:00:00.03

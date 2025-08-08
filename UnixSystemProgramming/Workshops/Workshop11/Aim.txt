@@ -1,0 +1,25 @@
+Learn about hole in memory
+
+
+Solve the question paper.
+
+Especially programs. Q.2 (b) and Q.3. (b) 
+
+Q.3 (b)
+
+od -a source.txt ;
+
+ls -ls source.txt ;
+
+od -a destination.txt ;
+
+ls -ls destination.txt ;
+
+gcc -Wall createholefile.c -o createholefile.o
+
+./createholefile.o
+
+ gcc -Wall mycpwohole.c  -o mycpwohole.o
+
+
+./mycpwohole.o source.txt destination.txt

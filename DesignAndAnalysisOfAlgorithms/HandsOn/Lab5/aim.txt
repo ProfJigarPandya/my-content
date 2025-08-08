@@ -1,0 +1,24 @@
+Lab5 - Write a program to find shortest paths from the given source vertex for any graph using Dijkstra's algorithm. 
+
+Know that input to Dijkstra's algorithm is a weighted (positive distance) graph (directed/un) and a source vertex. It generates as output shortest paths from source vertex to all other vertices (direct/indirect reachable).
+
+Not only the shortest path but also have a mechanism to display distance of shortest path.
+
+p.s. Know that if you programmatically call Dijkstra's algorithm one by one for every vertices of a path as source, you can receive solutions to all shortest paths from all vertices to every other. There is another algorithm called Floyd Warshall's also known as All Pair Shortest Paths which achieves from all sources to every other and another algorithm allowing negative weight too Bellman–Ford.
+
+Learn similarity to Prim's algorithm.
+
+How about having more than one paths of same shortest distance? (Hint: Few or more equal valued edges )
+
+Debate topic: Whether Dijkstra's shortest path algorithm is an example of greedy technique, other than greedy, more than greedy?
+
+
+How will you store Infinity as described in algorithm example for your program?
+
+What happens if you have negative weights in the graph, what is Dijkstra's algorithm behavior?
+
+
+Dijkstra's shortest path finder
+
+- 3rd sem version
+- 4th sem version, must be upgraded with at least one feature. Be it dynamic graph, for all source, multiple paths, etc.

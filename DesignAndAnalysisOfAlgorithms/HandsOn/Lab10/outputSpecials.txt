@@ -1,0 +1,35 @@
+ Example # 1
+ For n nodes 4
+SkillSet data
+94	1	54	68	
+74	10	88	82	
+62	88	8	76	
+11	74	81	21	
+
+Job Assignment ....
+
+Total solutoins found are 1
+4	2	3	1	
+
+ Total cost going to be 97
+
+
+ Example # 2
+ For n nodes 5
+SkillSet data
+11	17	8	16	20	
+9	7	12	6	15	
+13	16	15	12	16	
+21	24	17	28	26	
+14	10	12	11	15	
+
+Job Assignment ....
+
+Total solutoins found are 1
+1	4	5	3	2	
+
+ Total cost going to be 60
+
+double free or corruption (fasttop)
+Aborted (core dumped)
+

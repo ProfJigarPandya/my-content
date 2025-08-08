@@ -1,0 +1,221 @@
+> select * from astudent order by student_id
+STUDENT_ID STUDENT_NAME            DEPT_ID
+---------- -------------------- ----------
+         1 jigar                         1 
+         2 Sarah                         2 
+         3 james                           
+         4 Dave                          2 
+         5 Michael                         
+         6 Holy                          1 
+
+ 6 rows selected 
+
+> select * from adepartment order by dept_id
+   DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- --------------- ----------
+         1 Computer                         100          1 
+                                                           
+
+         2 Electronics                       80          1 
+         3 IT                                75          1 
+         4 Civil                             25          1 
+         5 IC                                70          1 
+           dummy                           1000            
+
+ 6 rows selected 
+
+> --cartesian product
+> select * from astudent ast, adepartment adept where ast.dept_id = adept.dept_id
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         4 Dave                          2          2 Electronics                       80          1 
+         2 Sarah                         2          2 Electronics                       80          1 
+
+> --natural join
+> select * from astudent ast natural join adepartment adept
+   DEPT_ID STUDENT_ID STUDENT_NAME         DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- ---------- -------------------- -------------------- --------------- ----------
+         1          6 Holy                 Computer                         100          1 
+                                                                                           
+
+         1          1 jigar                Computer                         100          1 
+                                                                                           
+
+         2          4 Dave                 Electronics                       80          1 
+         2          2 Sarah                Electronics                       80          1 
+
+> --normal join also known as inner join
+> select * from astudent ast inner join adepartment adept on ast.dept_id = adept.dept_id
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         4 Dave                          2          2 Electronics                       80          1 
+         2 Sarah                         2          2 Electronics                       80          1 
+
+> select * from astudent ast join adepartment adept on ast.dept_id = adept.dept_id
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         4 Dave                          2          2 Electronics                       80          1 
+         2 Sarah                         2          2 Electronics                       80          1 
+
+> --by default it is inner or normal join
+> --left outer join, this includes inner join as well internally
+> select * from astudent ast left outer join adepartment adept on ast.dept_id=adept.dept_id
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         4 Dave                          2          2 Electronics                       80          1 
+         2 Sarah                         2          2 Electronics                       80          1 
+         5 Michael                                                                                    
+         3 james                                                                                      
+
+ 6 rows selected 
+
+> select * from astudent ast left  join adepartment adept on ast.dept_id=adept.dept_id
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         4 Dave                          2          2 Electronics                       80          1 
+         2 Sarah                         2          2 Electronics                       80          1 
+         5 Michael                                                                                    
+         3 james                                                                                      
+
+ 6 rows selected 
+
+> select * from astudent ast, adepartment adept where ast.dept_id=adept.dept_id(+)
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         4 Dave                          2          2 Electronics                       80          1 
+         2 Sarah                         2          2 Electronics                       80          1 
+         5 Michael                                                                                    
+         3 james                                                                                      
+
+ 6 rows selected 
+
+> --pad right side columns as null, in other words left join
+> --right outer join, this includes inner join as well internally
+> select * from astudent ast right  join adepartment adept on ast.dept_id=adept.dept_id
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         2 Sarah                         2          2 Electronics                       80          1 
+         4 Dave                          2          2 Electronics                       80          1 
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+                                                      dummy                           1000            
+                                                    5 IC                                70          1 
+                                                    4 Civil                             25          1 
+                                                    3 IT                                75          1 
+
+ 8 rows selected 
+
+> select * from astudent ast, adepartment adept where ast.dept_id(+)=adept.dept_id
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         2 Sarah                         2          2 Electronics                       80          1 
+         4 Dave                          2          2 Electronics                       80          1 
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+                                                      dummy                           1000            
+                                                    5 IC                                70          1 
+                                                    4 Civil                             25          1 
+                                                    3 IT                                75          1 
+
+ 8 rows selected 
+
+> --pad left side columns as null in other words right join
+> --full join, inner plus left and right padded with nulls
+> select * from astudent ast full  join adepartment adept on ast.dept_id=adept.dept_id
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         6 Holy                          1          1 Computer                         100          1 
+                                                                                                      
+
+         1 jigar                         1          1 Computer                         100          1 
+                                                                                                      
+
+         4 Dave                          2          2 Electronics                       80          1 
+         2 Sarah                         2          2 Electronics                       80          1 
+                                                    3 IT                                75          1 
+                                                    4 Civil                             25          1 
+                                                    5 IC                                70          1 
+                                                      dummy                           1000            
+         5 Michael                                                                                    
+         3 james                                                                                      
+
+ 10 rows selected 
+
+> --Below is not allowed
+> --select * from astudent ast, adepartment adept where ast.dept_id(+)=adept.dept_id(+); --Error: a predicate may reference only one outer-joined table
+> --full except the inner
+> select * from astudent ast full  join adepartment adept on ast.dept_id=adept.dept_id
+where ast.dept_id is null or adept.dept_id is null
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+                                                    3 IT                                75          1 
+                                                    4 Civil                             25          1 
+                                                    5 IC                                70          1 
+                                                      dummy                           1000            
+         5 Michael                                                                                    
+         3 james                                                                                      
+
+ 6 rows selected 
+
+> -- left join except the inner
+> select * from astudent ast left join adepartment adept on ast.dept_id=adept.dept_id
+where adept.dept_id is null
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+         5 Michael                                                                                    
+         3 james                                                                                      
+
+> -- right join except the inner
+> select * from astudent ast right join adepartment adept on ast.dept_id=adept.dept_id
+where ast.dept_id is null
+STUDENT_ID STUDENT_NAME            DEPT_ID    DEPT_ID DEPT_NAME            TOTAL_EMPLOYEES FACULTY_ID
+---------- -------------------- ---------- ---------- -------------------- --------------- ----------
+                                                      dummy                           1000            
+                                                    5 IC                                70          1 
+                                                    4 Civil                             25          1 
+                                                    3 IT                                75          1 
+

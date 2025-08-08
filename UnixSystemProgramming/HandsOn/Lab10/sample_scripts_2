@@ -1,0 +1,78 @@
+
+
+
+
+#Program that looks at every component of PATH and checks whether the directory exists and is also accessible.
+
+
+for var in `echo $PATH | tr ":" "\n"`
+do 
+        #echo $var
+        if [ -d $var ]
+        then 
+                if [ -x $var ]
+                then
+                        echo  " $var does exist and is accessible."
+                else
+                        echo  " $var exist but not accessible. "
+                fi
+
+        else 
+                echo " $var does NOT exist."
+        fi
+done
+
+[jpandya@JMP shellscripts]$ chmod -x tst
+[jpandya@JMP shellscripts]$ ./tpath.sh 
+ /usr/lib/qt-3.3/bin does exist and is accessible.
+ /usr/kerberos/bin does exist and is accessible.
+ /usr/local/bin does exist and is accessible.
+ /usr/bin does exist and is accessible.
+ /bin does exist and is accessible.
+ /usr/X11R6/bin does exist and is accessible.
+ /home/jpandya/bin does NOT exist.
+ /home/jpandya/myprog/ does exist and is accessible.
+ /home/jpandya/Desktop/LOSP_2013_14/shellscripts/tst exist but not accessible. 
+[jpandya@JMP shellscripts]$ 
+
+
+[jpandya@JMP shellscripts]$ cat area.sh 
+#!/bin/bash
+#Program to find area of triangle or circle using bc command and pipe.
+echo "Enter T or C "
+read ch
+
+if [ $ch == "T" ]
+then
+        echo "Enter the value of hight and base:"
+        read h b
+
+        a=`echo " scale=5 ; ( $h * $b ) / 2 "| bc `
+        echo "area of triangle is : $a "
+
+elif [ $ch = "C" ]
+then
+        echo " Enter the radius :"
+        read r
+        ac=`echo "scale=2 ; 3.14 * ( $r^2 ) " | bc`
+        echo "area of circle is : $ac"
+else
+        echo "enter proper choice"
+fi
+
+[jpandya@JMP shellscripts]$ 
+
+
+[jpandya@JMP shellscripts]$ ./area.sh 
+Enter T or C 
+T
+Enter the value of hight and base:
+2 5
+area of triangle is : 5.00000 
+[jpandya@JMP shellscripts]$ ./area.sh 
+Enter T or C 
+C
+ Enter the radius :
+4
+area of circle is : 50.24
+[jpandya@JMP shellscripts]$ 

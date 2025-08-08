@@ -1,0 +1,80 @@
+When I rerun it shows me error. Why?? Find bug in the program or clean up steps after the application stops.
+
+//See that three semaphores are opened by two processes for read/write purposes.
+[jpandya@localhost lab7]$ /usr/sbin/lsof  | grep sem
+[jpandya@localhost lab7]$ /usr/sbin/lsof  | grep sem
+a.out     9403   jpandya  DEL       REG       0,19              28581 /dev/shm/sem.mRfL0B
+a.out     9403   jpandya  DEL       REG       0,19              28580 /dev/shm/sem.0SjJaz
+a.out     9403   jpandya  DEL       REG       0,19              28579 /dev/shm/sem.ECMHkw
+a.out     9404   jpandya  DEL       REG       0,19              28581 /dev/shm/sem.mRfL0B
+a.out     9404   jpandya  DEL       REG       0,19              28580 /dev/shm/sem.0SjJaz
+a.out     9404   jpandya  DEL       REG       0,19              28579 /dev/shm/sem.ECMHkw
+//After stopping both producer and consumer, see that files are closed as processes terminated.
+[jpandya@localhost lab7]$ /usr/sbin/lsof  | grep sem
+[jpandya@localhost lab7]$ /usr/sbin/lsof  | grep sem
+
+
+
+//See that two processes have attached to this shared memory with key 124(7c).
+[jpandya@localhost lab7]$ ipcs
+
+------ Shared Memory Segments --------
+
+0x0000007c 4390938    jpandya   600        25600      2                       
+
+
+
+//Sample Output of the program. See that buffer max is 5, hence from location 0 to 4 producer consumer are synchronizing well.
+...
+ consumed 4860 from 0 location
+ produced 4870 at 1 location
+ consumed 4870 from 1 location
+ produced 4880 at 2 location
+ consumed 4880 from 2 location
+ produced 4890 at 3 location
+ consumed 4890 from 3 location
+ produced 4900 at 4 location
+ consumed 4900 from 4 location
+ produced 4910 at 0 location
+ consumed 4910 from 0 location
+ produced 4920 at 1 location
+ consumed 4920 from 1 location
+ produced 4930 at 2 location
+ consumed 4930 from 2 location
+ produced 4940 at 3 location
+ consumed 4940 from 3 location
+ produced 4950 at 4 location
+ consumed 4950 from 4 location
+ produced 4960 at 0 location
+ consumed 4960 from 0 location
+...
+
+Press Ctrl+c to stop processes.
+
+
+When I rerun it shows following error. Why?? Find bug in the program or clean up steps after the application stops.
+
+[jpandya@localhost lab7]$ ps -ef |grep a.out
+jpandya   9453  5516  0 14:51 pts/1    00:00:00 grep a.out
+[jpandya@localhost lab7]$ ./a.out 
+
+ producer consumer bounded buffer using shared memory  -  START
+ Error in creating named semaphores ... :  Permission denied[jpandya@localhost lab7]$ 
+[jpandya@localhost lab7]$ ls -ltr
+
+I am seeing no semaphore files are open for the current user:
+[jpandya@localhost lab7]$ /usr/sbin/lsof  | grep sem
+[jpandya@localhost lab7]$ 
+
+The shared memory segment is alive, not attached though. 
+ipcs
+0x0000007c 4390938    jpandya   600        25600      0   
+
+
+May this help:
+you may use kill if there are any processes running and using the resources. Or can you add appropriate flags to reuse the semaphores and shared memory?
+
+I am not able to find physical file location of semaphore. Any idea?
+
+
+Source File :myprodconssmnamed.c

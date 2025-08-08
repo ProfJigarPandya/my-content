@@ -1,0 +1,8 @@
+The world is data rich but information poor. - Authors of book Data Mining CONCEPTS AND TECHNIQUES. Jiawei Han, Micheline Kamber, Jian Pei.
+
+Sonar helps dolphins see; questions help people discern.
+
+If I were given one hour to save the planet, I would spend 59 minutes defining  the problem and one minute resolving it. - Albert Einstein
+
+Data doesn't live in a vacuum, it needs context. The fact is, data has little value if it is not paired with context. 
+

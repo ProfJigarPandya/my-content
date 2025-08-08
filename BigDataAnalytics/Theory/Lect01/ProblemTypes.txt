@@ -1,0 +1,25 @@
+Problem itself has general types, that is when you need to solve any problem, the problem itself can be observed for any of the following types. Knowing the type of problem itself helps solve it better by prior knowledge of similar problem type and its solutions with proven approaches. Very good analogy is software design patterns.
+
+1) Making predictions
+- How things may be in the future.
+
+2) Categorizing things
+- Assigning diffent groups/clusters based on common features
+
+3) Spotting something unusual
+- Detect data that is different from the norm
+i.e.Reviewing sales data and noticing that a random Tuesday in August had the highest sales last year
+
+4) Identifying themes
+- grouping categorized information into broader concepts/themes
+i.e. Reviewing social media reviews to identify common phrases, categorize them, and group each category into a broader theme
+
+5) Discovering connections
+- Finding similar challenges faced by differnt entities and combining data and insights to address them.
+i.e. Collaborating with a supplier to discover that bad weather is the most common reason for late deliveries
+
+6) Finding patterns
+-Using historical data to understand patterns.
+i.e. Using historical data to create a report that shows when batteries have been replaced on critical equipment 
+
+

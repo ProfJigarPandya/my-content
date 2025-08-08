@@ -1,0 +1,6 @@
+Aim:
+Recording types of data and various file formats. Identifying data sources.
+Handling traditionally to start with at small scale.
+
+https://www.phpmyadmin.net/
+https://livesql.oracle.com/  (create free oracle account first)

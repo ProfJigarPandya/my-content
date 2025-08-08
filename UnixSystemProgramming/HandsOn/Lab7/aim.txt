@@ -1,0 +1,4 @@
+Lab 7
+Write a C program to send signals and handle various signals.
+
+(Use of signal, killsystem calls)

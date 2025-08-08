@@ -1,0 +1,3 @@
+SME- Subject Matter Expert
+What if google/facebook like IT giants give away their software/source code for free to use? Will we really be powerful enough as them?
+In the era of AI, machines learn off from the data. No training without datasets.

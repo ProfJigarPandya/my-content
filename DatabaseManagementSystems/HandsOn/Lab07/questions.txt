@@ -1,0 +1,14 @@
+1. Find the product_no and description of non- moving products.
+2. Find the customer name, address, city and pincode for the client who has placed order no
+“019001”
+3. Find the client names who have placed order before the month of may 96.
+4. Find out if product “1.44 Drive” is ordered by only client and print the client_no name to
+whom it was sold.
+5. find the names of client who have placed orders worth Rs.10000 or more.
+6. Select the orders placed by ‘Rahul Desai”
+7. Select the names of persons who are in Mr. Pradeep’s department and who have also
+worked on an inventory control system.
+8. Select all the clients and the salesman in the city of Bombay.
+9. Select salesman name in “Bombay” who has atleast one client located at “Bombay”
+10. Select the product_no, description, qty_on-hand,cost_price of non_moving items in the
+product_master table.

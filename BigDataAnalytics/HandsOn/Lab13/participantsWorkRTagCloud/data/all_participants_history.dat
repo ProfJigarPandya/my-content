@@ -1,0 +1,2278 @@
+
+-----------------
+PARTICIPANT 1
+onama
+exit
+onama
+exit
+onama
+exit
+onama
+exit
+ls
+users
+who
+whoami
+ls -l
+mkdir param_dir_1
+ls
+pwd
+cd ..
+cd participant1
+phthon
+LS
+ls
+python
+cd param_dir_1/
+python3
+touch  param_file_1 
+cd
+cd param_dir_1/
+pwd
+ls 
+ls -l
+mkdir dir1
+ls -l
+ls -ltr
+crontab -l
+pwd
+cat > file1
+less  file1
+more file1
+man 
+man ls
+help man
+]man man
+man -k man
+.
+man useradd
+passwd
+exit
+man 2
+man 2 ls
+man 7 man
+ls
+cp file1 file2
+ls
+cat file2
+ls
+mv file2 param_file_2
+ls
+cat param_file_2
+cat file1 | less
+sort file1
+vi file1
+vi -R file1
+free
+top -u participant1
+ls
+rmdir dir1
+ls
+mkdir dir1
+grep SHAVAK file1
+grep 'PARAM' file1
+grep PARAM file1
+find /-name file
+find file1
+find file
+cd dir
+ls
+cd dir1
+pwd
+cat > file1
+cd 
+cd param_dir_1/
+find / file1
+find / -name file1
+pwd
+find /home/participant1/param_dir_1 -name file1
+lsof -u file1
+lsof -u participant1
+last
+ls
+rm param_file_2
+ls
+rm dir1
+rmdir dir1
+rm -rf dir1
+ls
+ps
+man 7 ls
+man 7 man
+history
+w
+uptime
+cd ..
+cd
+pwd
+cd param_dir_1/
+pws
+pwd 
+ls /home/participant
+ls /home/participant1
+ls
+pwd
+cd ..
+pwd
+cd param_dir_1/
+cd ../..
+pwd
+cd ~/param_dir_1/
+pwd
+cd ../..
+pwd
+cd ~/param_dir_1/
+pwd
+cd /home/participant1
+pwd
+cd param_dir_1
+pwd
+cd ..
+pwd
+cd /home/participant1/param_dir_1
+pwd
+history
+user
+users
+cd ..
+users
+who
+whoami
+ls
+cat param_file_1
+cat >  param_file_1
+ls
+ls -ltr
+ls -l
+ls -a
+mkdir param_dir_2
+ls
+cat param_file_1
+cat >  param_file_2
+cat  param_file_2
+ls
+cat  param_file_2
+cat >> param_file_2
+cat  param_file_2
+cat  file1
+cat > file1
+less file1
+more file1
+ls
+touch file2
+cp file1 file2
+cat file2
+rm file2
+cat param_file_1
+cp  param_file_1  file_1
+cat file_1
+ls
+mv file_1 file_2
+cat file_2
+ls
+mv -i file_1 file_2
+ls
+mv -i file1 file_2
+cat file_2
+ls
+cd param_dir_1
+cd ..
+pwd
+ls
+cd param_dir_1
+pwd
+cat > file
+cat file
+sort file1
+sort file
+cat file
+sort file
+cat > file.txt
+sort file.txt
+cat > file.txt
+sort file.txt
+vi file1
+vi -R file1
+free
+last
+ps
+rm -i file1
+ls
+mkdir dir1
+ls
+cd ..
+ls
+rmdir param_dir_2
+ls
+history
+man
+man ls
+man man
+man ls
+exit
+cat >> param_file_2
+gangila
+participant1/gangila
+ifconfig
+ifconfig
+192.168.29.220/gangila
+<192.168.29.220>/gangila
+onama
+exit
+whoami
+hostname
+echo $HOME
+mkdir demodir
+cd demodir/
+ls
+pwd
+ls
+xclock
+onama
+onama &
+xclock &
+google-chrome
+onama &
+onama
+'
+
+pwd
+nautilus &
+top
+-----------------
+
+-----------------
+PARTICIPANT 2
+onama
+exit
+onama
+exit
+xclock
+exit
+-----------------
+
+-----------------
+PARTICIPANT 3
+onama
+exit
+hostname
+ls
+ls/
+ls -l ~/Downloads
+echo $HOME
+mkdir sttpparam
+ls
+cd sttpparam
+-----------------
+
+-----------------
+PARTICIPANT 4
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 5
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 6
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 7
+onama
+exit
+whoami
+echo $HOME
+ls
+man
+yes
+whoami
+echo $HOME
+scp
+hpcapps
+which ssh
+ls -l /usr/bin/ssh
+systemctl status sshd.service
+ifconfig
+logout
+pwd
+ls
+vi r1.txt
+pwd
+scp /home/participant7/r1.txt hadoop@192.168.26.24/home/hadoop/
+scp -P 1989 /home/participant7/r1.txt hadoop@192.168.26.24/home/hadoop/
+pwd
+ls
+scp -P 1989 /home/participant7/r1.txt hadoop@192.168.26.24/home/hadoop
+scp -P 1989 /home/participant7/r1.txt hadoop@192.168.26.24:/home/hadoop/
+scp -P 1989 /home/participant7/r1.txt hadoop@192.168.26.24:/home/hadoop
+scp /home/participant7/r1.txt hadoop@192.168.26.24:/home/hadoop
+hpcapps
+onama
+xclock
+cd /opt/onama/
+onama
+pwd
+cd Onama_Installed/
+onama
+xclock
+cd ..
+cd $HOME
+ls
+nautilus
+xclock
+nautilus
+pwd
+mkdir demodir
+cd demodir
+ls
+pwd
+nautilus
+logout
+top
+exit
+xclock
+onama
+chreme
+]onama
+xcloxk
+xclock
+jupyter
+onama
+google-chrome
+exit
+jupyter-notebook
+exit
+jupyter notebook
+exit
+hpcapps
+pwd
+ls
+pwd
+hpcapps
+exit
+hpcapps
+source apt update sudo apt upgrade
+pwd
+python3
+python3 -m venv /home/participant7/venv
+pwd
+ls
+cd venv
+ls
+source bin/activate
+python
+pip install datasets evaluate transformers[sentencepiece]
+pip install --upgrade pip
+pip install datasets evaluate transformers[sentencepiece]
+pip install datasets evaluate transformers[sentencepiece] install datasets evaluate transformers[sentencepiece]
+pip install datasets evaluate transformers[sentencepiece] install datasets evaluate transformers[sentencepiece] install datasets evaluate transformers[sentencepiece]
+which pip
+pip install datasets evaluate transformers[sentencepiece]
+pip3 install datasets evaluate transformers[sentencepiece]
+pip3 install transformers
+pip3 datasets
+pip3 install datasets
+pip install evaluate
+pip3 install evaluate
+clear
+python3
+pip3 install torch torchvision torchaudio
+pwd
+ls
+source bin/deactivate
+conda deactivate
+cd bin 
+ls
+logout
+-----------------
+
+-----------------
+PARTICIPANT 8
+onama
+exit
+who
+whoami
+echo $HOME
+mkdir sttp/
+ls
+rm sttp
+rm sttp/
+rmdir sttp
+ls
+mkdir sttp
+cd /sttp
+cd sttp
+ls
+whoami
+ls
+xclock
+onama
+onama &
+onama &
+onama
+xclock &
+xclock &
+nautilus &
+nautilus &
+python3
+top
+top
+exit()
+exit
+-----------------
+
+-----------------
+PARTICIPANT 9
+onama
+exit
+clear
+whoami
+ifconfig
+ifconfig
+who\
+who
+firefox
+who
+whoami
+hostname
+ls
+ls -l
+ls -a
+cd
+ls
+cp
+cp --help
+echo home
+$HOME
+echo $HOME
+ls
+cd ~/
+ls
+cd ~/
+ls
+pwd
+ls
+ls
+]ls\
+ls
+mkdir day1
+cd day1
+ls
+history
+ls
+ps
+top
+cpu
+xclock
+onama
+chrome &
+ps
+top
+firefox
+chrome
+google chrome
+google chrome
+onama &
+onama &
+qewkjn 
+wsefckn
+zxckxxz
+partg
+parth
+ls
+mkdir day2
+ls
+cpuinfo
+meminfo
+ls
+mkdir day4
+ls
+lscpu
+cpuinfo
+cpu
+gpu
+gpuinfo
+nvidia-smi
+jupyter notebook
+jupyter-notebook
+anaconda
+sudo anaconda
+top
+python
+ls
+cd day4
+wget https://drive.google.com/file/d/15LqUnGwZ-y4grSGiFWw1x33QOz_No6aQ/view?usp=drive_web&authuser=0
+wget https://drive.google.com/file/d/15LqUnGwZ-y4grSGiFWw1x33QOz_No6aQ/view?usp=drive_web&authuser=0
+ls
+cd ..
+ls
+pwd
+~/
+cd ~
+las
+pwd
+ls
+bash Miniconda3-py39_4.12.0-Linux-x86_64.sh \
+bash Miniconda3-py39_4.12.0-Linux-x86_64.sh
+miniconda
+jupyter notebook
+jupyter
+scipy
+scilab
+to
+top
+ps
+kill 79838
+ps
+kill 79838
+ps
+s
+cd Mi
+ls
+cd miniconda3/
+ls
+who
+ls
+python usethis
+ls mi
+ls
+cd bin
+ls
+./conda
+conda list
+conda -list
+conda --list
+apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+conda init fish
+conda
+./conda list
+./conda init fish
+scipy
+./conda init fish
+exit\
+exit
+ls
+conda
+./conda init fish
+cd miniconda3/
+ls
+cd bin
+ls
+./conda init fish
+rm
+rm -rf
+ls
+cd ..
+s
+ls
+rm -rf miniconda3/
+ls
+ls -a
+rm -rf .conda .Scilab
+ls -a
+bash Miniconda3-py39_4.12.0-Linux-x86_64.sh 
+condsa
+conda
+init 1
+xit
+logout
+exit
+ls
+cd miniconda3/
+ls
+conda list
+conda activate
+which pyrhon
+which python
+jupyter notebook
+jupyter notebook --generate-config
+ls
+cd 
+ls
+-----------------
+
+-----------------
+PARTICIPANT 10
+onama
+exit
+whoami
+who
+ifconfig
+hostname
+ls
+mkdir sttp_day1
+ls
+cd sttp_day1/
+cd ..
+cd sttp_day1/
+ls
+cd ..
+ls
+scp hadoop@192.168.26.41:/home/hadoop/Desktop/host_file ~/sttp_day1
+ls
+ls ~/sttp_day1
+cd ..
+cd sttp_day1/
+cd ~
+cd sttp_day1/
+ls
+cat host_file 
+cat > param_file
+cat  param_file
+pwd
+ifconfig
+exit
+xclock
+exit
+onama
+ssh keygen
+ssh-keygen
+nautilus &
+ssh-copy-id -p 1989 participant10@192.168.29.220
+top
+cat cat top
+cat top
+nautilus &
+exit
+exit
+ssh -X  participant10@192.168.29.220 -p 1989
+jupyter &
+jupyter-notebook &
+jupyter-notebook &
+hpcapps
+python3
+pip install transformers
+hpcapps
+onama
+onama &
+gedit prime_parallel.c
+gcc -o prime_parallel -fopenmp prime_parallel.c
+./prime_parallel
+gedit prime_parallel.c &
+gcc -o prime_parallel -fopenmp prime_parallel.c
+./prime_parallel
+gcc -o prime_parallel -fopenmp prime_parallel.c
+./prime_parallel
+gcc -o prime_parallel -fopenmp prime_parallel.c
+./prime_parallel
+gcc -o prime_parallel -fopenmp prime_parallel.c
+./prime_parallel
+gcc -o prime_parallel -fopenmp prime_parallel.c
+./prime_parallel
+gcc -o prime_parallel -fopenmp prime_parallel.c
+./prime_parallel
+gcc -o prime_parallel -fopenmp prime_parallel.c
+./prime_parallel
+exit
+-----------------
+
+-----------------
+PARTICIPANT 11
+onam
+onama
+exit
+who
+whoami
+ifconfig
+hostname
+echo $HOME
+ls
+-ls
+ls
+xclock
+onama
+nautilus
+who
+whoami
+clear
+cpuinfo
+exit
+whoami
+ls
+cd desktop
+cd Desktop
+ls
+ipconfig
+ip
+whoami
+ls
+cd Desktop
+python QA.py
+ls
+cd ..
+python QA.py
+ls
+python QA.py
+notebook
+jupyter notebook
+whoami
+ls
+ls
+python qa.py
+ls
+gedit qa.py
+python qa.py
+gedit qa.py
+python qa.py
+gedit qa.py
+python
+gedit qa.py
+python qa.py
+gedit qa.py
+python qa.py
+gedit qa.py
+python
+gedit qa.py
+python qa.py
+gedit qa.py
+python qa.py
+pip install numpy
+pip install datasets
+python3 -m pip install transformer
+python3 -m pip install transformers
+python3 -m pip install datasets
+python3 -m pip install evaluate
+pip install datasets evaluate transformers[sentencepiece]
+ls
+python3 -m pip install transformer
+python3 -m pip install transformer
+python3 qa.py
+gedit qa.py
+python3 qa.py
+pip install transformers
+python -m pip install -–upgrade pip
+python -v
+python3 -v
+pip install transformers
+whoami
+https://colab.research.google.com/
+firefox
+ls
+clear
+ls
+~/
+firefox
+ls
+~/
+cd ..
+google-chrome &
+google-chrome &
+firefox &
+system
+system
+exit
+-----------------
+
+-----------------
+PARTICIPANT 12
+onama
+exit
+ifconfig
+whoami
+hotsname
+host
+cls
+clear
+hots -l
+host -l=-list
+clear
+whoiam
+whoami
+clear
+hostname
+echo $HOME
+ls
+mkdir sttp
+cd sttp/
+cd day-1
+mkdir day-1
+ls
+cd day-1/
+scp hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Desktop/ParamShavak/* ./
+scp hadoop@192.168.26.38:/home/hadoop/Desktop/ParamShavak/* ./
+ls
+clear
+ls
+clear
+ls -l
+ls
+pwd
+man mv
+mv * ../
+ls
+cd ..
+ls
+rmdir day-1
+cls
+clear
+ls
+pwd
+man scp
+mkdir day-1
+pwd
+ls
+cd day-1/
+ls
+cd ..
+rm -rf day-1
+ls
+clear
+pwd
+exit
+ls
+cd sttp/
+ls
+clear
+xclock
+python3
+clear
+xclock &
+clear
+onama
+onama & 
+nautilus @
+clear
+top
+clear
+exit
+ls
+cd sttp/
+ls
+clear
+exit
+startx
+clear
+top
+lscpu
+htop
+top
+nproc
+clear
+cat /proc/cpuinfo
+clear
+scp hadoop@192.168.26.23
+ls hadoop@192.168.26.23:/home/Desktop
+scp  hadoop@192.168.26.23:/home/Desktop/day-2/* ./
+scp  hadoop@192.168.26.23:~/Desktop/day-2/* ./
+pwd
+ls
+cd Desktop/
+ls
+cd ..
+ls
+cd sttp/
+ls
+ls
+mkdir demo
+ls
+cd demo/
+ls
+-----------------
+
+-----------------
+PARTICIPANT 13
+onama
+exit
+whoami
+id 
+xclock
+google-chrome &
+gedit
+gedit
+python 
+exit
+whoami
+hostname
+who
+echo $HOME
+mkdir sttp
+cd sttp
+ls
+cs
+cd
+cd sttp
+ls
+cd
+cd sttp
+ls
+pwd
+cd sttp
+pwd
+cd
+ls
+cd sttp
+ls
+cd 
+scp hadoop@192.168.26.49:/home/hadoop/* participant13@192.168.29.220:sttp
+ls
+cd sttp
+ls
+scp hadoop@192.168.26.49:/home/hadoop/Downloads/*  participant13@192.168.29.220:sttp
+ls
+cd
+scp hadoop@192.168.26.49:/home/hadoop/Downloads/*  participant13@192.168.29.220:sttp
+cd sttp
+ls
+scp hadoop@192.168.26.49:/home/hadoop/Downloads/*  participant13@192.168.29.220:sttp
+ls
+cd
+mkdir sttpvar13
+scp hadoop@192.168.26.49:/home/hadoop/Downloads/*  participant13@192.168.29.220:sttpvar13
+cd sttpvar13
+ls
+scp hadoop@192.168.26.49:/home/hadoop/Downloads/*  participant13@192.168.29.220:sttpvar13
+ls
+scp hadoop@192.168.26.49:/home/hadoop/Downloads/*  participant13@192.168.29.220:sttpvar13
+ls
+passwd participant13
+scp hadoop@192.168.26.49:/home/hadoop/Downloads/*  participant13@192.168.29.220:sttpvar13
+quit
+exit
+onama
+exit
+top
+exit
+ls
+hpcapps
+hello
+ipython
+sudo pip install -U mistune
+module avail conda
+module load conda-python/3.7
+pip install runipy
+scp hadoop@192.168.26.41:~/Downloads/* partcipant13@192.168.29.220
+ls
+cd participant13@192.168.29.220
+cd partcipant13@192.168.29.220
+scp hadoop@192.168.26.41:~/Downloads/* participant13@192.168.29.220
+ls
+cd participant13@192.168.29.220
+scp hadoop@192.168.26.41:~/Downloads/* participant13@192.168.29.220:/sttp
+scp hadoop@192.168.26.41:~/Downloads/* participant13@192.168.29.220:~/sttp
+scp hadoop@192.168.26.41:~/Downloads/* participant13@192.168.29.220:~/sttp/
+scp hadoop@192.168.26.41:~/Downloads/* participant13@192.168.29.220
+ls
+cd sttp
+scp hadoop@192.168.26.41:~/Downloads/* participant13@192.168.29.220
+ls
+cd
+scp hadoop@192.168.26.41:~/Downloads/* ~/sttp
+ls
+cd sttp
+ls
+rumipy ATS_Transformer_T5.ipynb
+runipy ATS_Transformer_T5.ipynb
+runipy ATS_Transformer_T5.ipynb
+pip install six
+cd
+pip install six
+pip install runipy
+pip install six
+pip install six>=1.11.0
+runipy ATS_Transformer_T5.ipynb
+pip install six=1.11.0
+pip install six==1.11.0
+runipy ATS_Transformer_T5.ipynb
+runipy ~/sttp/ATS_Transformer_T5.ipynb
+scp hadoop@192.168.26.41:~/Downloads/* ~/sttp/
+scp hadoop@192.168.26.41:~/Downloads/ats_transformer_t5.py ~/sttp/
+ls
+cd sttp
+ls
+python3 -m venv venv
+ls
+source ./venv/bin/activate
+pip install transformers
+pip install sentencepiece
+pip install --upgrade pip
+ls
+pip list
+which pip3
+pip3 install transformers sentencepiece
+pip list
+ls
+python ats_transformer_t5.py 
+pip install torch
+python ats_transformer_t5.py 
+exit
+-----------------
+
+-----------------
+PARTICIPANT 14
+onama
+exit
+clear
+alias cls clear
+alias clear cls
+clear
+whoami
+id
+pwd
+xclock
+exit
+cat ~/.ssh/authorized_keys 
+whoami
+pwd
+cat /etc/ssh/sshd_config
+vi /etc/ssh/sshd_config
+exit
+dir
+cat lab3.txt 
+exit
+onama
+exit
+onama
+exit
+nautilus &
+nautilus &
+ps
+kill -p 176650
+kill
+kill --help
+man kill
+ps
+exit
+-----------------
+
+-----------------
+PARTICIPANT 15
+onama
+exit
+whoami
+los
+ls
+who
+hostname
+ls
+ls ~ltr
+ls
+echo$HOME
+echo $HOME
+ls 
+ls
+mkdir pstp/
+cd sttp
+ls
+ifconfig
+ls
+ipconfig
+ifconfig
+ls
+who
+mkdir demodir
+cd
+cd demodir/
+ls
+pwd
+ls
+man mkdir
+which ssh
+dir *.txt
+dir
+ll
+echo hello > test.txt
+scp -P 1989 test.txt participant15@192.168.29.220:.
+ls
+ssh-keygem
+ssh-keygen
+ssh-copy-id -p 1989 participant14@192.168.29.220
+ssh-copy-id -p 1989 participant15@192.168.29.220
+xclock
+whoami
+onama
+ssh-copy-id -p 1989 participant15@192.168.29.220
+onama
+exit
+ssh -X -p 1989 participant15@192.168.29.220
+exit
+ssh -x participant15@192.168.29.220 -p 1989
+exit
+ssh -p 1989 participant15@192.168.29.220
+ssh -X 1989 participant15@192.168.29.220
+onama
+onama&
+onama&
+onama & 
+xclock &
+nautilus &
+exit
+ssh -X -p 1989 participant15@192.168.29.220
+hpcapps
+onama
+-----------------
+
+-----------------
+PARTICIPANT 16
+onama
+exit
+who am i
+who
+ifconfig
+whoami
+hostname
+echo $HOME
+ls
+mkdir sttp-day-1
+cd sttp-day-1
+ls
+pwd
+ls
+cpuinfo
+nvidia
+nvidia-smi
+scp -P 1989 /home/hadoop/Downloads/* participant16@192.168.29.220:/home/participant16/sttp-day-1
+xclock
+onama
+ssh
+onama
+onama & xclock
+open chrome
+jupyter notebook
+cd ~
+jupyter notebook
+jupyter notebook --no-browser
+ssh -L http://127.0.0.1:8888/?token=9a2b0541c9c3306b8fb818277b4dadb5a22d93ab345555af
+ssh -
+ssh
+ssh -L http://localhost:8888/?token=9a2b0541c9c3306b8fb818277b4dadb5a22d93ab345555af
+nautilus &
+google-chrome
+jupyter notebook
+ls
+cd Downloads
+ls
+chmod Anaconda3-2022.05-Linux-x86_64.sh
+chmod 
+chmod +x Anaconda3-2022.05-Linux-x86_64.sh 
+./Anaconda3-2022.05-Linux-x86_64.sh 
+exit
+jupyter notebook
+vs-code
+vscode
+code
+jupyter notebook
+ls
+jupyter notebook
+ls
+rm sttp-day-1
+cd Downloads
+;s
+ls
+rm *
+ls
+cd sttp-day-1
+cd ~
+cd sttp-day-1
+ls
+rm *
+ls
+jupyter notebook
+ls
+cd ~
+ls
+cd Downloads
+ls
+jupyter notebook
+pip install tensorflow
+pip install pytorch
+pip install -torchvision pytorch
+jupyter notebook
+conda install torchvision-c pytorch
+exit
+jupyter notebook
+exit
+pip install pytorch
+clear
+jupyter notebook
+exit
+-----------------
+
+-----------------
+PARTICIPANT 17
+onama
+exit
+whoami
+hostname
+ls
+echo $HOME
+mkdir sttp/
+ls
+mkdir sttp/himanshu
+ls
+ls sttp
+cd sttp
+ls
+xclock
+ls
+onama
+onama & clock 
+onama & clock 
+onama
+nautilus &
+nautilus &
+top
+exit
+-----------------
+
+-----------------
+PARTICIPANT 18
+onama
+exit
+hostname
+whoami
+ls
+echo $home
+echo $HOME
+echo $HOME
+ifconfig
+mkdir demodir
+cd demodir
+ls
+pwd
+ls
+xclock
+ONAMA
+onama
+onama &
+g
+google chrome
+onama &
+google chrome
+nautilus &
+nautilus &
+google chrome
+google chrome
+top
+cat
+exit
+jupyter notebook
+jupyter notebook &
+jupyter notebook &
+google-chorme
+google-chrome
+google-chrome
+conda 
+google-chrome
+ls
+cd Downloads
+ls
+chmod +x Anaconda3-2022.05-Linux-x86_64.sh
+./Anaconda3-2022.05-Linux-x86_64.sh 
+exit
+jupyter notebook
+jupyter notebook &
+ls
+cd Untitled\ Folder/
+touch practice.ipynb
+touch practice.ipynb
+jupyter notebook
+code
+hpcapps
+top
+ls
+java
+ls
+cd Desktop
+ls
+firefox &
+chrome &
+google chrome &
+code
+cd
+google chrome
+chrome &
+git
+git clone https://github.com/Rushi0535/Univeristy__Recommendation_System.git
+ls
+code
+code &
+jupyter notebook &
+jupyter notebook &
+code &
+exit
+code &
+code
+jupyter notebook
+-----------------
+
+-----------------
+PARTICIPANT 19
+oanma
+oanama
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 20
+onama
+exit
+whoami
+ifconfig
+hostname
+echo $HOME
+onama
+-----------------
+
+-----------------
+PARTICIPANT 21
+onama
+exit
+who am i
+who
+ifconfig
+ifconfing
+ifconfig
+who
+echo $Home
+echo $HOME
+mkdir DAY-1
+cd DAY-1
+pwd
+ls
+..cd
+__cd
+ls
+cd..
+who
+who
+pwd
+pwd
+ls
+cpu
+cpuinfo
+ssh
+nvidia-smi
+xclock
+ssh
+man ssh
+xclock
+onama
+onama &
+onama &
+history
+cd Downloads
+ls
+google-chrome
+ls
+cd Downloads
+ls
+chmod +x Anaconda3-2022.05-Linux-x86_64.sh 
+./Anaconda3-2022.05-Linux-x86_64.sh 
+exit
+juypter notebook
+ls
+cd Downloads/
+ls
+..cd
+cd..
+cd  
+conda
+juypter notebook
+chmod +c
+chmod +x anaconda3/
+jupyter notebook
+cd Downloads
+ls
+chmod +x Anaconda3-2022.05-Linux-x86_64.sh 
+./Anaconda3-2022.05-Linux-x86_64.sh 
+exit
+jupyter notebook
+conda
+exit
+onama
+exit
+onama
+jupyter notebook
+cd Downloads/
+jupyter notebook
+cd  
+ls
+cd anaconda3/
+jupyter notebook
+cd  
+ls
+cd Downloads/
+ls
+ls
+chmod -x Anaconda3-2022.05-Linux-x86_64.sh
+jupyter notebook
+http://localhost:8888/notebooks/Untitled2.ipynb?kernel_name=python3
+run http://localhost:8888/notebooks/Untitled2.ipynb?kernel_name=python3
+ssh - http://localhost:8888/notebooks/Untitled2.ipynb?kernel_name=python3
+ls
+chmod Anaconda3-2022.05-Linux-x86_64.sh 
+chmod -X  Anaconda3-2022.05-Linux-x86_64.sh 
+./
+./ Anaconda3-2022.05-Linux-x86_64.sh 
+chmod -x Anaconda3-2022.05-Linux-x86_64.sh 
+ls
+chmod -X Anaconda3-2022.05-Linux-x86_64.sh 
+ls
+./ Anaconda3-2022.05-Linux-x86_64.sh 
+ls
+chmod -x Anaconda3-2022.05-Linux-x86_64.sh 
+ls
+rmmod -x Anaconda3-2022.05-Linux-x86_64.sh 
+chmod -x Anaconda3-2022.05-Linux-x86_64.sh 
+ls
+cd  
+cd Downloads/
+ls
+pip install jupyter notebook
+conda install jupyter notebook
+activate root
+cd  
+activate conda
+conda activate root
+activate conda
+activate root
+chorme
+chrome
+firefox
+ls
+cd anaconda3
+ls
+activate root
+conda activate
+cd bin
+ls
+./conda
+./ conda init
+./conda init
+exit
+jupyter notebook
+-----------------
+
+-----------------
+PARTICIPANT 22
+onama$
+onama
+exit
+ls
+who
+ifconfig
+ls -ltr
+whoami
+pwd
+hostname
+who
+cls
+clc
+clear
+whoami
+hostname
+echo $HOME
+cls
+clear
+echo $HOME
+ifconfig
+clear
+mkdir ashish
+cd ashish
+cd..
+cd ..
+ls
+cat>>file1.txt
+clc
+clear
+cd ashish
+ls
+echo $HOME
+ls
+cat lab.txt 
+xclock
+cls
+clear
+ifconfig
+clear
+passwd
+clc
+clear
+s
+ls
+cat lab.txt 
+xclock
+onama
+onama &
+onama &
+ls
+google-chrome &
+google-chrome &
+clear
+clockx
+xclock
+clear
+pwd
+nautils &
+nautils &
+nautilas &
+nautilas &
+nautilus &
+nautilus &
+clear
+top
+clear
+exit
+-----------------
+
+-----------------
+PARTICIPANT 23
+onama
+exit
+whoami
+id
+pwd
+xclock
+google-chrome &
+
+gedit &
+gedit &
+xclock
+python
+nautilus
+exit
+echo
+hostname
+~
+scp
+scp user1@192.168 
+mkdir demodir
+cd demodir
+ls
+pwd
+ls
+ls
+-----------------
+
+-----------------
+PARTICIPANT 24
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 25
+onama
+exit
+whoami
+ifconfig
+hostname
+pwd
+ls
+cd Desktop
+cd  
+ld
+ls
+   
+echo $HOME
+os
+clear
+~jclear
+clear
+ifconfig
+ls
+mkdir demo
+ld
+ls
+cp *
+ls
+cp /*
+cp 
+cp *
+cp * ~/
+ls
+cp * ~/demo
+cd demo
+pwd
+cp * /home/participant25/demo
+ls
+cd  
+ls
+rm *
+ls
+cd
+cd demo
+ls
+sudo su
+cpuinfo
+ls
+cd  
+ls
+users
+ls
+cd demo
+ls
+cd  
+xclock
+xlib
+xclock
+onanma
+onama
+onama &
+onama &
+onama
+google-chrome &
+DC
+jupyter notebook &
+jupyter notebook &
+google-chrome &
+google-chrome &
+ls
+cd Downloads
+ls
+chmod +x AN
+chmod +x Anaconda3-2022.05-Linux-x86_64.sh 
+./Anaconda3-2022.05-Linux-x86_64.sh 
+cd  
+exit
+jupyter notebook &
+jupyter notebook &
+sudo apt update
+exit
+jupyter notebook &
+nautilius
+nautilus
+ls
+ifconfig
+hpcapps
+ls
+cd demo
+ls
+./run
+chmod +x run/
+ls
+cd run
+ls
+cd..
+cd.
+cd  
+cd demo
+ls
+java -jar wc.jar 
+ls
+cd  
+hpcapps
+ls
+demo
+cd demo
+ls
+java MutualFriends
+java MutualFriends.class 
+java MutualFriends.java
+javac MutualFriends.java
+where .ssh
+where
+apt-get install where
+pip install dlib
+pip install cmake
+pip install dlib
+pip3 install dlib
+pip3 install face_recognition
+pip3 install face_recognition
+conda install -c conda-forge dlib
+pip install -U pip
+conda update conda
+cd  
+jupyter notebook &
+firefox &
+firefox &
+chrome &
+chrome &
+jupyter notebook
+git clone https://github.com/Divyesh230902/Day-4.git
+ls
+code &
+conda install torchvision -c pytorch
+code &
+jupyter notebook --no-browser --port=8080
+jupyter notebook &
+exit
+-----------------
+
+-----------------
+PARTICIPANT 26
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 27
+onama
+exit
+who
+ipconfig
+ifconfig
+whoami
+which ssh
+ls -l /usr/bin/ssh
+systemctl status sshd.service
+ifconfig
+xclock
+google-chrome&
+google-chrome&
+gedit &
+gedit &
+hostname
+echo $HOME
+~ls
+ls
+scp hadoop@192.168.26.48:/home/hadoop/lab.text participant27@ceparam ~
+mkdir sttp27/
+scp hadoop@192.168.26.48:/home/hadoop/* participant27@ceparam ~/sttp27
+scp hadoop@192.168.26.48:/home/hadoop/* participant27@192.168.29.220:sttp27
+cd sttp27
+ls
+cd
+cd
+passwd
+cd sttp27
+ls
+onama
+onama
+exit
+ls
+cd
+cd sttp27
+ls
+cd
+onama
+onama &
+onama &
+onama
+cd sttp27
+ls
+cd
+nautils &
+nautils &
+nautilus &
+nautilus &
+cd sttp27
+ls
+top
+exit
+vi ~/.ssh/authorized_keys 
+ping 192.168.26.38
+nsloopup 192.168.26.38
+nslookup 192.168.26.38
+nslookup 192.168.26.103
+nslookup 192.168.26.38
+exit
+vi ~/.ssh/authorized_keys 
+nslookup celab2-ThinkCentre-neo-50s-Gen-3
+ping celab2-ThinkCentre-neo-50s-Gen-3
+vi ~/.ssh/authorized_keys 
+vi ~/.ssh/known_hosts 
+ssh hadoop@celab2-ThinkCentre-neo-50s-Gen-3
+vi ~/.ssh/known_hosts 
+exit
+sudo su -
+exit
+hpcapps
+exit
+GROMACS &
+GROMACS &
+ONAMA
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 28
+onama
+exit
+ls
+pwd
+ifconfig
+onama
+who
+ifconfig
+who
+whoami
+who
+whoami
+ifconfig
+onama
+echo ?
+hostname
+ls -l 
+echo $home
+echo $HOME
+ps
+history
+scp participant28@192.168.29.220:^C
+scp participant28@192.168.29.220://home/hadoop/rj_local
+ls
+mkdir rj_ps
+ls
+cd rj_ps/
+ls
+pwd
+scp participant28@192.168.29.220:/home/hadoop/rj_local 
+scp participant28@192.168.29.220:/home/hadoop/rj_local /home/participant28/rj_ps/
+pwd
+vi rohan.txt
+ls
+cd rj_ps/
+ls
+vi rj1.txt
+pwd
+pwd
+/home/participant28/rj_ps
+scp /home/participant28/rj_ps/rj1.txt hadoop@192.168.26.39://home/hadoop/rj_local
+pwd
+onma
+onama
+onama?
+onama $
+onama &
+nautilius &
+nautilius &
+onama $
+nautilus &
+nautilus &
+top
+cat 0
+cat *
+exit
+xitexit
+exit
+ls
+rm -rf rj_ps/
+ls
+mkdir rohan
+cd rohan/
+onama
+onama &
+gedit test,c
+gedit test.c
+gcc test.c 
+python -version
+python --version
+python3 --version
+python3 -m venv rj
+source rj/bin/activate
+python -- version
+python --version
+python3 --version
+pip install rasa
+pip install --upgrade pip
+exit
+ls
+cd rohan/
+ls
+gcc -fopenmp test.c -o test
+./test 
+-----------------
+
+-----------------
+PARTICIPANT 29
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 30
+onama
+exit
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 31
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 32
+onama
+exit
+whoami
+id
+pwd
+xclock
+hostname
+ls
+ls -l
+echo $HOME
+~
+~
+ls
+dir/p
+ls
+ls -l
+mkdir demodir
+cd demodir
+ls
+pwd
+scp ~/input.txt participant32@192.168.29.220:/home/participant32 -p 1989/demodir
+scp hadoop@192.168.26.50:home/hadoop/* participant32@192.168.29.220:demodir
+scp hadoop@192.168.26.50:home/hadoop/Downloads/* participant32@192.168.29.220:demodir
+ls
+cd ..
+dir/p
+cd demodir
+scp -P 1989 hadoop@192.168.26.50:home/hadoop/Downloads/* participant32@192.168.29.220:demodir
+dir/p
+ls
+scp*-P 1989 hadoop@192.168.26.50:home/hadoop/Downloads/* participant32@192.168.29.220:demodir
+scp -P 1989 hadoop@192.168.26.50:home/hadoop/Downloads/* participant32@192.168.29.220:demodir
+scp -P 1989 hadoop@192.168.26.50:home/Downloads/* participant32@192.168.29.220:demodir
+scp -p 1989 hadoop@192.168.26.50:home/Downloads/* participant32@192.168.29.220:
+pwd
+scp -p 1989 hadoop@192.168.26.50:home/Downloads/* participant32@192.168.29.220:/home/participant32/demodir
+scp -p 1989 hadoop@192.168.26.50:home/Downloads/* participant32@192.168.29.220:demodir
+onama
+onama &
+xclock 
+xclock &
+xclock 
+exit
+-----------------
+
+-----------------
+PARTICIPANT 33
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 34
+onama
+exit
+onama
+exit
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 35
+onama
+-----------------
+
+-----------------
+PARTICIPANT 36
+onama\
+onama
+xit
+exit
+onama
+ifconfig
+whoami
+who
+hostname
+echo $HOME
+scp hadoop@192.168.26.40:/home/hadoop/Desktop/par36 ~/home/participant36
+scp hadoop@192.168.26.40:/home/hadoop/Desktop/par36/jp.txt ~/home/participant36
+mkdir par36
+cd par36
+pwd
+touch jp.txt
+touch jp.txt
+scp hadoop@192.168.26.40 ~scp hadoop@192.168.26.40:/home/hadoop/Desktop/par36 ~/home/participant36
+scp home/participant36/par36/jp.txt hadoop@192.168.26.40:/home/hadoop/Dekstop 
+cd /home/participant36/par36
+ls
+scp home/participant36/par36/jp.txt hadoop@192.168.26.40:/home/hadoop/Dekstop 
+cat > param
+scp home/participant36/par36/param hadoop@192.168.26.40:/home/hadoop/Dekstop 
+pwd
+scp /home/participant36/par36/param hadoop@192.168.26.40:/home/hadoop/Dekstop 
+exit
+xclock
+who
+xclock
+exit
+xclock
+onama
+onama &
+natiuls &
+nautilus &
+top
+cat e
+cat 0
+exit
+-----------------
+
+-----------------
+PARTICIPANT 37
+onama
+exit
+pwd
+cd test
+mkdir test
+ls
+pwd
+ls
+cd test
+ls
+cat try.txt
+xclock
+onama
+logout
+-----------------
+
+-----------------
+PARTICIPANT 38
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 39
+onama
+exit
+-----------------
+
+-----------------
+PARTICIPANT 40
+exit
+ifconfig
+whoami
+echo $HOME
+whoami
+ls
+whoami
+clear
+scp mkdir Chintan_trial
+mkdir Chintan_trial
+cd Chintan_trial/
+ls
+pwd
+which ssh
+ls -l /usr/bin/ssh
+systemct1 status sshd.service
+systemctl status sshd.service
+systemctl status ftp.service
+systemctl status ftp
+systemctl status ssh.socket
+systemctl status sshd.socket
+xclock
+cpuinfo
+cpu
+cpuinfo
+python
+python3
+xclock
+google-chrome
+onama
+onama &
+xclock &
+google-chrome &
+nautilus &
+exit
+-----------------
+
+-----------------
+PARTICIPANT 41
+who
+ifconfig
+logout
+echo $HOME
+echo $HOME
+hostname\
+hostname
+mkdir -p Mydata
+cd Mydata/
+scp scp hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Downloads/random_numbers_1000.csv 
+scp hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Downloads/random_numbers_1000.csv . 
+scp hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Downloads/* .
+cd ..
+scp hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Downloads/* /Mydata
+scp -c 1989 hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Downloads/* /Mydata
+scp -c 1989 hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Downloads/* ~/Mydata
+scp hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Downloads/* ~/Mydata -c 1989
+scp hadoop@celab2-ThinkCentre-neo-50s-Gen-3:/home/hadoop/Downloads/* /home/particiapnt41/Mydata
+ifconfig
+pwd
+ls
+cd Mydata/
+pwd
+ls
+cd ..
+cpuinfo 
+nvidia-smi
+lscpu
+lshw -class memory\
+lshw -class memory
+lsmd
+xclock 
+hpcapps 
+onama
+jupyter
+onama
+onama & 
+xclock 
+onama & 
+hpcapps 
+ls
+nautilus
+conda
+history
+ls
+onama 
+onama 
+hpcapps 
+cd /shared/conus_12km
+cd /home/participant41/demo
+ls
+./ run/
+. run
+ls run
+./ wrf.exe
+. wrf.exe
+./wrf.exe
+./ real.exe
+./real.exe
+./ run/real.exe
+cd run/
+ls
+./ real.exe 
+./ wrf.exe 
+ln -s met_em*
+./ real.exe 
+cd ..
+cd
+ls
+google-chrome
+ifconfig 
+google-chrome
+-----------------
+
+-----------------
+PARTICIPANT 42
+-----------------
+
+-----------------
+PARTICIPANT 43
+-----------------
+
+-----------------
+PARTICIPANT 44
+clear
+ifconfig
+whoami
+clear
+echo $HOME
+hostname
+mkdir sttp
+cd sttp
+pwd
+cd ..
+ls
+cd ..
+ls
+cd participant44
+ls
+cd sttp
+ls
+clear
+pwd
+cat > labs.txt
+pwd
+ls
+pwd
+scp /home/participant44/sttp
+/home/participant44/sttp
+scp /home/participant44/sttp/labs.txt hadoop@192.168.26.56:/home/Desktop
+scp /home/participant44/sttp/labs.txt hadoop@192.168.26.56:/home/hadoop/
+pwd
+scp /home/participant44/sttp/labs.txt hadoop@192.168.26.56:/home/
+who
+pwd
+exit
+clear
+pwd
+cd sttp
+ls
+pwd
+ls
+scp -P 1989 participant44@192.168.26.220:/home/participant44/sttp/ /home/hadoop/Downloads/newrandom.txt 
+scp -P 1989 participant44@192.168.26.220:/home/participant44/sttp/labs.txt /home/hadoop/Downloads/newrandom.txt 
+scp -P 1989 participant44@192.168.29.220:/home/participant44/sttp/ /home/hadoop/Downloads/newrandom.txt 
+ls
+clear
+onama
+nautils
+nautilas
+nautilas &
+nautilus &
+nautilus &
+nautilas &
+xclock
+top
+clear
+top
+clear
+exit
+pwd
+ls
+cd sttp
+ls
+clear
+ls
+jupyter notebook
+python3
+gedit
+vi prac_pipeline.py 
+python3
+python3 prac_pipeline.py 
+pip3 install tranformers
+pip install tranformers
+python
+python prac_pipeline.py 
+jupyter
+jupyter notebook
+python version
+python -version
+python -h
+pip3 install transformers
+pip3 install datasets
+pip3 install evaluate
+pip install evaluate
+python3 prac_pipeline.py 
+exit() quit
+-----------------
+
+-----------------
+PARTICIPANT 45
+-----------------
+
+-----------------
+PARTICIPANT 46
+-----------------
+
+-----------------
+PARTICIPANT 47
+-----------------
+
+-----------------
+PARTICIPANT 48
+exit
+xclock
+-----------------
+
+-----------------
+PARTICIPANT 49
+-----------------
+
+-----------------
+PARTICIPANT 50
+wc -l ~/.ssh/authorized_keys 
+cat ~/.ssh/authorized_keys 
+cd
+ls
+pwd
+exit
+-----------------
+

@@ -1,0 +1,51 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Sun Jul 12 16:07:32 2015
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   ctl/client_master.ctl
+Data File:      csv/client_master.csv
+  Bad File:     bad_client_master.log
+  Discard File: discard_client_master.log 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table CLIENT_MASTER, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+CLIENT_NO                           FIRST     *   ,       CHARACTER            
+NAME                                 NEXT     *   ,       CHARACTER            
+CITY                                 NEXT     *   ,       CHARACTER            
+PINCODE                              NEXT     *   ,       CHARACTER            
+STATE                                NEXT     *   ,       CHARACTER            
+BAL_DUE                              NEXT     *   ,       CHARACTER            
+
+
+Table CLIENT_MASTER:
+  6 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                  99072 bytes(64 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:             6
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Sun Jul 12 16:07:32 2015
+Run ended on Sun Jul 12 16:07:34 2015
+
+Elapsed time was:     00:00:02.04
+CPU time was:         00:00:00.03

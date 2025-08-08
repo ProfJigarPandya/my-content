@@ -1,0 +1,6 @@
+https://www.coursera.org/learn/data-preparation/supplement/EOCT4/transforming-data
+
+Data transformation example: data organization (long to wide)
+To make it easier to create charts, you may also need to transform long data to wide data. Consider the following example of transforming stock prices (collected as long data) to wide data. 
+
+Long data is data where each row contains a single data point for a particular item. In the long data example below, individual stock prices (data points) have been collected for Apple (AAPL), Amazon (AMZN), and Google (GOOGL) (particular items) on the given dates.

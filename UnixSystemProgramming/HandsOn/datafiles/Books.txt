@@ -1,0 +1,8 @@
+Books
+ RECOMMENDED TEXT BOOK:
+1. “Advanced Programming in the UNIX Environment” by W. Richard Stevens and Stephen A. Rago, 3rd edition, Addision Wesley Professional
+
+REFERENCE BOOKS:
+1. “Advanced Linux Programming” by Mark Mitchell, Jeffrey Oldham, Alex Samuel, 1st edition, Pearson Education
+2. “Beginning Linux Programming” by Neil Matthew and Richard Stones, 4th edition, Wiley Publishing Inc.
+3. “Linux System Programming” by Robert Love, O’reilly

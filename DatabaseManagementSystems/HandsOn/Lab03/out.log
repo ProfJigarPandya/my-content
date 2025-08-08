@@ -1,0 +1,88 @@
+-- Without below alteration, sales_order can not refer to client_no. sales_order_details can not refer to product_master;
+
+alter table client_master add (primary key(client_no));
+
+alter table product_master add (primary key (product_no));
+
+--Trying to load sales_order table as is.
+
+--When I tried inserting records with OrderStatus as given in pdf i.e. Ip,C,F,etc.
+It throw error 
+
+Rejected - Error on table SALES_ORDER.
+ORA-02290: check constraint (JPANDYA.SYS_C007758) violated
+
+Then I found the information from user_constraints using the constraint name and identified that my data is not appropriate as per the constraint check requirement order_status column. 
+
+select search_condition from user_constraints where constraint_name like 'SYS_C007758';
+
+SEARCH_CONDITION
+--------------------------------------------------------------------------------
+order_status in ('inprocess','fullfilled','backorder','cancelled')
+
+--select search_condition, a.* from user_constraints a where constraint_name like 'SYS_C007758';
+
+Then I updated all order status as per allowed values randomly.
+
+
+Now I received below error
+Rejected - Error on table SALES_ORDER.
+ORA-02290: check constraint (JPANDYA.SYS_C007757) violated
+
+I ran below query and learnt there is problem with my dely_type column values
+
+--
+SQL> select search_condition from user_constraints where constraint_name like 'SYS_C007757';
+
+SEARCH_CONDITION
+--------------------------------------------------------------------------------
+dely_type in ('p','f')
+
+The constraint says it has to be lower p and lower f not upper. I shall update my csv file.
+
+
+Then I found below error
+Rejected - Error on table SALES_ORDER.
+ORA-02291: integrity constraint (JPANDYA.SYS_C007762) violated - parent key not found
+
+
+SQL> select constraint_type, table_name, r_constraint_name from user_constraints where constraint_name like 'SYS_C007762';
+
+C TABLE_NAME			 R_CONSTRAINT_NAME
+- ------------------------------ ------------------------------
+R SALES_ORDER			 SYS_C007738
+
+SQL> select table_name from user_constraints where constraint_name='SYS_C007738';
+
+TABLE_NAME
+------------------------------
+SALESMAN_MASTER
+
+SQL> 
+
+I learnt that salesman_master (record1 and record2) are missing one zero.
+
+
+--
+
+For record 5 and 6
+Rejected - Error on table SALES_ORDER_DETAILS.
+ORA-02291: integrity constraint (JPANDYA.SYS_C007765) violated - parent key not found
+
+Using following I found that the parent table is sales_order where there is problem not having records for s_order_id
+SQL> select l.table_name main_table, r.table_name reference_table_name from user_constraints l, user_constraints r where l.constraint_name='SYS_C007765' and l.r_constraint_name=r.constraint_name;
+
+MAIN_TABLE		       REFERENCE_TABLE_NAME
+------------------------------ ------------------------------
+SALES_ORDER_DETAILS	       SALES_ORDER
+
+SQL> 
+
+
+SQL> select * from sales_order where s_order_no in ('046865','046865');
+
+no rows selected
+
+SQL> 
+
+

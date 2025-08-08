@@ -1,0 +1,421 @@
+1) Aim: Study of UNIX Commands: man, uname, /etc/shells, pwd, who, ls, cal, date, cd, mkdir,
+rmdir, cp, mv, rm, cat, vi, wc, less, more
+2) Aim: Study of UNIX Commands: grep, cut, paste, head, tail, sort, ls|sort, touch, chgrp, chmod,
+diff
+3) Aim: Basic Programs for File I/O: Open, Close, Read, Write System calls
+Task 1: Write a program to achieve following:
+1. Read input from terminal
+2. Display the information read on the terminal.
+Task 2: Extend the above code to implement “cat” without options.
+
+Explanation:
+
+Standard Values of Descriptors:
+fd: Descriptor obtained from a file
+0 : Standard Input (for example : Keyboard)
+1 : Standard Output (for example : Terminal)
+2 : Standard Error
+Read System Call:
+
+#include <unistd.h>
+ssize_t read(int fd, void *buf, size_t count);
+read() attempts to read up to count bytes from file descriptor fd into the buffer starting at buf.
+On success, the number of bytes read is returned (zero indicates end of file), and the file position
+is advanced by this number.
+On error, -1 is returned, and errno is set appropriately.
+Example: n=read(0,buff,sizeof(buff))
+
+Write System Call:
+#include <unistd.h>
+ssize_t write(int fd, const void *buf, size_t count);
+write() writes up to count bytes from the buffer pointed buf to the file referred to by the file
+descriptor fd.
+On success, the number of bytes written is returned (zero indicates nothing was written). On
+error, -1 is returned, and errno is set appropriately.
+Example: write(1,buff,n)
+
+4) Aim: Implementation of “cat” and “cp” command in C. (use of open, read, write, and close
+system calls)
+
+1. Implement basic “cat” command using system calls.
+Solution Logic:
+● The solution program should either execute without any argument or with any
+number of arguments.
+● When program executes without argument, it should echo the content given on
+standard input.
+● When program executes with one argument, it should print content of that file on
+standard output.
+● When program executes with more than one arguments, it should print content of
+each file one by one on the standard output.
+● To print the content of file, first program should open the input file in read mode, then
+it should read the file content and finally write it back to the standard output.
+
+2. Implement basic “cp” command using system calls.
+Solution Logic:
+● This program should accept two arguments as source and destination file names.
+● It should open a source file in read mode.
+● It should open a destination file in read-write mode. If destination file does not exist,
+It should be created.
+● Finally program should write the content of source file into destination file.
+
+5) Aim:
+) Write a C program to print the environment variables of a process.
+) Write a C program to display real and effective user id of a process.
+) Write a C program to display file type of an input file
+) Write a C program to display file attributes of an input file.
+
+6) Aim: Implementation of “pwd” and “ls” commands. (Use of getcwd, opendir,
+closedir, readdir functions)
+
+Explanation:
+getcwd, getwd, get_current_dir_name:
+#include <unistd.h>
+char *getcwd(char *buf, size_t size);
+char *getwd(char *buf);
+char *get_current_dir_name(void);
+This function returns the absolute pathname that is the current working directory of the
+calling process.
+Pathname is returned as the function result and via the argument buf, if present.
+Example: x=getcwd(path,sizeof(path));
+
+Program:
+
+Write a program to get current working directory name of the current process. (“pwd”
+command.
+
+7) Aim: Study and implementation of ps command’s basic functionality.
+
+Task:1
+Study manual page of ps command.
+Practically explore ps with various options like -a, -e, aux, -ejH, -eLf etc.
+
+Task-2
+Explore the proc file system and understand the contents.
+Study manual page of proc and understand the details of stat file.
+
+Programs:
+
+1. Write a program to print process id and process name of all current processes in the
+system.
+2. Extend the above program to read and display other fields from the stat file.
+(Optional)
+Solution Logic :
+• The program should open proc file system and browse through all directories which
+are named with process ids.
+• The program should then read contents of stat file for each of the directory and print
+the corresponding details with proper headers.
+
+8) Aim: Process Creation and Termination (Use of fork, wait, getpid, and getppid system
+calls).
+
+Explanation:
+Fork System Call:
+#include <unistd.h>
+pid_t fork(void);
+fork() creates a new process by duplicating the calling process. The new process, referred to
+as the child, is an exact duplicate of the calling process, referred to as the parent, except for
+the following points:
+ The child has its own unique process ID, and this PID does not match the ID of any
+existing process group.
+ The child's parent process ID is the same as the parent's process ID.
+
+On success, the PID of the child process is returned in the parent, and 0 is returned in the
+child.
+On failure, -1 is returned in the parent, no child process is created, and errno is set
+appropriately.
+Zombie Process:
+A process which has finished the execution but still has entry in the process table to report to
+its parent process is known as a zombie process.
+A child process always first becomes a zombie before being removed from the process table.
+The parent process reads the exit status of the child process which reaps off the child process
+entry from the process table.
+Orphan Process:
+A process whose parent process no more exists i.e. either finished or terminated without
+waiting for its child process to terminate is called an orphan process.
+Task 1:
+1. Call fork once, twice, thrice and print “Hello”. Observe and interpret the outcomes.
+2. Print “Hello from Parent” using the parent process and “Hello from Child” using child process.
+
+Getpid and Getppid System Calls:
+#include<sys/types.h>
+#include <unistd.h>
+pid_t getpid(void);
+pid_t getppid(void);
+getpid() returns the process ID of the calling process.
+getppid() returns the process ID of the parent of the calling process.
+
+Task 2:
+Print PID and PPID for parent and child processes. Observe and interpret the outcomes.
+
+Wait System Call:
+#include<sys/types.h>
+#include <sys/wait.h>
+pid_t wait(int *status);
+wait system call is used to wait for state changes in a child of the calling process, and obtain
+information about the child whose state has changed.
+A state change is considered to be: the child terminated; the child was stopped by a signal; or
+the child was resumed by a signal.
+In the case of a terminated child, performing a wait allows the system to release the resources
+associated with the child; if a wait is not performed, then the terminated child remains in a
+"zombie" state.
+If a child has already changed state, then this call returns immediately. Otherwise it blocks
+until either a child changes state or a signal handler interrupts the call.
+On success, returns the process ID of the terminated child; on error, -1 is returned.
+
+Task 3:
+Add wait to the code of task 2. Observe and interpret the outcomes.
+
+Dharmsinh Desai University, Faculty of Technology, Department of Computer Engineering
+
+
+Assignment Programs:
+1. Write a program to implement fan of n processes.
+
+2. Write a program to implement chain of n processes.
+
+Solution Logic :
+Fanning :
+ The original program should be the main parent process.
+ Main parent should call the fork() to create a child.
+ Child process should simply print some message with its process ID and exits.
+ Parent should continue to create more children, until it reaches the upper value
+given by user.
+Chaining :
+ The original program should be the main parent process.
+ Main parent should call the fork() to create a child.
+ Parent process should simply print some message with its process ID and exits.
+ Child should continue to create its child and becomes a parent.
+ Again parent should print some message with its process ID and exit, and its child
+should create another child and continue, until it reaches the upper value given by
+user.
+9) Aim: Study of Dup2 system call and Execl function.
+Explanation:
+
+Dup2 system call:
+#include <unistd.h>
+int dup2(int oldfd, int newfd);
+dup2() makes newfd be the copy of oldfd, closing newfd first if necessary.
+Note the following:
+ If oldfd is not a valid file descriptor, then the call fails, and newfd is not closed.
+ If oldfd is a valid file descriptor, and newfd has the same value as oldfd, then dup2()
+does nothing, and returns newfd.
+After a successful return from the system call, the old and new file descriptors may be used
+interchangeably.
+Example:
+Consider the descriptor table values as give below:
+
+0
+1
+2
+
+After call dup2(fd,1), fd and 1 can be used interchangeably, so we can see the situation as:
+
+0
+Fd
+2
+
+Task-1:
+Create a blank file: “Test.txt”.
+Write a program to achieve following:
+1. Print “Hello” message on stdout.
+2. Use dup2 in such a way that file behaves as stdout.
+3. Print “Hello” again to ensure that this time the message goes to file, not to the stdout.
+
+
+Exec Functions:
+#include <unistd.h>
+int execl(const char *pathname, const char *arg, .../* (char *) NULL */);
+The exec() family of functions replaces the current process image with a new process image.
+The functions described in this manual page are layered on top of execve(2).
+The initial argument for these functions is the name of a file that is to be executed.
+The const char *arg and subsequent ellipses can be thought of as arg0, arg1, ..., argn. Together
+they describe a list of one or more pointers to null-terminated strings that represent the
+argument list available to the executed program.
+The first argument, by convention, should point to the filename associated with the file being
+executed. The list of arguments must be terminated by a null pointer, and, since these are
+variadic functions, this pointer must be cast (char *) NULL.
+The exec() functions return only if an error has occurred. The return value is -1, and errno is
+set to indicate the error.
+Task-2:
+1. Write a program to execute ls command using execl.
+2. Write a program to create a child process that should run pwd command and the parent
+process should run ls command.
+Task-3:
+Study execv function and implement a simple program.
+
+10) Aim: Thread creation and Termination. Synchronization using mutex lock and unlock. (Use
+of pthread_create, ptread_join, pthread_mutex_lock and pthread_mutex_unlock library
+functions of Pthread library).
+Explanation:
+Pthread_create:
+#include <pthread.h>
+int pthread_create(pthread_t *thread, const pthread_attr_t *attr,
+void *(*start_routine) (void *), void *arg);
+The pthread_create() function starts a new thread in the calling process. The new thread
+starts execution by invoking start_routine(); arg is passed as the sole argument of
+start_routine().
+The attr argument points to a pthread_attr_t structure whose contents are used at thread
+creation time to determine attributes for the new thread; this structure is initialized using
+pthread_attr_init and related functions. If attr is NULL, then the thread is created with
+default attributes.
+Before returning, a successful call to pthread_create() stores the ID of the new thread in the
+buffer pointed to by thread; this identifier is used to refer to the thread in subsequent calls to
+other pthreads functions.
+On success, pthread_create() returns 0; on error, it returns an error number, and the contents
+of thread are undefined.
+Pthread_join:
+#include <pthread.h>
+int pthread_join(pthread_t thread, void **retval);
+Compile and link with -pthread.
+The pthread_join() function waits for the thread specified by thread to terminate. If that
+thread has already terminated, then pthread_join() returns immediately. The thread specified
+by thread must be joinable.
+On success, pthread_join() returns 0; on error, it returns an error number.
+
+
+Pthread_mutex_lock:
+#include <pthread.h>
+int pthread_mutex_lock(pthread_mutex_t *mutex);
+The mutex object referenced by mutex shall be locked by calling pthread_mutex_lock(). If the
+mutex is already locked, the calling thread shall block until the mutex becomes available.
+This operation shall return with the mutex object referenced by mutex in the locked state with
+the calling thread as its owner.
+If successful, the pthread_mutex_lock() and pthread_mutex_unlock() functions shall return
+zero; otherwise, an error number shall be returned to indicate the error.
+
+Pthread_mutex_unlock:
+#include <pthread.h>
+int pthread_mutex_unlock(pthread_mutex_t *mutex);
+The pthread_mutex_unlock() function shall release the mutex object referenced by mutex.
+If successful, the pthread_mutex_lock() and pthread_mutex_unlock() functions shall return
+zero; otherwise, an error number shall be returned to indicate the error.
+
+Programs:
+1. Write a program to create a thread using pthread_create.
+Solution logic:
+The program should create a thread and print some message using the threaded
+function.
+2. Write a program to pass a character string to the threaded function.
+Solution logic:
+The program should create a thread and pass a character string to threaded function.
+The threaded function should print the given string.
+3. Write a program to implement simple calculator using threads.
+Solution logic:
+The program should create four threads for four calculator operations and print the
+results.
+
+
+11)
+Aim: Inter Process Communication. (Use of pipe system call and mkfifo)
+
+Explanation:
+
+Pipe system call:
+#include <unistd.h>
+int pipe(int pipefd[2]);
+pipe() creates a pipe, a unidirectional data channel that can be used for inter process
+communication.
+The array pipefd is used to return two file descriptors referring to the ends of the pipe.
+ pipefd[0] refers to the read end of the pipe.
+ pipefd[1] refers to the write end of the pipe.
+Data written to the write end of the pipe is buffered by the kernel until it is read from the read
+end of the pipe.
+On success, zero is returned. On error, -1 is returned, and errno is set appropriately.
+
+Close system call:
+#include <unistd.h>
+int close(int fd);
+close() closes a file descriptor, so that it no longer refers to any file and may be reused.
+Any record locks held on the file it was associated with, and owned by the process, are
+removed (regardless of the file descriptor that was used to obtain the lock).
+close() returns zero on success. On error, -1 is returned, and errno is set appropriately.
+
+Programs:
+1. Write a program to create a pipe and print the values of pipe file descriptors.
+Solution logic:
+ The program should create a pipe and if file creation is successful, the end names
+should be printed.
+2. Write a program to pass a message from parent process to child process through a
+pipe.
+Solution logic:
+ The program should create a pipe and if file creation is successful, a child process
+should be created.
+ Parent should read a string from stdin and pass the same to child process.
+ Child process should print the string received from parent process.
+
+3. Write a program to pass file name from parent process to child process through a
+pipe, child process should pass the file contents to parent process and parent should
+print the contents.
+Solution logic:
+ The program should create a pipe and if file creation is successful, a child process
+should be created.
+ Parent should read a file name from stdin and pass the same to child process.
+ Child process should open the file received from parent process and write the content
+to another pipe.
+ Parent should read the contents and display on output.
+
+Assignment:
+Demonstrate the use of named pipe with appropriate programs and commands both.
+
+12) Aim: Study of signals and handling in Linux. Experiencing Daemon.
+
+Explanation:
+signal system call:
+#include <signal.h>
+typedef void (*sighandler_t)(int);
+sighandler_t signal(int signum, sighandler_t handler);
+
+signal() sets the disposition of the signal signum to the handler, which is either
+SIG_IGN, SIG_DFL, or the address of a programmer-defined function (a "signal
+handler").
+
+SIG_IGN, then the signal is ignored.
+SIG_DFL, then the default action associated with the signal
+The signals SIGKILL and SIGSTOP cannot be caught or ignored.
+Perform error handling while setting up signal handler. signal() returns the previous value
+of the signal handler, or SIG_ERR on error. In the event of an error, errno is set to
+indicate the cause.
+
+Task-1:
+Write a program to display all lists of signals with signal number, op code/acronym and
+description. Know that the similar output is generated using “kill -l” command as well.
+Practice the same.
+- psignal()
+-strsignal()
+- extern char * sys_siglist[]
+Task-2:
+
+Dharmsinh Desai University, Faculty of Technology, Department of Computer Engineering 1
+
+Demonstrate SIGSTOP and SIGCONT via a program on a running process of vim like
+editor or other software. Observe outcome of “bg” - background, “fg” - foreground, “ps -ef |
+grep vim”.
+
+Task-3:
+Implement sig2str or str2sig function. Map a signal number to a name and vice versa.
+These functions are useful when writing interactive programs that need to accept and print
+signal names and numbers.
+The singal number is stored in the integer pointed to by signop. The name can be either
+the signal name without SIG prefix or a string representation of the decimal signal number.
+i.e. “9”.
+
+int sig2str(int signo, char *str)
+int str2sig(const char *str, int *signop)
+
+Daemon
+Daemon is a process which is normally required to run for a long time. It does not have a
+controlling terminal attached to it. They are mostly started when the system bootstrapped
+and terminated when the system halts. Hence, daemon runs in the background. Mostly
+the command/display name ends with character d for daemon.
+
+Task1: Run the following command and describe your observation about daemon
+processes.
+ps -ajx | grep \? | grep "d]"
+ps -ajx | grep \? | grep "daemon"
+
+Task2: Run a process with daemize characteristics.
+
+Task3: Improve daemon to make sure that it only has one copy of itself at any point in
+time.
+[Hint: Use File and record locking for achieving a convenient mutual-exclusion
+mechanism.]
