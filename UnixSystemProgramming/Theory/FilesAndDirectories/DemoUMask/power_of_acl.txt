@@ -1,0 +1,8 @@
+man 2 umask
+
+Alternatively, if the parent directory has a default  ACL  (see  acl(5)),
+       the  umask  is ignored, the default ACL is inherited, the permission bits
+       are set based on the inherited ACL, and permission  bits  absent  in  the
+       mode  argument are turned off. 
+
+ACL Access Control Lists

@@ -1,0 +1,57 @@
+* Its not direct octal subtraction. 
+Its bitwise & masking after applying negate of umask value. 
+
+       The typical default value for the process umask is S_IWGRP | S_IWOTH (oc‐
+       tal 022).  In the usual case where the mode argument to open(2) is speci‐
+       fied as:
+
+           S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH
+
+       (octal 0666) when creating a new file, the permissions on  the  resulting
+       file will be:
+
+           S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH
+
+       (because 0666 & ~022 = 0644; i.e. rw-r--r--).
+
+		rwx	rwx	rwx
+a	666	110	110	110
+b	022	000	010	010
+c	~022	111	101	101
+d=a&c		110	100	100
+	644
+
+Below is just for understanding umask as a concept.
+It is to let user customize the permissions for fresh files at the time of creation.
+
+
+Directory
+777 OS Default 
+022 umask current value
+====
+755 OS Final
+
+File
+666 OS Default
+022 umask current value
+===
+644 OS Final
+
+
+My personal settings
+Directory
+777
+023 my personal umask
+===
+754 Final Expected. To get this umask customized to 003
+
+File
+666 
+023
+===
+644 Side effect. Even files final will be differnt than before. Note again its not simple subtraction. Its bitwise & with negated umask value.
+
+This system call always succeeds. Returns existing previous value, which caller can hold onto and reuse to revert the effect of first umask call by another umask call.
+
+getfacl .
+shows ACL for current directory.
