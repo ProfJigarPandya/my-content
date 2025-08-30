@@ -1,4 +1,7 @@
- The stat structure
+man 2 stat //ubuntu systems 
+cat /usr/include/linux/ext4.h
+
+The stat structure
        All  of  these system calls return a stat structure, which contains the
        following fields:
 
