@@ -1,0 +1,14 @@
+# https://hub.docker.com/r/apache/hadoop
+docker pull apache/hadoop:3.4.1
+
+docker images
+
+docker ps
+
+docker container ls
+
+docker run -it apache/hadoop:3.4.1 bash
+
+
+
+
