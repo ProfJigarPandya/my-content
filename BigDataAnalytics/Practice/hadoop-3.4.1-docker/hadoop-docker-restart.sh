@@ -1,13 +1,8 @@
 export HADOOP_HOME=/opt/hadoop
-docker-compose down
-docker-compose up -d
+sudo docker-compose down
+sudo docker-compose up -d
 echo "Attempt # 1"
-docker ps
-echo "Attempt # 2"
-docker ps
-echo "Attempt # 3"
-docker ps
-echo "Attempt # 4"
-docker ps
+sudo docker ps
 echo "LOG"
-docker-compose logs
+sudo docker-compose logs
+#sudo docker volume ls

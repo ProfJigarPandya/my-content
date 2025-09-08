@@ -12,3 +12,7 @@ docker run -it apache/hadoop:3.4.1 bash
 
 
 
+docker volume create docker-dfs-data
+
+docker volume create docker-dfs-name
+

@@ -1,0 +1,108 @@
+https://hub.docker.com/r/apache/hadoop
+docker pull apache/hadoop:3.4.1
+
+https://hub.docker.com/r/apache/hadoop
+
+
+docker run -it apache/hadoop:3.4.1 bash
+
+
+
+Here are the common ports for Hadoop 3.x components that you might need to expose:
+
+    HDFS NameNode:
+        9870: HDFS NameNode Web UI (default)
+        8020: HDFS NameNode RPC (default) 
+    HDFS DataNode:
+        9864: HDFS DataNode Web UI (default)
+        9866: HDFS DataNode Data Transfer Protocol (default) 
+    YARN ResourceManager:
+        8088: YARN ResourceManager Web UI (default)
+        8032: YARN ResourceManager RPC (default) 
+    YARN NodeManager:
+        8042: YARN NodeManager Web UI (default)
+        8040: YARN NodeManager Container Management (default) 
+    MapReduce JobHistory Server:
+        19888: MapReduce JobHistory Server Web UI (default)
+
+docker run --name hadoop-3.4.1 -p 9870:9870 -p 8020:8020 -p 9864:9864 -p 9866:9866 -p 8088:8088 -p 8032:8332 -p 8042:8042 -p 8040:8040 -p 19888:19888 apache/hadoop:3.4.1
+
+
+#docker rm hadoop-3.4.1
+
+docker start hadoop-3.4.1
+
+docker-compose up -d
+
+
+docker update --restart unless-stopped hadoop-3.4.1
+
+Refer 
+https://hub.docker.com/_/spark
+
+docker pull spark:r
+docker run -it --rm spark:r /opt/spark/bin/sparkR
+
+
+docker run -it --rm spark /opt/spark/bin/spark-shell
+
+
+
+docker run -it spark:r /opt/spark/bin/sparkR
+
+
+docker run -it spark /opt/spark/bin/spark-shell
+scala> spark.range(1000 * 1000 * 1000).count()
+
+
+docker run -it spark:python3 /opt/spark/bin/pyspark
+>>> spark.range(1000 * 1000 * 1000).count()
+
+
+https://spark.posit.co/get-started/
+
+
+https://marcel-jan.eu/datablog/2020/10/25/i-built-a-working-hadoop-spark-hive-cluster-on-docker-here-is-how/
+
+
+
+docker volume ls
+
+ 1055  tree shared_*
+ 1056  echo "This is Namenode" > shared_nn/nn.txt
+ 1057  echo "This is Datanode" > shared_dn/dn.txt
+ 1058  echo "This is Resourcemanager" > shared_rm/rm.txt
+ 1059  echo "This is Nodemanager" > shared_nm/nm.txt
+ 1060  tree shared_*
+
+
+docker volume create namenode_data
+docker volume create datanode_data
+
+docker run -d \
+      -v namenode_data:/tmp/hadoop-root/dfs/name:rw \
+      --name namenode_container \
+      apache/hadoop:3.4.1
+
+    docker run -d \
+      -v datanode_data:/tmp/hadoop-root/dfs/data:rw \
+      --name datanode_container \
+      apache/hadoop:3.4.1
+      
+      
+ https://medium.com/@bayuadiwibowo/deploying-a-big-data-ecosystem-dockerized-hadoop-spark-hive-and-zeppelin-654014069c82
+ 
+ https://docs.docker.com/reference/compose-file/services/#volumes
+
+chown -R 1000:100   /var/lib/docker/volumes/docker-dfs-name/
+chmod -R u+rwX,g+rwX   /var/lib/docker/volumes/docker-dfs-name
+chmod -R u+rwX,g+rwX   /var/lib/docker/volumes/docker-dfs-data
+chown -R 1000:100  /var/lib/docker/volumes/docker-dfs-data
+
+First run
+command: ["/bin/bash", "-c", "if [ ! -d /tmp/hadoop-hadoop/dfs/name/current ]; then hdfs namenode -format; fi && hdfs namenode"]
+
+Second run onward only if format hdfs is required otherwise have below
+      command: ["hdfs", "namenode"]
+
+

@@ -1,2 +1,2 @@
-docker exec -it nodemanager /bin/bash
+sudo docker exec -it nodemanager /bin/bash
 

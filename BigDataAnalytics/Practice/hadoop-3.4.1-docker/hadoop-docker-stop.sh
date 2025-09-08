@@ -1,5 +1,4 @@
-export HADOOP_HOME=/opt/hadoop
-docker-compose down
-docker ps
+sudo docker-compose down
+sudo docker ps
 echo "LOG"
-docker-compose logs
+sudo docker-compose logs

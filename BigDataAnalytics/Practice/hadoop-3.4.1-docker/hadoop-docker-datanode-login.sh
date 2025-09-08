@@ -1,1 +1,1 @@
-docker exec -it datanode /bin/bash
+sudo docker exec -it datanode /bin/bash

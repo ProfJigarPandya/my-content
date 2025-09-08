@@ -1,1 +1,1 @@
-docker exec -it jobhistoryserver /bin/bash
+sudo docker exec -it jobhistoryserver /bin/bash

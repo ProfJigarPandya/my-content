@@ -1,2 +1,2 @@
-docker exec -it resourcemanager /bin/bash
+sudo docker exec -it resourcemanager /bin/bash
 

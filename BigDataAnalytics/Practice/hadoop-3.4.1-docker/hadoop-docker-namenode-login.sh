@@ -1,1 +1,1 @@
-docker exec -it namenode /bin/bash
+sudo docker exec -it namenode /bin/bash
