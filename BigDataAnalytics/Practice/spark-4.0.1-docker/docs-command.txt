@@ -1,0 +1,20 @@
+Apache Official as on Sep 12, 2025
+
+Note that there are two official image support
+1) https://hub.docker.com/_/spark
+   docker run -it spark /opt/spark/bin/spark-shell
+	   scala> spark.range(1000 * 1000 * 1000).count()
+
+   docker run -it spark:python3 /opt/spark/bin/pyspark
+ 	   spark.range(1000 * 1000 * 1000).count()
+
+   docker run -it spark:r /opt/spark/bin/sparkR
+
+2) https://hub.docker.com/r/apache/spark/
+   docker run -it apache/spark /opt/spark/bin/spark-shell
+
+   https://hub.docker.com/r/apache/spark-py
+   docker run -it apache/spark-py /opt/spark/bin/pyspark
+
+   https://hub.docker.com/r/apache/spark-r
+   docker run -it apache/spark:r /opt/spark/bin/sparkR
