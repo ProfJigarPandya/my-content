@@ -1,0 +1,12 @@
+In client mode, the driver is launched directly within the spark-submit process which acts as a client to the cluster. The input and output of the application is attached to the console. Thus, this mode is especially suitable for applications that involve the REPL (e.g. Spark shell).
+Spark REPL (Read-Evaluate-Print Loop)
+https://spark.apache.org/docs/latest/submitting-applications.html
+
+Spark can be deployed with client mode with property value. By default it uses fs.defaultFS	file:/// meaning local file system.
+
+spark.submit.deployMode	as client
+fs.defaultFS as	file:///
+
+The deploy mode of Spark driver program, either "client" or "cluster", Which means to launch driver program locally ("client") or remotely ("cluster") on one of the nodes inside the cluster. 
+
+https://spark.apache.org/docs/latest/configuration.html
