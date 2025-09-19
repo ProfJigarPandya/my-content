@@ -1,5 +1,5 @@
 docker container stop apache-spark-r-master1
-docker container remove apache-spark-r-master2
+docker container remove apache-spark-r-master1
 docker run -d --user spark \
 --env SPARK_HOME=/opt/spark \
 -e SPARK_MASTER_PORT=7077 \

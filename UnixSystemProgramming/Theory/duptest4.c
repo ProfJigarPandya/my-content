@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-main()
+int main()
 {
   int fd[2];
 
@@ -12,5 +12,7 @@ main()
   dup(fd[0]);
 
   execlp("sort","sort",NULL);
+
+  return (0);
 }
 

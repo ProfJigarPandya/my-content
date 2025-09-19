@@ -51,6 +51,13 @@ File
 ===
 644 Side effect. Even files final will be differnt than before. Note again its not simple subtraction. Its bitwise & with negated umask value.
 
+a 666 110 110 110
+b 023 000 010 011
+c  ~b 111 101 100
+a&c   110 100 100
+	6 4 4
+
+
 This system call always succeeds. Returns existing previous value, which caller can hold onto and reuse to revert the effect of first umask call by another umask call.
 
 getfacl .

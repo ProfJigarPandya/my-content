@@ -33,8 +33,8 @@ int main(int argc, char *argv[])
 		printf("\n Usage: %s %s ",argv[0],"<filedescriptor>");
 		exit(1);
 	}
-	for(i=0;i<argc;i++)
-		printf("\n %d %s ",i,argv[i]);
+	//for(i=0;i<argc;i++)
+	//	printf("\n %d %s ",i,argv[i]);
 	ret = fcntl(atoi(argv[1]),F_GETFL); //FL - File Status Flags from file table
 	if(ret==-1)
 	{

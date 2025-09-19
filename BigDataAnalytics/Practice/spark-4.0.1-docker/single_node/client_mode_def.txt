@@ -10,3 +10,9 @@ fs.defaultFS as	file:///
 The deploy mode of Spark driver program, either "client" or "cluster", Which means to launch driver program locally ("client") or remotely ("cluster") on one of the nodes inside the cluster. 
 
 https://spark.apache.org/docs/latest/configuration.html
+
+You have to start sparkR to see 4040.
+
+
+https://spark.apache.org/docs/latest/configuration.html
+spark.submit.deployMode 	client 	The deploy mode of Spark driver program, either "client" or "cluster", Which means to launch driver program locally ("client") or remotely ("cluster") on one of the nodes inside the cluster.

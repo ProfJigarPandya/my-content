@@ -18,7 +18,7 @@ extern int errno;
 
 int main(void)
 {
-        int     fd[2], nbytes;
+        int     fd[2]={-999,-999}, nbytes;
         pid_t   childpid;
         char    string[] = "Hello, Kids!\nToday is a rainy day.\nAll schools remain closed because of bad weather.\nTake care of yourself.";
         char    readbuffer[80];
@@ -29,6 +29,7 @@ int main(void)
 		exit(1);
 	}
         
+	printf("pipe fd 0 (read) %d and pipe fod 1(write)",fd[0],fd[1]);
         if((childpid = fork()) == -1)
         {
                 perror("fork");

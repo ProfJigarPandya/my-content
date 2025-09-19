@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 	char *ptr;
 	if(argc<=1)
 	{
-		printf("\n Usage: command env1 env2 ...");
+		printf("\n Usage: command env1 env2 env3 ...");
 		return 1;
 	}
 	for(int i=1;i<argc;i++)
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 			printf("\n Invalid environment variable %s ",argv[i]);
 		}
 		else
-			printf("\n Environment variable %s value is %s ",argv[i],getenv(argv[i]));
+			printf("\n Environment variable %s value is %s ",argv[i],ptr);
 	}
 	return 0;
 }
