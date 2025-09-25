@@ -4,29 +4,76 @@
 #include <time.h>
 #include <stdlib.h>
 #include <sys/time.h>
+/*
+
+man 2 time
+     struct timeval {
+               time_t      tv_sec;     // seconds 
+               suseconds_t tv_usec;    // microseconds 
+           };
+
+       and gives the number of seconds and microseconds since the Epoch (see time(2)).  The tz argument is a struct timezone:
+
+           struct timezone {
+               int tz_minuteswest;     // minutes west of Greenwich 
+               int tz_dsttime;         // type of DST correction 
+           };
+
+
+
+man 3 gmtime
+   Broken-down time is stored in the structure tm, which is defined in <time.h> as follows:
+
+           struct tm {
+               int tm_sec;    // Seconds (0-60) 
+               int tm_min;    // Minutes (0-59) 
+               int tm_hour;   // Hours (0-23) 
+               int tm_mday;   // Day of the month (1-31) 
+               int tm_mon;    // Month (0-11) 
+               int tm_year;   // Year - 1900 
+               int tm_wday;   // Day of the week (0-6, Sunday = 0) 
+               int tm_yday;   // Day in the year (0-365, 1 Jan = 0) 
+               int tm_isdst;  // Daylight saving time 
+           };
+
+
+Functions ctime, localtime, mktime, strftime are all affected by the TZ environment variable.
+
+
+Below functions give us string
+
+ctime (input is time_t calendar time datatype from kernel time api)
+asctime (input is struct tm broken down time datatype)
+
+
+Formatted String
+strftime (inut is struct tm broken down time datatype)
+
+*/
+
 #define MAX 256
 extern int errno;
 
 int main()
 {	
-	time_t t;
-	struct timeval tp;
+	time_t t; //From kernel. Calendar Time.
+	struct timeval tp;//seconds and microseconds .. more precision
 	struct tm *bdt;//brokendowntime;
 	size_t sizeofdt;
 	char buff[MAX];
-	if(time(&t)==-1)//library function
+	if(time(&t)==-1)//system call... Get time in seconds only since epoch
 	{
 		printf("Error in retriving time. %s\n",strerror(errno));
 		exit(EXIT_FAILURE);
 	}
-	printf("time api: \n Seconds %ld since epoch\n",t);
+	printf("time api: \n Seconds %ld since epoch\n",t);//
 	
 	
 	
-	gettimeofday(&tp,NULL);//provides greater resolution. i.e. upto microsecond. System call	
+	gettimeofday(&tp,NULL);//provides greater resolution. i.e. upto microsecond. System call  time as well as a timezone	
 	printf("gettimeofday api: \n (Seconds %ld and microseconds %d) since epoch ",tp.tv_sec, tp.tv_usec);
 
-	bdt = gmtime(&(tp.tv_sec));
+	bdt = gmtime(&(tp.tv_sec));//c library function
 	printf("\n Broken Down Time using tm structure \n");
 	printf("\nSeconds %d",bdt->tm_sec);     /* seconds (0 - 60) */
         printf("\nMinutes %d",bdt->tm_min);     /* minutes (0 - 59) */
