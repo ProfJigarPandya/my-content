@@ -5,21 +5,37 @@
 #include <stdlib.h>
 #include <sys/time.h>
 /*
+time (2)             - get time in seconds  |  gettimeofday (2)     - get / set time
+mktime (3)           - transform date and time to broken-down time or ASCII
+gmtime (3)           - transform date and time to broken-down time or ASCII
+asctime (3)          - transform date and time to broken-down time or ASCII
+ctime (3)            - transform date and time to broken-down time or ASCII
+strftime (3)         - format date and time
+
+
+
+
 
 man 2 time
+
+time - get time in seconds
+the time as the number of seconds since the Epoch, 1970-01-01 00:00:00 +0000 (UTC).
+
+
+
+
+man 2 gettimeofday More precise
      struct timeval {
                time_t      tv_sec;     // seconds 
                suseconds_t tv_usec;    // microseconds 
            };
 
-       and gives the number of seconds and microseconds since the Epoch (see time(2)).  The tz argument is a struct timezone:
-
+       and gives the number of seconds and microseconds since the Epoch (see time(2)).  
+       The tz argument is a struct timezone:
            struct timezone {
                int tz_minuteswest;     // minutes west of Greenwich 
                int tz_dsttime;         // type of DST correction 
            };
-
-
 
 man 3 gmtime
    Broken-down time is stored in the structure tm, which is defined in <time.h> as follows:
@@ -48,6 +64,18 @@ asctime (input is struct tm broken down time datatype)
 
 Formatted String
 strftime (inut is struct tm broken down time datatype)
+man 3 strftime
+i.e.
+       %y     The year as a decimal number without a century (range 00 to 99).  (Calculated from tm_year)
+
+       %Y     The year as a decimal number including the century.  (Calculated from tm_year)
+
+
+	 %m     The month as a decimal number (range 01 to 12).  (Calculated from tm_mon.)	
+	
+	
+
+
 
 */
 
