@@ -1,0 +1,21 @@
+jmpandya@jmpfedora:~/.../DaemonProcesses$ sudo systemctl status rsyslog.service 
+● rsyslog.service - System Logging Service
+     Loaded: loaded (/usr/lib/systemd/system/rsyslog.service; >
+    Drop-In: /usr/lib/systemd/system/service.d
+             └─10-timeout-abort.conf
+     Active: active (running) since Thu 2025-11-13 08:50:13 IS>
+ Invocation: 778685445b164946805e42e377e80611
+       Docs: man:rsyslogd(8)
+             https://www.rsyslog.com/doc/
+   Main PID: 1210 (rsyslogd)
+      Tasks: 3 (limit: 18394)
+     Memory: 6.7M (peak: 8.2M)
+        CPU: 1.140s
+     CGroup: /system.slice/rsyslog.service
+             └─1210 /usr/sbin/rsyslogd -n
+
+Nov 13 08:50:13 jmpfedora systemd[1]: Starting rsyslog.service>
+Nov 13 08:50:13 jmpfedora rsyslogd[1210]: [origin software="rs>
+jmpandya@jmpfedora:~/.../DaemonProcesses$ 
+
+

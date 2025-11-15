@@ -16,6 +16,8 @@
 #include <signal.h>
 #include <stdlib.h>
 #include <sys/types.h>
+#include <sys/stat.h>
+
 #include <unistd.h>
 #include <time.h>
 
@@ -65,7 +67,7 @@ void daemonize(const char *cmd)
 	sa.sa_flags = 0;
 	if (sigaction(SIGHUP, &sa, NULL) < 0)
 	{
-		printf("%s: can't ignore SIGHUP");
+		printf("%s: can't ignore SIGHUP",cmd);
 		exit(1);
 	}
 	if ((pid = fork()) < 0)
@@ -81,7 +83,7 @@ void daemonize(const char *cmd)
 	 * */
 	if (chdir("/") < 0)
 	{
-		printf("%s: can't change directory to /");
+		printf("%s: can't change directory to /",cmd);
 		exit(1);
 	}
 	/*

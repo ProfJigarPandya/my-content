@@ -1,0 +1,14 @@
+sudo tail -f /var/log/messages
+
+
+Message from syslogd@jmpfedora at Nov 13 08:58:38 ...
+ exampleprog[5573]:LOG_EMERG A tree falls in a forest
+Nov 13 08:58:38 jmpfedora exampleprog[5573]: LOG_EMERG A tree falls in a forest
+Nov 13 08:58:38 jmpfedora exampleprog[5573]: LOG_ALERT A tree falls in a forest
+Nov 13 08:58:38 jmpfedora exampleprog[5573]: LOG_CRIT A tree falls in a forest
+Nov 13 08:58:38 jmpfedora exampleprog[5573]: LOG_ERR A tree falls in a forest
+Nov 13 08:58:38 jmpfedora exampleprog[5573]: LOG_WARNING A tree falls in a forest
+Nov 13 08:58:38 jmpfedora exampleprog[5573]: LOG_NOTICE A tree falls in a forest
+Nov 13 08:58:38 jmpfedora exampleprog[5573]: LOG_INFO A tree falls in a forest
+^C
+

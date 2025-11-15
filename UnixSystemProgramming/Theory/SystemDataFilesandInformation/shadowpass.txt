@@ -1,0 +1,4 @@
+jmpandya@jmpfedora:~/.../SystemDataFilesandInformation$ ls -l /etc/passwd /etc/shadow
+-rw-r--r--. 1 root root 3221 Sep 17 11:06 /etc/passwd
+----------. 1 root root 1463 Sep 17 11:06 /etc/shadow
+jmpandya@jmpfedora:~/.../SystemDataFilesandInformation$ 
