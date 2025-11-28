@@ -1,0 +1,5 @@
+jmpandya@jmpfedora:.../DaemonProcesses$ ls /var/run/*.pid
+/var/run/alsactl.pid  /var/run/docker.pid    /var/run/rsyslogd.pid
+/var/run/atd.pid      /var/run/gssproxy.pid  /var/run/sm-notify.pid
+/var/run/crond.pid    /var/run/mcelog.pid    /var/run/sshd.pid
+
