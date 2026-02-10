@@ -22,11 +22,17 @@
 <value>yarn</value>
 </property>
 <property>
-<name>mapreduce.jobhistory.address</name>
-<value>localhost:10020</value>
+  <name>yarn.app.mapreduce.am.env</name>
+  <value>HADOOP_MAPRED_HOME=/opt/hadoop</value>
 </property>
 <property>
-<name>mapreduce.jobhistory.webapp.address</name>
-<value>localhost:19888</value>
+  <name>mapreduce.map.env</name>
+  <value>HADOOP_MAPRED_HOME=/opt/hadoop</value>
 </property>
+<property>
+  <name>mapreduce.reduce.env</name>
+  <value>HADOOP_MAPRED_HOME=/opt/hadoop</value>
+</property>
+
+
 </configuration>
