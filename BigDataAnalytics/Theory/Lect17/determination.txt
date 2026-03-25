@@ -1,2 +1,10 @@
 Elbow method
 For determining right number of clusters.
+
+Note that for number of clusters ranging 1 to all samples as different clusters the inertia (within cluster variation) have initial drastic descent and then after some optimal cluster value point it almost flattens that is difference in inertia is negligible.
+
+Here, in the example (1,2,3,7,8,9,25) cluster value 3 is optimal. 
+
+That is (1,2,3) (7,8,9) and (25) having inertia 4.
+
+Then after it does NOT reduce a lot like in 100s or 10s.
