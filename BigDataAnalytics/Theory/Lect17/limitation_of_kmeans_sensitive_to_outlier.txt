@@ -1,0 +1,114 @@
+Dataset 1,2,3,8,9,10,25
+
+
+Help finding within cluster variation for (1,2,3,8) (9,10,25) cluster results.
+The total Within-Cluster Variation (WCV) for the given clusters is $189.67$. This metric, also known as the Within-Cluster Sum of Squares (WCSS), measures the compactness of your clusters. [1, 2] 
+1. Calculate Cluster 1 Variation
+For the cluster $C_1 = \{1, 2, 3, 8\}$:
+
+* Mean ($\mu_1$): $\frac{1+2+3+8}{4} = 3.5$.
+* Squared Deviations:
+* $(1 - 3.5)^2 = 6.25$
+   * $(2 - 3.5)^2 = 2.25$
+   * $(3 - 3.5)^2 = 0.25$
+   * $(8 - 3.5)^2 = 20.25$
+* $WCV_1$: $6.25 + 2.25 + 0.25 + 20.25 = \mathbf{29.0}$. [3, 4, 5] 
+
+2. Calculate Cluster 2 Variation
+For the cluster $C_2 = \{9, 10, 25\}$:
+
+* Mean ($\mu_2$): $\frac{9+10+25}{3} \approx 14.67$.
+* Squared Deviations:
+* $(9 - 14.67)^2 \approx 32.11$
+   * $(10 - 14.67)^2 \approx 21.78$
+   * $(25 - 14.67)^2 \approx 106.78$
+* $WCV_2$: $32.11 + 21.78 + 106.78 = \mathbf{160.67}$. [1, 3, 5] 
+
+3. Total Within-Cluster Variation
+To find the total variation for the entire clustering solution, sum the individual cluster variations:
+$$Total\ WCV = WCV_1 + WCV_2$$ $$Total\ WCV = 29.0 + 160.67 = \mathbf{189.67}$$ 
+Answer
+The within-cluster variation for the specified clusters is $189.67$, with the second cluster contributing the vast majority of the variance ($160.67$) due to the presence of the outlier $25$.
+Would you like to see how the Total WCV changes if the outlier $25$ is placed in its own separate cluster?
+
+    K-means Cluster Analysis - Kaggle
+    The basic idea behind k-means clustering consists of defining clusters so that the total intra-cluster variation (known as total w...
+    Kaggle
+    The complete guide to clustering analysis: k-means and hierarchical ...
+    13 Feb 2020 — Compute TSS and WSS: * TSS=(7−4.67)2+(4−4.67)2+(2−4.67)2+(0−4.67)2+(9−4.67)2+(6−4.67)2+(3−4.67)2+(5−4.67)2+(4−4.67)2+(1−4.67)2+(7−...
+    Stats and R
+    K-means Cluster Analysis
+    Computing k-means clustering in R We can compute k-means in R with the kmeans function. Here will group the data into two clusters...
+    GitHub
+
+Show all
+Help finding within cluster variation for (1,2,3) (8,9,10,25) cluster results.
+
+The total Within-Cluster Variation (WCV) for this clustering result is $196.0$.
+By shifting the point $8$ into the second cluster, the total variation increased from your previous result ($189.67$) to $196.0$, indicating that this partition is mathematically less "compact."
+1. Cluster 1 Variation: $\{1, 2, 3\}$
+
+* Mean ($\mu_1$): $\frac{1+2+3}{3} = 2$.
+* Squared Deviations:
+* $(1 - 2)^2 = 1$
+   * $(2 - 2)^2 = 0$
+   * $(3 - 2)^2 = 1$
+* $WCV_1$: $1 + 0 + 1 = \mathbf{2.0}$.
+
+2. Cluster 2 Variation: $\{8, 9, 10, 25\}$
+
+* Mean ($\mu_2$): $\frac{8+9+10+25}{4} = 13$.
+* Squared Deviations:
+* $(8 - 13)^2 = 25$
+   * $(9 - 13)^2 = 16$
+   * $(10 - 13)^2 = 9$
+   * $(25 - 13)^2 = 144$
+* $WCV_2$: $25 + 16 + 9 + 144 = \mathbf{194.0}$.
+
+3. Total Within-Cluster Variation
+Sum the variation from both clusters to get the total sum of squares for the entire model:
+$$Total\ WCV = WCV_1 + WCV_2$$ $$Total\ WCV = 2.0 + 194.0 = \mathbf{196.0}$$ 
+Summary of Results
+
+| Cluster | Data Points | Centroid | Variation ($WCV$) |
+|---|---|---|---|
+| Cluster 1 | $\{1, 2, 3\}$ | $2$ | $2.0$ |
+| Cluster 2 | $\{8, 9, 10, 25\}$ | $13$ | $194.0$ |
+| Total | | | $196.0$ |
+
+This configuration shows even higher variance in the second cluster because the centroid ($13$) is pulled further away from the dense group $\{8, 9, 10\}$ to accommodate the outlier $25$.
+Would you like to calculate the Total WCV for a 3-cluster solution (e.g., $\{1,2,3\}$, $\{8,9,10\}$, and $\{25\}$) to see how much the error drops?
+
+
+
+
+
+
+The total Within-Cluster Variation (WCV) for these clusters, with the outlier 25 removed, is $4.0$.
+Removing the outlier significantly improves the "tightness" of the clusters. In your previous results, the WCV was as high as $196.0$ because the outlier $25$ heavily distorted the second cluster's centroid. [1, 2, 3] 
+1. Find Variation for Cluster 1: $\{1, 2, 3\}$
+
+* Centroid ($\mu_1$): Calculate the arithmetic mean.
+$$\mu_1 = \frac{1+2+3}{3} = 2$$ 
+* Sum of Squared Errors (SSE): Calculate the squared distance of each point from the centroid.
+* $(1 - 2)^2 = 1$
+   * $(2 - 2)^2 = 0$
+   * $(3 - 2)^2 = 1$
+* $WCV_1$: $1 + 0 + 1 = \mathbf{2.0}$ [4, 5, 6, 7, 8] 
+
+2. Find Variation for Cluster 2: $\{8, 9, 10\}$
+
+* Centroid ($\mu_2$):
+$$\mu_2 = \frac{8+9+10}{3} = 9$$ 
+* Sum of Squared Errors (SSE):
+* $(8 - 9)^2 = 1$
+   * $(9 - 9)^2 = 0$
+   * $(10 - 9)^2 = 1$
+* $WCV_2$: $1 + 0 + 1 = \mathbf{2.0}$
+
+3. Calculate Total Within-Cluster Variation [9] 
+To find the overall quality of this partition, sum the variation from all clusters.
+$$Total\ WCV = WCV_1 + WCV_2$$ $$Total\ WCV = 2.0 + 2.0 = \mathbf{4.0}$$ 
+Answer
+By removing the outlier $25$, the total within-cluster variation drops from $196.0$ to $4.0$. This $98\%$ reduction in error demonstrates why outlier removal is a critical preprocessing step for K-Means to ensure clusters truly represent the dense regions of your data. [2, 10, 11] 
+Would you like to compare this result to a 3-cluster solution that includes 25 as its own separate cluster?
