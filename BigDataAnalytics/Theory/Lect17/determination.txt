@@ -8,3 +8,5 @@ Here, in the example (1,2,3,7,8,9,25) cluster value 3 is optimal.
 That is (1,2,3) (7,8,9) and (25) having inertia 4.
 
 Then after it does NOT reduce a lot like in 100s or 10s.
+
+A simple method is to set the number of cluster to about sqrt(n/2) for a data set of n points. In expectation, each cluster has sqrt(2n) points.

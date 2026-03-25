@@ -1,0 +1,10 @@
+Describe clustering algorithms
+K-means
+k-medoids
+CLARA
+BIRCH
+CHAMELEON
+DBSCAN
+with respect to (1) shape of clusters that can be determined (2) input parameters that must be specified (3) limitations.
+
+Pg: 493 Data Mining Concepts and Techniques Third Edition Jiawei Han | Micheline Kamber | Jian Pei
