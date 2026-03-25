@@ -1,0 +1,8 @@
+1. Partitioning methods
+	
+2. Hierachical methods
+	2.1 Bottom up (Agglomerative)(merging)
+	2.2 Top down (Divisive) (splitting)
+3. Density-based methods
+	3.1 DBSCAN Density Based Spatial Clustering of Applications with Noise)
+4. Grid-based methods

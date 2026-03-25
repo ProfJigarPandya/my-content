@@ -1,0 +1,2 @@
+Elbow method
+For determining right number of clusters.
