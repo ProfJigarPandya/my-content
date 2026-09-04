@@ -1,4 +1,42 @@
 //man 2 lstat
+//man 7 inode
+
+/*
+
+The file type and mode
+       The stat.st_mode field (for statx(2), the statx.stx_mode field) contains the file type and mode.
+
+ The following mask values are defined for the file type:
+           S_IFMT     0170000   bit mask for the file type bit field
+
+           S_IFSOCK   0140000   socket
+           S_IFLNK    0120000   symbolic link
+           S_IFREG    0100000   regular file
+           S_IFBLK    0060000   block device
+           S_IFDIR    0040000   directory
+           S_IFCHR    0020000   character device
+           S_IFIFO    0010000   FIFO
+
+
+     S_ISREG(m)  is it a regular file?
+
+           S_ISDIR(m)  directory?
+
+           S_ISCHR(m)  character device?
+
+           S_ISBLK(m)  block device?
+
+           S_ISFIFO(m) FIFO (named pipe)?
+
+           S_ISLNK(m)  symbolic link?  (Not in POSIX.1-1996.)
+
+           S_ISSOCK(m) socket?  (Not in POSIX.1-1996.)
+
+
+
+
+
+*/
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <time.h>

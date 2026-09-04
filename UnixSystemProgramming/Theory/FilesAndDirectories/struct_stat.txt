@@ -1,6 +1,10 @@
+Linux system call
 man 2 stat //ubuntu systems 
-cat /usr/include/linux/ext4.h
 
+C library function
+cat /usr/include/linux/ext4.h
+OR
+man 3 stat
 The stat structure
        All  of  these system calls return a stat structure, which contains the
        following fields:
