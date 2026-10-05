@@ -1,0 +1,19 @@
+Network Topology Hadoop Cluster - Rack Awareness
+
+Learn about rack awareness from here 
+https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/RackAwareness.html
+
+Here, in our computer engineering department, each labs are considered/architect as a rack. Rack awareness architecture is enabled using following configurations and the script attached herewith.
+ 
+core-site.xml        <name>net.topology.script.file.name</name>
+        <value>/opt/hadoop/etc/hadoop/scripts/topology.sh</value>
+
+
+ls -ld /opt/hadoop/etc/hadoop/scripts/
+drwxr-xr-x 2 hdfs hadoop 4096 Sep 28 17:18 /opt/hadoop/etc/hadoop/scripts/
+
+ls -l /opt/hadoop/etc/hadoop/scripts/topology.sh
+-rwxr-xr-x 1 root hadoop 1398 Jul  3 16:31 /opt/hadoop/etc/hadoop/scripts/topology.sh
+
+
+https://fot-ce-cluster-master:9871/topology
